@@ -6,7 +6,7 @@
 }
 body{
     
-    background-image: linear-gradient(150deg,#0096Bb,#40bbda,#a9eeff );
+    background-image: linear-gradient(150deg,#027c9b,#40bbda,#84d7ec );
 }
 
 #home{
@@ -22,14 +22,38 @@ body{
     width: 100%;
     height: 90vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+#esquerda{
+   width: 40%;
+   height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+#direita{
+   width: 60%;
+   height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#cor{
+   width: 80%;
+   height: 80vh;
+   background-color: #0096Bb;
+   display: flex;
+   justify-content: end;
+   align-items: end;
+   border-radius: 1%;
+}
 #texto-central img{
-    width: 35%;
-    height: 50vh;
-    border-radius: 2%;
+    width: 95%;
+    height: 76vh;
+    border-radius: 1%;
 
 }
 #final{
@@ -45,32 +69,28 @@ body{
 }
 #final img{
    width: 10%;
-   height: 10vh;
+   height: 13vh;
 
 }
 
-
 h1{
-    font-size: 50px;
+    font-size: 60px;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     color: white;
     font-weight: bold;
-    padding: 1em;
-
+    padding-bottom:1em;
+  
 }
 
 h2{
     font-size: 40px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     color: white;
     font-weight: bold;
-    padding: 1em;
-
+  
 
 }
 
@@ -90,10 +110,7 @@ h2{
        h2{
           font-size: 25px;
        }
-       #texto-central img{
-        width: 70%;
-        height: 40vh;
-     }
+      
      #final {
         width: 100%;
         height: 10vh;
@@ -107,7 +124,7 @@ h2{
 }
 
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 480px) {
+/* @media screen and (min-width: 280px) and (max-width: 480px) {
     #home{
       width: 100%;
       height: 100vh;
@@ -119,10 +136,7 @@ h2{
      h2{
         font-size: 20px;
      }
-     #texto-central img{
-        width: 80%;
-        height: 40vh;
-     }
+    
      #final {
         width: 100%;
         height: 10vh;
@@ -135,3 +149,4 @@ h2{
     
   
 }
+ */
