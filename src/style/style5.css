@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#51d1f1;
+   
+}
+#cor{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#1684a0;
+}
+#esquerda img{
+    width: 50%;
+    height: 50vh;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #1684a0;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #1684a0;
+    font-weight: bold;
+}
+h3{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding:0.5em; 
+}
+p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding-right:1em;
+    padding-left: 1em;
+}
+li{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+   
+    line-height:20pt;
+}
+ol{
+    padding-right:2em;
+    padding-left: 2em;
+}
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width:100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width:100%;
+        height: 50vh;
+    }
+    p{
+        font-size: 15px;
+    
+     }
+     li{
+        font-size: 15px;
+
+     }
+     #esquerda img{
+        width: 30%;
+        height: 30vh;
+     }
+     #cor{
+        width:80%;
+        height: 40vh;
+     }
+     h1{
+        font-size: 30px;
+     }
+     h2{
+        font-size: 25px;
+     }
+     h3{
+        font-size: 18px;
+     }
+ 
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+     p{
+        font-size: 10px;
+        
+     }
+     li{
+        font-size: 10px;
+     }
+     #esquerda img{
+        width: 35%;
+        height: 25vh;
+     }
+     #cor{
+        width:90%;
+        height: 40vh;
+     }
+     h1{
+        font-size: 22px;
+     }
+     h2{
+        font-size: 20px;
+     }
+     h3{
+        font-size: 15px;
+     }
+ 
+}
