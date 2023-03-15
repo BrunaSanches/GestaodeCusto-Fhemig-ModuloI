@@ -75,7 +75,10 @@ ul {
   }
 
   .funil{
-    text-align: justify;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     padding-top: 15px;
     display: flex;
   }
@@ -108,9 +111,6 @@ ul {
     height: 70%;
     background-color: #1684a0;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   #funil-2 li {
     color: #000;
@@ -118,9 +118,6 @@ ul {
     height: 70%;
     background-color:#51d1f1;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   #funil-3 li {
     color: #000;
@@ -128,7 +125,4 @@ ul {
     height: 70%;
     background-color:#51d1f1;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
