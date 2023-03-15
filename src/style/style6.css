@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#51d1f1;
+   
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  #direita img{
+    width: 90%;
+    height: 70%;
+    border-radius: 3px;
+  } 
+  #esquerda img{
+    width: 90%;
+    height: 70%;
+    border-radius: 3px;
+  }
+  p{
+    text-align: left;
+    font-size: 20px;
+    padding-left:1em;
+    padding-right:1em;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+  li {
+    position: relative;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+
+    
+  }
+
+
+  li a {
+  
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .funil{
+    
+    text-align: justify;
+    padding-top: 15px;
+    display: flex;
+  }
+
+  
+  /* Definir estilos para os submenus */
+  ul ul {
+    display: none;
+  }
+
+  input{
+    display: none;
+  }
+
+
+  #ckb1:checked ~ #sub-ckb1{
+    display: block;
+  }
+  #ckb2:checked ~ #sub-ckb2{
+    display: block;
+  }
+  #ckb3:checked ~ #sub-ckb3{
+    display: block;
+  }
+
+  /* Estilizar os submenus */
+  #funil-1 li {
+    color: #000;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(125, 234, 241);
+ 
+  }
+  #funil-2 li {
+    color: #000;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(72, 219, 219);
+ 
+  }
+  #funil-3 li {
+    color: #000;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(40, 184, 176);
+ 
+  }
