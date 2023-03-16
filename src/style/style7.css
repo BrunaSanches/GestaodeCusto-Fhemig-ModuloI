@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#1684a0;
+   
+}
+
+table, th, td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border: 1px solid;
+    border-color: #1684a0;
+    padding: 2px;
+  }
+table {
+    width: 90%;
+    height: 50vh;
+    border-collapse: collapse;
+} 
+
+
+.texto-clique{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding-top: 2em;
+    
+  
+}
+.texto-resposta{
+
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-align: justify;
+    font-size: 15px;
+    color: rgb(5, 0, 0);
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+#cor{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#51d1f1;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(5, 0, 0);
+    padding-left: 2em;
+    padding-right: 2em;
+    justify-content: justify;
+    text-align: justify;
+    
+}
+/* CLIQUE */
+#texto{
+display: flex;
+}
+
+
+.hidden{
+    display: none;
+
+}
+
+.check{
+    display: none;
+}
+
+#ckb:checked ~ #texto-1{
+    display: block;
+}
+
+label{
+    padding-top: 1em; 
+    padding-left: 2em;
+    padding-right: 2em;
+   
+}
+#img-label{
+width: 60px;
+
+}
+ 
+label img{
+    width: 40px;
+    height: auto;
+}
+#clica-1{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
