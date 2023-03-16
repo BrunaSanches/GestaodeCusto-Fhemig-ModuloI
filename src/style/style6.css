@@ -31,10 +31,8 @@
 }
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 500px;
-    height:300px;
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -43,33 +41,36 @@ ul {
 
   }
   #direita img{
-    width: 80%;
-    height: 60%;
+    width: 90%;
+    height: 40vh;
     border-radius: 10px;
+   
   } 
   #esquerda img{
-    width: 80%;
-    height: 60%;
+    width: 90%;
+    height: 40vh;
     border-radius: 10px;
+   
   }
   p{
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     padding-left:1em;
     padding-right:1em;
-  
+    padding-top:0.5em;
     font-family: 'Open Sans', sans-serif;
   }
 
   li {
     position: relative;
-    font-size: 13px;
+    font-size: 12px;
     font-family: 'Open Sans', sans-serif;
+
   }
   li a {
-  
+    
     display: block;
-    padding: 5px;
+    padding: 0.5em;
     text-decoration: none;
     color: #000;
   }
@@ -79,13 +80,14 @@ ul {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-top: 15px;
     display: flex;
   }
 
   
   /* Definir estilos para os submenus */
    ul ul {
+    width: 100%;
+    height: 100%;
     display: none;
   }
 
@@ -110,6 +112,7 @@ ul {
     width: 100%;
     height: 70%;
     background-color: #1684a0;
+    border: 1px solid #51d1f1;
     border-radius: 10px;
   }
   #funil-2 li {
@@ -118,6 +121,7 @@ ul {
     height: 70%;
     background-color:#51d1f1;
     border-radius: 10px;
+    border: 1px solid #1684a0;
   }
   #funil-3 li {
     color: #000;
@@ -125,4 +129,41 @@ ul {
     height: 70%;
     background-color:#51d1f1;
     border-radius: 10px;
+    border: 1px solid #1684a0;
   }
+
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+  #home{
+      flex-direction: column;
+      scale:0.85;
+  }
+
+  
+  #esquerda{
+      width: 100%;
+      height: 50vh;
+      
+  }
+  #direita{
+      width: 100%;
+      height: 50vh;
+  }
+   p{
+      font-size: 10px;
+
+   }
+   #direita img{
+    width: 40%;
+    height: 30%;
+ 
+  } 
+  #esquerda img{
+    width: 40%;
+    height: 30%;
+
+  }
+  
+ 
+}
