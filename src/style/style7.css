@@ -110,10 +110,7 @@ label{
     padding-right: 2em;
    
 }
-#img-label{
-width: 60px;
 
-}
  
 label img{
     width: 40px;
@@ -121,10 +118,91 @@ label img{
 }
 #clica-1{
     width: 100%;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    table{
+        width: 90%;
+        height: 20vh;
+    }
+    p{
+        font-size: 10px;
+    }
+    td{
+        font-size: 10px;
+    }
+    .texto-resposta{
+        font-size: 10px;
+    }
+    .texto-clique{
+        font-size: 12px;
+    }
+    #cor{
+        width: 90%;
+        height: 40vh;
+    }
+    label img{
+        width: 30px;
+        height: auto;
+    }
+
+    
+}
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    #home{
+        flex-direction: column;
+    
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    table{
+        width: 90%;
+        height: 30vh;
+    }
+    p{
+        font-size: 18px;
+    }
+    td{
+        font-size: 15px;
+    }
+    .texto-resposta{
+        font-size: 15px;
+    }
+    .texto-clique{
+        font-size: 18px;
+    }
+    #cor{
+        width: 90%;
+        height: 40vh;
+    }
+    label img{
+        width: 50px;
+        height: auto;
+    }
+
 }
