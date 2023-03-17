@@ -30,8 +30,9 @@
    
 }
 #esquerda img{
-    width: 70%;
+    width: 50%;
     height: 50vh;
+    padding-top: 2em;
 }
 
 /* CLIQUE */
@@ -64,8 +65,8 @@
     
     label{
         padding-top: 1em; 
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
        
     }
 
@@ -114,30 +115,67 @@
         align-items: left;
        
     }
-    #clica-2{
-        width: 100%;
-        height: 30vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-    }
-    #clica-3{
-        width: 100%;
-        height: 30vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-    }
     
-    #clica-4{
-        width: 100%;
-        height: 30vh;
-        display: flex;
+    /* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    #home{
         flex-direction: column;
-        justify-content: center;
-        align-items: left;
-       
     }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+   
+    }
+     #esquerda img{
     
+        width: 35%;
+        height: 25vh;
+    }
+    p{
+        font-size: 15px;
+    }
+    .texto-resposta{
+        font-size: 15px;
+    }
+    .texto-clique{
+        font-size: 18px;
+    }
+ 
+    
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+   
+     #esquerda img{
+    
+        width: 40%;
+        height: 20vh;
+    }
+    p{
+        font-size: 10px;
+    }
+    .texto-resposta{
+        font-size: 10px;
+    }
+    .texto-clique{
+        font-size: 12px;
+    }
+ 
+}
