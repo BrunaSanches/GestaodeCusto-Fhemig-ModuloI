@@ -1,169 +1,190 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-#home{
-    width: 100%;
-    height: 100vh;
-    display: flex;
+
+body {
+	font-family: Arial, sans-serif;
 }
-#esquerda{
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color:#51d1f1;
-    
-    
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 90vh;
 }
-#direita{
-    width: 50%;
-    height: 100vh;
+
+.esquerda {
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	height: 100%;
+	overflow: hidden;
+    background-color:#cdf2fc;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #1684a0;
-   
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
-ul {
-    list-style: none;
-    width: 100%;
-    height: 100vh;
+
+.direita {
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	overflow: hidden;
+    background-color: #51d1f1;
     display: flex;
-    flex-direction: column;
-    justify-content:center;
+    justify-content: space-around;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
 
-  }
-  #direita img{
-    width: 90%;
-    height: 40vh;
-    border-radius: 10px;
-   
-  } 
-  #esquerda img{
-    width: 90%;
-    height: 40vh;
-    border-radius: 10px;
-   
-  }
-  p{
-    text-align: justify;
-    font-size: 18px;
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0.5em;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  li {
-    position: relative;
-    font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
-
-  }
-  li a {
-    
-    display: block;
-    padding: 0.5em;
-    text-decoration: none;
-    color: #000;
-  }
-
-  .clique{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
-
-  
-  /* Definir estilos para os submenus */
-   ul ul {
-    width: 100%;
-    height: 100%;
-    display: none;
-  }
-
-  input{
-    display: none;
-  } 
+}
 
 
-  #ckb1:checked ~ #sub-ckb1{
-    display: block;
-  }
-  #ckb2:checked ~ #sub-ckb2{
-    display: block;
-  }
-  #ckb3:checked ~ #sub-ckb3{
-    display: block;
-  }
+.img-box{
+	width: 40%;
+	height: 40%;
+	position: relative;
+}
+.img-box img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
 
-  /* Estilizar os submenus */
-  #clique-1 li {
-    color: #000;
-    width: 100%;
-    height: 70%;
-    background-color: #1684a0;
-    border: 1px solid #51d1f1;
-    border-radius: 10px;
-  }
-  #clique-2 li {
-    color: #000;
-    width: 100%;
-    height: 70%;
-    background-color:#51d1f1;
-    border-radius: 10px;
-    border: 1px solid #1684a0;
-  }
-  #clique-3 li {
-    color: #000;
-    width: 100%;
-    height: 70%;
-    background-color:#51d1f1;
-    border-radius: 10px;
-    border: 1px solid #1684a0;
-  }
+}
+p{
+  font-size: 15px;
+}
+
+#texto-inicial{
+	width: 100%;
+	height: 10vh;
+	text-align: center;
+    background-color:#0096bb;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  color: white;
+}
+
+.info-texto{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: .8;
+	color: white;
+	position: inherit;
+	text-align: justify;
+}
+
+.info-texto p{
+	padding: 0.5em;
+  font-size: 13px;
+}
+
+
+label{
+	
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+label i{
+	padding: 10px;
+	cursor: pointer;
+}
+
+.ckeck{
+	display: none;
+}
+
+.info-texto{
+ 
+	display: none;
+}
+
+#fechar1:checked ~ #info1{
+	display: block;
+}
+#fechar2:checked ~ #info2{
+	display: block;
+}
+#fechar3:checked ~ #info3{
+	display: block;
+}
+
+/* TELAS PEQUENAS */
+@media screen and (max-width: 1024px) {
+	.container{
+		height: auto;
+	}
+	.esquerda{
+		width: 50%;
+		height: 90vh;
+		background-color: #51d1f1;
+	}
+	.direita{
+		width: 50%;
+		height: 90vh;
+		background-color:#51d1f1;
+		flex-direction: column;
+	}
+	.img-box{
+		width: 80%;
+		height: 45%;
+	}
+	.esquerda .img-box img{
+		object-fit: fill;
+	}	
+}
 
 
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 590px) {
-  #home{
-      flex-direction: column;
-      scale:0.85;
-  }
+@media screen and (max-width: 768px) {
+	.container{
+		height: auto;
+	}
+	.esquerda{
+		width: 100%;
+		height: 45vh;
+		background-color:#51d1f1;
+	}
+	.direita{
+		width: 100%;
+		height: 90vh;
+		flex-direction: column;
 
-  
-  #esquerda{
-      width: 100%;
-      height: 50vh;
-      
+	}
+	.img-box{
+		width: 80%;
+		height: 45%;
+	}
+	.esquerda .img-box{
+		width: 80%;
+		height: 80%;
+	}	
+	#texto-inicial p{
+		padding: 10px;
+    font-size: 15px;
+	}
+  p{
+    font-size: 12px;
   }
-  #direita{
-      width: 100%;
-      height: 50vh;
-  }
-   p{
-      font-size: 10px;
+   
+}
 
-   }
-   #direita img{
-    width: 40%;
-    height: 30%;
- 
-  } 
-  #esquerda img{
-    width: 40%;
-    height: 30%;
+@media screen and (max-width: 480px) {
 
-  }
-  
- 
+	#texto-inicial{
+		height: 20vh;
+	}	
+	#texto-inicial p{
+		padding: 10px;
+    font-size: 10px;
+	}
+   
 }

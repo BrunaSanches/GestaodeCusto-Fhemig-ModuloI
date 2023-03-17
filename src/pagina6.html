@@ -1,82 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+	<title>Definições de Contabilidade</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="IE=10">
     <meta name="keywords" content="moodle, " />
-    <link rel="stylesheet" href="style/style6.css">
-    <title>Definições de Contabilidade</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/style6.css">
+	<script src="https://kit.fontawesome.com/b6c04a2c24.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="fc_setStatus('completed');unloadPage();">
-    <div id="home">
-        <div id="esquerda">
-            <p>De acordo com Martins (2003), dependendo do usuário final e do tipo 
-                de informação requerida, a Contabilidade pode 
-                ser classificada como: Contabilidade Financeira, Gerencial e Custos.
-                </p>
-                <p>  <b>Clique</b> nas imagens correspondentes a cada uma e 
-                    veja a definição delas.</p>
-            <ul>
 
-                    <li class="clique" id="clique-1">
-                        <input type="checkbox" name="" id="ckb1">
-                        <label for="ckb1"><img src="imagens/Imagem6-1.jpg" alt=""></label>
-                        <ul id="sub-ckb1">
-                            <li><a href="#"><b>Contabilidade de Custos:</b> cuida da análise 
-                                dos gastos – sacrifícios financeiros realizados por uma
-                                organização no decorrer de suas operações. Esta análise
-                                será útil tanto para a Contabilidade Gerencial quanto
-                                para a Financeira. 
-                            </a></li>
-                        </ul>
-                    </li>
-            </ul>
+	<div class="container">
+		<div id="texto-inicial">
+			<p>De acordo com Martins (2003), dependendo do usuário final e do tipo de informação requerida, a Contabilidade pode ser classificada como: Contabilidade Financeira, Gerencial e Custos.</p>
+			<p>Clique nas imagens correspondentes a cada uma e veja a definição delas.</p>
+		</div>
 
-        </div>
-        <div id="direita">
-            
-                <ul>
-                    
-                    <li class="clique" id="clique-2">
-                        <input type="checkbox" name="" id="ckb2">
-                        <label for="ckb2"><img src="imagens/Imagem6-2.jpg" alt=""></label>
-                        <ul id="sub-ckb2">
-                            <li><a href="#"><b>Contabilidade Financeira:</b> dirigida aos stakeholders 
-                                externos da empresa e condicionada às imposições legais e fiscais. 
-                                Preocupa-se com: 
-                                <br><b>a - </b>leis, normas, princípios e convenções contábeis e 
-                                    é obrigatória para as entidades legalmente estabelecidas; 
-                                <br><b>b -</b> registros relativos ao patrimônio do que já passou. 
-                            </a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    
-                    <li class="clique" id="clique-3">
-                        <input type="checkbox" name="" id="ckb3">
-                        <label for="ckb3"><img src="imagens/Imagem6-3.jpg" alt=""></label>
-                        <ul id="sub-ckb3">
-                            <li><a href="#"><b>Contabilidade Gerencial:</b> voltada aos stakeholders
-                                internos, principalmente à administração da empresa e não
-                                se condiciona às imposições legais. Tem por objetivo
-                                produzir informações úteis para a tomada de decisões.
-                                    Exige a adaptação das informações oriundas da 
-                                    Contabilidade Financeira. 
-                                    Constitui-se de . 26 . MINISTÉRIO DA SAÚDE um 
-                                    enfoque especial conferido a várias técnicas e
-                                    procedimentos contábeis empregados na Contabilidade
-                                    Financeira e de Custos.
-    
-                            </a></li>
-                        </ul>
-                    </li>
-                </ul>
-          
-            
-        </div>
-    </div>
+		<div class="esquerda">
+			<div class="img-box">
+				<input class="ckeck" id="fechar1" type="checkbox">
+				<label for="fechar1"><img id="img1" src="imagens/Imagem6-1.jpg" alt="Imagem 1"></label>
+				
+				<div class="info-texto" id="info1">
+					<label for="fechar1"><i class="fa-solid fa-xmark"></i></label>
+					<p><b>Contabilidade de Custos:</b> cuida da análise dos gastos – sacrifícios financeiros realizados por uma organização no decorrer de suas operações. Esta análise será útil tanto para a Contabilidade Gerencial quanto para a Financeira.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="direita">
+			<div class="img-box">
+				<input class="ckeck" id="fechar2" type="checkbox">
+				<label for="fechar2"><img id="img2" src="imagens/Imagem6-2.jpg" alt="Imagem 1"></label>
+				<div class="info-texto" id="info2">
+					<label for="fechar2"><i class="fa-solid fa-xmark"></i></label>
+					<p>
+						<b>Contabilidade Financeira:</b> dirigida aos stakeholders externos da empresa e condicionada às imposições legais e fiscais. Preocupa-se com:
+						a - leis, normas, princípios e convenções contábeis e é obrigatória para as entidades legalmente estabelecidas;
+						b - registros relativos ao patrimônio do que já passou.</p>
+				</div>
+			</div>
+
+			<div class="img-box">
+				<input class="ckeck" id="fechar3" type="checkbox">
+				<label for="fechar3"><img id="img3" src="imagens/Imagem6-3.jpg" alt="Imagem 1"></label>
+				<div class="info-texto" id="info3">
+					<label for="fechar3"><i class="fa-solid fa-xmark"></i></label>
+					<p><b>Contabilidade Gerencial:</b> voltada aos stakeholders internos, principalmente à administração da empresa e não se condiciona às imposições legais. Tem por objetivo produzir informações úteis para a tomada de decisões. Exige a adaptação das informações oriundas da Contabilidade Financeira. Constitui-se de . 26 . MINISTÉRIO DA SAÚDE um enfoque especial conferido a várias técnicas e procedimentos contábeis empregados na Contabilidade Financeira e de Custos.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
