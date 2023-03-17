@@ -1,21 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body{
-	margin: 0;
-	padding: 0;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: "Roboto", sans-serif;
-	background: #0096Bb;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 #home{
     width: 100%;
     height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
+	background-color:#cdf2fc;
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background: #0096Bb;
 }
 input{
 	display: none;
@@ -26,15 +35,16 @@ img{
 }
 .book{
 	display: flex;
-	
+	justify-content: center;
+    align-items: center;
 }
 #cover{
-	width: 250px;
-	height: 400px;
+	width: 300px;
+	height: 450px;
 }
 .flip-book{
-	width: 250px;
-	height: 400px;
+	width: 300px;
+	height: 450px;
 	position: relative;
 	perspective: 1500px;
 	border: 1px #0000;
@@ -52,8 +62,10 @@ img{
 
 }
 .book p{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
+	text-align: justify;
 }
 .front{
 	position: absolute;
@@ -64,7 +76,10 @@ img{
 	background-color: #fff;
 	box-sizing: border-box;
 	padding: 0 13px;
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
 }
 .back{
 	position: absolute;
@@ -95,21 +110,24 @@ h2{
 	color: #fff;
 }
 #p1{
-	z-index: 6;
+	z-index: 7;
 }
 #p2{
-	z-index: 5;
+	z-index: 6;
 }
 #p3{
-	z-index: 4;
+	z-index: 5;
 }
 #p4{
-	z-index: 3;
+	z-index: 4;
 }
 #p5{
-	z-index: 2;
+	z-index: 3;
 }
 #p6{
+	z-index: 2;
+}
+#p7{
 	z-index: 1;
 }
 #c1:checked ~ .flip-book #p1{
@@ -136,6 +154,11 @@ h2{
 	transform: rotateY(-180deg);
 	z-index: 6;
 }
+#c7:checked ~ .flip-book #p7{
+	transform: rotateY(-180deg);
+	z-index: 7;
+}
+
 
 #pagTitulo{
     display: flex;
@@ -144,5 +167,20 @@ h2{
 
 }
 #pagTitulo h2{
+	color: #0096Bb;
+	font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
     font-size: 40px;
+}
+
+#esquerda p{
+	font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
+    padding-right:2em;
+    padding-left: 2em;
+    line-height:25pt;
 }

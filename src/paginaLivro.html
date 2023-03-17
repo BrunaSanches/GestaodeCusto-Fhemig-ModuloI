@@ -9,115 +9,129 @@
     <link rel="stylesheet" href="style/styleLivro.css">
     <title>Livro de Lei</title>
 </head>
-<body>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="fc_setStatus('completed');unloadPage();">
     <div id="home">
-        <p>A fundamentação legal, porém, não significa que tenham merecido dedicação para a sua efetivação por parte dos órgãos públicos, já que não há obrigatoriedade em sua implantação.
-             Um fator de relevância a ser considerado são os dispositivos legais em relação à previsão de apuração de custos como ferramenta da gestão administrativa, orçamentária, de controle interno e da estratégia.   </p>
-        <p>Clique no livro de lei e veja algumas fundamentações legais que podemos destacar:  </p>
-          
-        <div class="book">
-            <input type="checkbox" id="c1">
-            <input type="checkbox" id="c2">
-            <input type="checkbox" id="c3">
-            <input type="checkbox" id="c4">
-            <input type="checkbox" id="c5">
-            <input type="checkbox" id="c46">
-            <div id="cover"><img src="imagens/lei.png"></div>
-            <div class="flip-book">
-                <div class="flip" id="p1">
-                    <div class="back">
-                      
-                        <label class="back-btn" for="c1">Back</label>
-                    </div>
-                    <div class="front" id="pagTitulo">
-                        <h2>Lei</h2>
-                        <label class="next-btn" for="c1">Next</label>
-	                </div>
-                </div>
-                <div class="flip" id="p2">
-                    <div class="back">
-                        
-                        <label class="back-btn" for="c2">Back</label>
-                    </div>
-                    <div class="front">
-                        <h2>– Lei nº 4.320/1964:</h2>
-                        <p>Os artigos 85 e 99 da Lei nº 4.320, de 17 de março de 1964, determinam:</p>
-                        <p><b>Art. 85 –</b> Os serviços de contabilidade serão organizados de forma
-                             a permitirem o acompanhamento da execução orçamentária, o conhecimento da composição
-                              patrimonial, a determinação dos custos dos serviços dos custos 
-                              dos serviços industriais, o levantamento dos balanços gerais, a 
-                              análise e a interpretação dos resultados econômicos e financeiros. 
-                            </p>
-                        
-                        <label class="next-btn" for="c2">Next</label>
-                    </div>
-                </div>
-
-                <div class="flip" id="p3">
-                    <div class="back">
+        <div id="esquerda">
+            <p>A fundamentação legal, porém, não significa que tenham merecido dedicação para a sua efetivação por parte dos órgãos públicos, já que não há obrigatoriedade em sua implantação.
+             Um fator de relevância a ser considerado são os dispositivos legais em relação à previsão de apuração de custos como ferramenta da gestão administrativa, orçamentária, de controle interno e da estratégia.
+             Clique no livro de lei e veja algumas fundamentações legais que podemos destacar.</p>
         
-                        <label class="back-btn" for="c3">Back</label>
+        </div>
+        <div id="direita">
+            <div class="book">
+                <input type="checkbox" id="c1">
+                <input type="checkbox" id="c2">
+                <input type="checkbox" id="c3">
+                <input type="checkbox" id="c4">
+                <input type="checkbox" id="c5">
+                <input type="checkbox" id="c6">
+            
+                <div id="cover"><img src="imagens/justiça.jpg"></div>
+                <div class="flip-book">
+                    <div class="flip" id="p1">
+                        <div class="back">
+                            <img src="imagens/Imagem1.jpg">
+                            <label class="back-btn" for="c1">Back</label>
+                        </div>
+                        <div class="front" id="pagTitulo">
+                            <h2>Lei</h2>
+                            <label class="next-btn" for="c1">Next</label>
+                        </div>
                     </div>
-                    <div class="front">
-                        <p><b>Art. 99 –</b> Os serviços públicos industriais, 
-                            ainda que não organizados como empresa pública ou autárquica,
-                             manterão contabilidade especial para determinação dos custos,
-                              ingressos e resultados, sem prejuízo da escrituração patrimonial 
-                              e financeira comum.
-                        </p>
-
-                        <label class="next-btn" for="c3">Next</label>
+                    <div class="flip" id="p2">
+                        <div class="back">
+                            <img src="imagens/livro3.jpg">
+                            <label class="back-btn" for="c2">Back</label>
+                        </div>
+                        <div class="front">
+                            <h2>– Lei nº 4.320/1964:</h2>
+                            <p>Os artigos 85 e 99 da Lei nº 4.320, de 17 de março de 1964, determinam:</p>
+                            <p><b>Art. 85 –</b> Os serviços de contabilidade serão organizados de forma
+                                 a permitirem o acompanhamento da execução orçamentária, o conhecimento da composição
+                                  patrimonial, a determinação dos custos dos serviços dos custos 
+                                  dos serviços industriais, o levantamento dos balanços gerais, a 
+                                  análise e a interpretação dos resultados econômicos e financeiros. 
+                                </p>
+                            
+                            <label class="next-btn" for="c2">Next</label>
+                        </div>
                     </div>
-                </div>
-
-                <div class="flip" id="p4">
-                    <div class="back">
-                        <label class="back-btn" for="c4">Back</label>
+    
+                    <div class="flip" id="p3">
+                        <div class="back">
+                            <img src="imagens/Imagem6-2.jpg">
+                            <label class="back-btn" for="c3">Back</label>
+                        </div>
+                        <div class="front">
+                            <p><b>Art. 99 –</b> Os serviços públicos industriais, 
+                                ainda que não organizados como empresa pública ou autárquica,
+                                 manterão contabilidade especial para determinação dos custos,
+                                  ingressos e resultados, sem prejuízo da escrituração patrimonial 
+                                  e financeira comum.
+                            </p>
+    
+                            <label class="next-btn" for="c3">Next</label>
+                        </div>
                     </div>
-                    <div class="front">
-                        <p><b>– Decreto-Lei nº 200/1967:</b>  
-                            O Decreto-Lei nº 200, de 25 de fevereiro de 1967, reforça em seu art. 70 que “a contabilidade deverá apurar os custos dos serviços de forma a evidenciar os resultados da gestão”
-                        </p>
-
-                        <p><b>– Decreto nº 93.872/1986: </b>
-                            Os artigos 137 e 142 § 1º do Decreto n° 93.872, de 23 de dezembro de 1986, determinam:
-                        </p>
-                        <label class="next-btn" for="c4">Next</label>
+    
+                    <div class="flip" id="p4">
+                        <div class="back">
+                            <img src="imagens/livro4.jpg">
+                            <label class="back-btn" for="c4">Back</label>
+                        </div>
+                        <div class="front">
+                            <p><b>– Decreto-Lei nº 200/1967:</b>  
+                                O Decreto-Lei nº 200, de 25 de fevereiro de 1967, reforça em seu art. 70 que “a contabilidade deverá apurar os custos dos serviços de forma a evidenciar os resultados da gestão”
+                            </p>
+    
+                            <p><b>– Decreto nº 93.872/1986: </b>
+                                Os artigos 137 e 142 § 1º do Decreto n° 93.872, de 23 de dezembro de 1986, determinam:
+                            </p>
+                            <label class="next-btn" for="c4">Next</label>
+                        </div>
                     </div>
-                </div>
-
-                <div class="flip" id="p5">
-                    <div class="back">
-                        
-                        <label class="back-btn" for="c5">Back</label>
+    
+                    <div class="flip" id="p5">
+                        <div class="back">
+                            <img src="imagens/imagem9.jpg">
+                            <label class="back-btn" for="c5">Back</label>
+                        </div>
+                        <div class="front">
+                            <p><b>Art.137 –</b> A apuração dos custos dos projetos e atividades terá por base
+                                 os elementos fornecidos pelos órgãos de orçamento, constantes dos
+                                  registros do Cadastro Orçamentário de Projeto/Atividade, a utilização
+                                   dos recursos financeiros e as informações detalhadas sobre a execução
+                                    física que as unidades administrativas gestoras deverão encaminhar
+                                    ao respectivo órgão da contabilidade, na periodicidade estabelecida
+                                     pela Secretaria do Tesouro Nacional</p>
+    
+    
+                            <label class="next-btn" for="c5">Next</label>
+                        </div>
                     </div>
-                    <div class="front">
-                        <p><b>Art.137 –</b> A apuração dos custos dos projetos e atividades terá por base
-                             os elementos fornecidos pelos órgãos de orçamento, constantes dos
-                              registros do Cadastro Orçamentário de Projeto/Atividade, a utilização
-                               dos recursos financeiros e as informações detalhadas sobre a execução
-                                física que as unidades administrativas gestoras deverão encaminhar
-                                ao respectivo órgão da contabilidade, na periodicidade estabelecida
-                                 pela Secretaria do Tesouro Nacional</p>
-
-
-                        <label class="next-btn" for="c5">Next</label>
+    
+                    <div class="flip" id="p6">
+                        <div class="back">
+                            
+                            <label class="back-btn" for="c6">Back</label>
+                        </div>
+                        <div class="front">
+                            <p><b>Art. 142 § 1º –</b> O custo dos projetos e atividades a cargo dos órgãos
+                                 e entidades da administração federal será objeto de exames de auditoria,
+                                  verificando-se os objetivos alcançados em termos de realização de obras
+                                   e de prestação de serviços, em confronto com o programa de trabalho 
+                                   aprovado. 
+                            </p>
+                            <label class="next-btn" for="c6">Next</label>
+                        </div>
                     </div>
-                </div>
-
-                <div class="flip" id="p6">
-                    <div class="back">
-                        
-                        <label class="back-btn" for="c6">Back</label>
-                    </div>
-                    <div class="front">
-                        <p><b>Art. 142 § 1º –</b> O custo dos projetos e atividades a cargo dos órgãos
-                             e entidades da administração federal será objeto de exames de auditoria,
-                              verificando-se os objetivos alcançados em termos de realização de obras
-                               e de prestação de serviços, em confronto com o programa de trabalho 
-                               aprovado. 
-                        </p>
-                        <label class="next-btn" for="c6">Next</label>
+    
+    
+                    <div class="flip" id="p7">
+                        <div class="back">
+                            <label class="back-btn" for="c7">Back</label>
+                        </div>
+                     
                     </div>
                 </div>
             </div>
