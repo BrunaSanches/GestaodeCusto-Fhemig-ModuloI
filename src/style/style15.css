@@ -15,7 +15,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color:#0096bb;
+    background-color:#51d1f1;
 
     
 }
@@ -23,9 +23,121 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     flex-direction: column;
     background-color:#cdf2fc;
    
 }
+#esquerda img{
+    width: 70%;
+    height: 50vh;
+}
+
+/* CLIQUE */
+#texto{
+    display: flex;
+    }
+    
+    
+    .hidden{
+        display: none;
+    
+    }
+    
+    .check{
+        display: none;
+    }
+    
+    #ckb:checked ~ #texto-1{
+        display: block;
+    }
+    #ckb2:checked ~ #texto-2{
+        display: block;
+    }
+    #ckb3:checked ~ #texto-3{
+        display: block;
+    }
+    #ckb4:checked ~ #texto-4{
+        display: block;
+    }
+    
+    label{
+        padding-top: 1em; 
+        padding-left: 2em;
+        padding-right: 2em;
+       
+    }
+
+    p{
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 18px;
+        text-align: justify;
+        color: black;
+    }
+
+    .texto-clique{
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: left;
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+        padding-top: 2em;
+        
+      
+    }
+    .texto-resposta{
+    
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: justify;
+        font-size: 15px;
+        color: rgb(5, 0, 0);
+        padding-left: 2em;
+        padding-right: 2em;
+        
+    }
+     
+    label img{
+        width: 40px;
+        height: auto;
+    }
+    #clica-1{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+       
+    }
+    #clica-2{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+    #clica-3{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+    
+    #clica-4{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+       
+    }
+    
