@@ -109,15 +109,7 @@ label{
     padding-right: 2em;
    
 }
-#clica-1{
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-}
+
  
 label img{
     width: 40px;
@@ -181,13 +173,13 @@ label img{
     }
     table{
         width: 90%;
-        height: 30vh;
+        height: 20vh;
     }
     p{
-        font-size: 18px;
+        font-size: 15px;
     }
     td{
-        font-size: 15px;
+        font-size: 10px;
     }
     .texto-resposta{
         font-size: 15px;
