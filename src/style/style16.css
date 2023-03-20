@@ -15,7 +15,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color:#51d1f1;
+    background-color:#cdf2fc;
+    
 
     
 }
@@ -26,27 +27,38 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:#cdf2fc;
+    background-color:#0096bb;
     
    
 }
-p{
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    font-size: 18px;
-    text-align: justify;
-    color: black;
-}
 #direita img{
-    padding-top: 1em;
-    width: 60%;
-    height: 40vh;
-    border-radius: 10px 10px;
+    width: 70%;
+    height: 50vh;
+    transform: rotate(-15deg);
+}
+h1{
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #0096bb;
+    font-weight: bold;
+    padding:1em;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #0096bb;
+    font-weight: bold;
+    padding-left:2em;
+    padding-right: 2em;
 }
 
-  /* RESPONSIVIDADE TELAS PEQUENAS */
-  @media screen and (min-width: 600px) and (max-width: 1024px){
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1024px){
     #home{
         flex-direction: column;
     }
@@ -58,17 +70,19 @@ p{
     #direita{
         width: 100%;
         height: 50vh;
-   
     }
+  
+     h1{
+        font-size: 40px;
+     }
+     h2{
+        font-size: 30px;
+     }
      #direita img{
-        width: 40%;
+    
+        width: 50%;
         height: 30vh;
     }
-    p{
-        font-size: 15px;
-    }
-   
-    
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 590px) {
@@ -84,15 +98,15 @@ p{
         width: 100%;
         height: 50vh;
     }
-   
+    h1{
+        font-size: 30px;
+     }
+     h2{
+        font-size: 20px;
+     }
      #direita img{
     
         width: 60%;
-        height: 30vh;
+        height: 35vh;
     }
-    p{
-        font-size: 10px;
-    }
-    
- 
 }
