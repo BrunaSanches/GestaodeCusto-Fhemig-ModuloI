@@ -78,3 +78,56 @@ p{
 	perspective: 1500px;
 	border: 1px #0000;
 }
+
+.next-btn{
+	position: absolute;
+	bottom: 13px;
+	right: 13px;
+	cursor: pointer;
+	cursor: pointer;
+	color: white;
+	background-color: #0096Bb;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 10px;
+}
+.back-btn{
+	position: absolute;
+	bottom: 13px;
+	left: 13px;
+	cursor: pointer;
+	color: white;
+	background-color: #0096Bb;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 10px;
+}
+#p1{
+	z-index: 4;
+}
+#p2{
+	z-index: 3;
+}
+#p3{
+	z-index: 2;
+}
+#p4{
+	z-index: 1;
+}
+
+#c1:checked ~ .flip-book #p1{
+	transform: rotateY(-180deg);
+	z-index: 1;
+}
+#c2:checked ~ .flip-book #p2{
+	transform: rotateY(-180deg);
+	z-index: 2;
+}
+#c3:checked ~ .flip-book #p3{
+	transform: rotateY(-180deg);
+	z-index: 3;
+}
+#c4:checked ~ .flip-book #p4{
+	transform: rotateY(-180deg);
+	z-index: 4;
+}
