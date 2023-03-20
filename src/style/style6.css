@@ -62,11 +62,7 @@ body {
 p{
   font-size: 15px;
 }
-#aviso{
-	
-	
 
-}
 @keyframes text-pisca {
 	0% { opacity: 0; }
 	50% { opacity: 0.5; }

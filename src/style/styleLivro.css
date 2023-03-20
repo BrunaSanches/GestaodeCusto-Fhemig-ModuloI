@@ -90,24 +90,41 @@ img{
 	z-index: 99;
 	transform: rotateY(180deg);
 	backface-visibility: hidden;
-	background: #000;
+	background: white;
 }
 h2{
     font-size: 18px;
 }
+
+.text-pisca {
+	color: rgb(16, 22, 34);
+	-webkit-text-stroke:1px  rgb(6, 67, 136);
+	
+
+}
+
 .next-btn{
 	position: absolute;
 	bottom: 13px;
 	right: 13px;
 	cursor: pointer;
-	color: #000;
+	cursor: pointer;
+	color: white;
+	background-color: #0096Bb;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 10px;
 }
 .back-btn{
 	position: absolute;
 	bottom: 13px;
 	right: 13px;
 	cursor: pointer;
-	color: #fff;
+	color: white;
+	background-color: #0096Bb;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 10px;
 }
 #p1{
 	z-index: 7;
