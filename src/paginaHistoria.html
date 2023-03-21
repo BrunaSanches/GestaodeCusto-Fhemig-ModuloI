@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <meta name="keywords" content="moodle, " />
+    <link rel="stylesheet" href="style/styleHistoria.css">
+    <title>Document</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="fc_setStatus('completed');unloadPage();">
+    <div id="home">
+        <div id="esquerda">
+            <p>A definição de centros de custos padece de incertezas. Podemos discutir pontos
+                 relevantes a serem considerados quando da definição do mapa de centros de custos. 
+                 Em primeiro lugar, os centros de custos são necessários se e/ou quando 
+                 diferentes produtos usam, de forma distinta, os diferentes recursos 
+                 disponibilizados pela organização. Pode parecer confuso em uma primeira leitura,
+                  mas, não é.
+                </p>
+                <p>Vamos explicar iniciando por usar uma situação
+                     oposta ou simplificada.<b class="text-pisca"> Veja a historia ao lado clicando no botão PRÓXIMO.</b></p>
+                    <img src="imagens/seta2.png" class="img-pisca">
+        </div>
+        <div id="direita">
+            <div class="book">
+                <input type="checkbox" id="c1">
+                <input type="checkbox" id="c2">
+                <input type="checkbox" id="c3">
+                <input type="checkbox" id="c4">
+     
+                <div class="flip-book">
+                    <div class="flip" id="p1">
+                        <div class="front">
+                            <p>Suponhamos que uma empresa</p>
+                            <img id="pag1" src="imagens/predio.png">
+                            <p>faça produtos iguais</p>
+                            <img id="pag1" src="imagens/produto.png">
+                            <label class="next-btn" for="c1">Próximo</label>
+                        </div>
+                    </div>
+    
+    
+                    <div class="flip" id="p2">
+                        <div class="front">
+                            <label class="back-btn" for="c1">Voltar</label>
+                            <p>Por meio da utilização de recursos igualmente 
+                                distribuídos em seus departamentos.
+                            </p>
+                            <p>Suponha, igualmente, que esta empresa tenha
+                                03 departamentos produtivos e que eles tenham os
+                                 mesmos recursos.
+                                </p>
+                                <img id="pag2" src="imagens/departamento.png">
+                            <label class="next-btn" for="c3">Próximo</label>
+                        </div>
+                    </div>
+    
+    
+                    <div class="flip" id="p3">
+                        <div class="front">
+                            <label class="back-btn" for="c3">Voltar</label>
+                           <p>O custo desses produtos pode ser encontrado por 
+                            um mecanismo simples:</p>
+                            <p><b id="palavra">Soma-se todos os custos e divide-se pela quantidade de
+                                 produtos.</b></p>
+                                 <p>Teremos, assim, o custo por unidade produzida.</p>
+                                 <img id="pag3" src="imagens/custos.png">
+                            <label class="next-btn" for="c4">Próximo</label>
+                        </div>
+                    </div>
+    
+                    <div class="flip" id="p4">
+                        <div class="front">
+                            <p>Este é um método tratado como sendo: 
+                                Sem Departamentalização (ou, de maneira geral,
+                                 sem centros de custos). 
+                            </p>
+
+                            <p>É sempre <b id="palavra">importante</b> ressaltar que um gestor pode,
+                                 independentemente dos fatos expostos neste exemplo,
+                                  solicitar que o custo seja criado desta forma. 
+                                  Sem problemas, o gestor deve saber para quê o
+                                   quer desta forma.
+                            </p>
+                            <img id="pag4" src="imagens/hist4.png">
+                            <label class="back-btn" for="c4">Voltar</label>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    
+
+
+    <script type="text/javascript" src="includes/conteudo.js"></script>
+    <script type="text/javascript" src="includes/apiwrapper.js"></script>
+    <script type="text/javascript" src="includes/scofunctions.js"></script> 
+</body>
+</html>
