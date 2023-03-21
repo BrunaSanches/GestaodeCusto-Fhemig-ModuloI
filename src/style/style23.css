@@ -46,16 +46,19 @@ table {
 
 
 .texto-clique{
+    width:90%;
+    height: 30%;
     font-family: 'Open Sans', sans-serif;
     position: relative;
     text-align: left;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     font-weight: bold;
     padding-top: 2em;
     
   
 }
+
 
 .texto-resposta{
 
@@ -67,13 +70,14 @@ table {
     padding-left: 2em;
     padding-right: 2em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
 #cor{
     width: 80%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,14 +114,15 @@ display: flex;
 }
 
 label{
+    width: 30%;
+    height: 30%;
     padding-top: 1em; 
-    padding-left: 2em;
     padding-right: 2em;
    
 }
 
  
 label img{
-    width: 40%;
+    width: 100%;
     height: auto;
 }
