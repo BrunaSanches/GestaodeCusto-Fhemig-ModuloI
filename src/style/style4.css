@@ -19,6 +19,16 @@
     
     
 }
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+ 
+}
 #direita{
     width: 50%;
     height: 100vh;
@@ -70,6 +80,9 @@ p{
         width: 60%;
         height: 40vh;
      }
+     h1{
+        font-size: 20px;
+     }
  
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
@@ -93,6 +106,9 @@ p{
      #direita img{
         width: 80%;
         height: 40vh;
+     }
+     h1{
+        font-size: 18px;
      }
  
  
