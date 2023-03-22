@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg,#16aed4,#51d1f1);
+    
+}
+#cor{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cdf2fc;
+}
+
+
+/* CLIQUE */
+#texto{
+    display: flex;
+    
+    }
+    
+    
+    .hidden{
+        display: none;
+    
+    }
+    
+    .check{
+        display: none;
+    }
+    
+    #ckb:checked ~ #texto-1{
+        display: block;
+    }
+    #ckb2:checked ~ #texto-2{
+        display: block;
+    }
+    #ckb3:checked ~ #texto-3{
+        display: block;
+    }
+
+   
+    
+    p{
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 18px;
+        text-align: justify;
+        color: black;
+    }
+    h1{
+ 
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #1684a0;
+        font-weight: bold;
+        padding:1em;
+    }
+    
+    .texto-resposta{
+    
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: justify;
+        font-size: 15px;
+        color: rgb(5, 0, 0);
+        padding-left: 2em;
+        padding-right: 2em;
+        background-color: #16aed4;
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 95%;
+        height:auto;
+        padding: 10px;
+        
+        
+    }
+     
+    label img{
+        width: 40px;
+        height: auto;
+    }
+    #clica-1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
