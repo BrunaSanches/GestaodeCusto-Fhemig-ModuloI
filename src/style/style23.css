@@ -126,3 +126,36 @@ label img{
     width: 100%;
     height: auto;
 }
+
+/* TELAS PEQUENAS */
+@media screen and (max-width: 1024px) {
+	
+}
+
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (max-width: 767px) {
+	#home{
+        flex-direction: column;
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+       
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+    }
+    #cor{
+        width: 90%;
+        height: 40vh;
+     
+    }
+    p{
+        font-size: 10px;
+    }
+    #clica-1{
+        
+    }
+}
