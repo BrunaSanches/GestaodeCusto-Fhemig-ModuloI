@@ -134,9 +134,10 @@ label img{
 
 
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	#home{
         flex-direction: column;
+    
     }
     #direita{
         width: 100%;
@@ -150,12 +151,11 @@ label img{
     #cor{
         width: 90%;
         height: 40vh;
+        scale: 0.85;
      
     }
     p{
         font-size: 10px;
     }
-    #clica-1{
-        
-    }
+ 
 }
