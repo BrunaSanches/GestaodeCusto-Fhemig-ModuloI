@@ -15,7 +15,7 @@
 }
 #cor{
     width: 90%;
-    height: 90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,13 +33,10 @@
        
     
     }
-    
-    
     .hidden{
         display: none;
     
     }
-    
     .check{
         display: none;
     }
@@ -108,3 +105,44 @@
        
     }
   
+
+    
+/* TELAS PEQUENAS */
+@media screen and (max-width: 1024px) {
+    .texto-resposta{
+        font-size: 15px;
+        width: 100%;
+    }
+	p{
+		font-size: 18px;
+		  }
+	h1{
+		font-size: 25px;
+		}
+    #clica-1{
+            width: 95%;
+        }
+}
+
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (max-width: 767px) {
+	.texto-resposta{
+        font-size: 10px;
+        width: 100%;
+    }
+    #clica-1{
+        width: 95%;
+    }
+  	p{
+    font-size: 10px;
+  	}
+	h1{
+	font-size: 14px;
+	}
+    label img{
+        width: 30px;
+        height: auto;
+        
+    }
+}
