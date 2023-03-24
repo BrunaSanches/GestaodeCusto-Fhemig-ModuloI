@@ -101,7 +101,7 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_18</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_20" identifierref="RES_20" isvisible="true">
-					<title>Centro de Custos</title>
+					<title>Custeio por Absorção</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_19</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_21" identifierref="RES_21" isvisible="true">
