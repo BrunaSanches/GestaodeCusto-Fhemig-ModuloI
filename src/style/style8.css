@@ -19,6 +19,22 @@
     
     
 }
+p a{
+    border: 1px solid white;
+	background-color: #0096Bb;
+    border-radius: 20px;
+	font-size: 15px;
+    color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+#link{
+    width:100%;
+	height: 20%;
+    display: flex;
+   justify-content: flex-end;
+
+}
 #cor{
     width: 70%;
     height: 80vh;
@@ -75,6 +91,9 @@ p{
         width: 70%;
         height: 40vh;
     }
+    p a{
+        font-size:10px;
+    }
 }
 
 /* RESPONSIVIDADE TELAS PEQUENAS */
@@ -101,5 +120,8 @@ p{
     #esquerda img{
         width: 60%;
         height: 40vh;
+    }
+    p a{
+        font-size:15px;
     }
 }

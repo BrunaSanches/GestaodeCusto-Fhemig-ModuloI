@@ -220,8 +220,22 @@ h3{
 	font-size: 17px;
 }
 
+p a{
+    border: 1px solid white;
+	background-color: #0096Bb;
+    border-radius: 20px;
+	font-size: 15px;
+    color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+#link{
+    width:100%;
+	height: 20%;
+    display: flex;
+   justify-content: flex-end;
 
-
+}
 
 
 /* RESPONSIVIDADE TELAS PEQUENAS */
@@ -258,7 +272,11 @@ h3{
 	h2{
 		font-size: 12px;
 	}
+	p a{
+        font-size:15px;
+    }
 }
+
 
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 590px) {
@@ -301,4 +319,7 @@ h3{
 		width: 100%;
 		height: 50vh;
 	}
+	p a{
+        font-size:10px;
+    }
 }
