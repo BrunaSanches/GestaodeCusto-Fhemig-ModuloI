@@ -122,8 +122,24 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_23</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_25" identifierref="RES_25" isvisible="true">
-					<title>Fim</title>
+					<title>Autores</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_24</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_26" identifierref="RES_26" isvisible="true">
+					<title>O que são centros de custos ou centros de responsabilidade?</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_25</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_27" identifierref="RES_27" isvisible="true">
+					<title>Vamos ver se você entendeu!</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_26</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_28" identifierref="RES_28" isvisible="true">
+					<title>Classificação dos Centros de Custos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_27</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_29" identifierref="RES_29" isvisible="true">
+					<title>Fim</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_28</adlcp:prerequisites>
 				</item>
 				
 
@@ -265,7 +281,27 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_25" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
+		<resource identifier="RES_25" type="webcontent" adlcp:scormtype="sco" href="src/pagina31.html">
+		   <file href="src/pagina31.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_26" type="webcontent" adlcp:scormtype="sco" href="src/pagina32.html">
+		   <file href="src/pagina32.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_27" type="webcontent" adlcp:scormtype="sco" href="src/pagina33.html">
+		   <file href="src/pagina33.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_28" type="webcontent" adlcp:scormtype="sco" href="src/pagina34.html">
+		   <file href="src/pagina34.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_29" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
 		   <file href="src/paginaFim.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
