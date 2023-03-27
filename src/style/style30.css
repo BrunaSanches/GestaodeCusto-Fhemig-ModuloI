@@ -16,7 +16,9 @@
     flex-direction: column;
     align-items: center;
     background-color:#cdf2fc;
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 
     
 }
@@ -28,7 +30,9 @@
     align-items: center;
     flex-direction: column;
     background-color:#51d1f1;
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
    
 }
 p img{
@@ -79,7 +83,14 @@ p b{
 	-o-animation: img-pisca .7s linear infinite;
 	animation:  img-pisca .7s linear infinite;
 }
-
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 600px) and (max-width: 1023px){
     #home{

@@ -16,7 +16,9 @@
     flex-direction: column;
     align-items: center;
     background-color:#cdf2fc;
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 
     
 }
@@ -28,10 +30,20 @@
     align-items: center;
     flex-direction: column;
     background-color:#0096bb;
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
    
 }
 #direita img{
     width: 70%;
     height: 70vh;
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }

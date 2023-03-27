@@ -12,6 +12,9 @@
     align-items: center;
     overflow: hidden;
     flex-wrap: wrap;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 #img-centro{
     width: 40%;
@@ -137,3 +140,11 @@ label i{
 #fechar4:checked ~ #info4{
 	display: block;
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }

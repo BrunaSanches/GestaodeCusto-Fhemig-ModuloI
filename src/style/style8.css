@@ -16,7 +16,9 @@
     flex-direction: column;
     align-items: center;
     background-color:#51d1f1;
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
     
 }
 #link p{
@@ -56,7 +58,9 @@
     justify-content: space-around;
     align-items:center;
     flex-direction: column;
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
    
 }
 #texto{
@@ -75,6 +79,14 @@ p{
     text-align: justify;
     line-height: 20pt;
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 540px) {
     #home{

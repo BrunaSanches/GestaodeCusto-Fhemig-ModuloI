@@ -16,8 +16,9 @@
     flex-direction: column;
     align-items: center;
     background-color: #cdf2fc;
-    
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 #direita{
     width: 50%;
@@ -27,7 +28,9 @@
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(150deg,#0096bb,#1684a0);
-   
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 
 table, th, td {
@@ -149,7 +152,14 @@ label img{
    }
     
 }
-
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
 
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (max-width: 768px) {

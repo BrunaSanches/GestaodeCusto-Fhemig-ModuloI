@@ -15,7 +15,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
     
     
 }
@@ -27,7 +29,9 @@
     align-items: center;
     flex-direction: column;
     background-color:#1684a0;
-   
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 
 table, th, td {
@@ -85,6 +89,14 @@ p {
     text-align: justify;
     
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
 /* CLIQUE */
 #texto{
 display: flex;

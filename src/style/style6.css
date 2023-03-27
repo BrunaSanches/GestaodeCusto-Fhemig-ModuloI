@@ -25,7 +25,9 @@ body {
     display: flex;
 	justify-content: space-around;
 	align-items: center;
-
+	animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 
 #seta{
@@ -80,7 +82,10 @@ p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  color: white;
+  	color: white;
+	  animation: fadeInAnimation ease 2s;
+	  animation-iteration-count: 1;
+	  animation-fill-mode: backwards;
 }
 
 .info-texto{
@@ -191,6 +196,14 @@ label i{
 	font-size: 15px;
 }
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
 
 @media screen and (max-width: 480px) {
 

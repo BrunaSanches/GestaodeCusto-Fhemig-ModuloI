@@ -16,7 +16,9 @@
     flex-direction: column;
     align-items: center;
     background-color:#0096bb;
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
     
 }
 h1{
@@ -36,7 +38,9 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
- 
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
    
 }
 #direita img{
@@ -57,6 +61,14 @@ p{
 #palavra{
     color:rgb(175, 56, 56);
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 600px) and (max-width: 1024px){
     #home{

@@ -5,17 +5,29 @@
     box-sizing: border-box;
 }
 body{
-    
    background-image: linear-gradient(90deg,#1684a0,#57d3f1);
 }
 
+   
+@keyframes fadeInAnimation {
+   0% {
+       opacity: 0.2;
+   }
+   100% {
+       opacity: 1;
+    }
+}
 #home{
+   
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 #texto-central{
@@ -25,8 +37,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 #texto-central img{
+    
+ 
     width: 30%;
     height: 50vh;
     border-radius: 2%;
