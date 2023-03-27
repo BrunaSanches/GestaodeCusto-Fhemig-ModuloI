@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#51d1f1;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    background-color:#cdf2fc;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+#esquerda img{
+    width: 50%;
+    height: 50vh;
+    padding-top: 2em;
+}
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color: rgb(16, 22, 34);
+	-webkit-text-stroke:1px  rgb(6, 67, 136);
+	padding: 0.6em 0.8em;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
+
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
+}
+/* CLIQUE */
+#texto{
+    display: flex;
+    }
+    
+    
+    .hidden{
+        display: none;
+    
+    }
+    
+    .check{
+        display: none;
+    }
+    
+    #ckb:checked ~ #texto-1{
+        display: block;
+    }
+    #ckb2:checked ~ #texto-2{
+        display: block;
+    }
+    #ckb3:checked ~ #texto-3{
+        display: block;
+    }
+    #ckb4:checked ~ #texto-4{
+        display: block;
+    }
+    
+    label{
+        padding-top: 1em; 
+        padding-left: 1em;
+        padding-right: 1em;
+       
+    }
+
+    p{
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 18px;
+        text-align: justify;
+        color: black;
+    }
+
+    .texto-clique{
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: left;
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+        padding-top: 2em;
+        
+      
+    }
+    .texto-resposta{
+    
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: justify;
+        font-size: 15px;
+        color: rgb(5, 0, 0);
+        padding-left: 2em;
+        padding-right: 2em;
+        
+    }
+     
+    label img{
+        width: 40px;
+        height: auto;
+    }
+    #clica-1{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+       
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0.2;
+        }
+        100% {
+            opacity: 1;
+         }
+     }
+    /* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+   
+    }
+     #esquerda img{
+    
+        width: 25%;
+        height: 20vh;
+    }
+    p{
+        font-size: 15px;
+    }
+    .texto-resposta{
+        font-size: 15px;
+    }
+    .texto-clique{
+        font-size: 18px;
+    }
+    .text-pisca {
+        font-size: 15px;
+    }
+    
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+   
+     #esquerda img{
+    
+        width: 40%;
+        height: 20vh;
+    }
+    p{
+        font-size: 10px;
+    }
+    .texto-resposta{
+        font-size: 10px;
+    }
+    .texto-clique{
+        font-size: 12px;
+    }
+    .text-pisca {
+        font-size: 12px;
+    }
+}
