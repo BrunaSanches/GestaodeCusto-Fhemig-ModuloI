@@ -64,12 +64,13 @@ p{
 	text-decoration: none;
 	font-size: 20px;
 
-	-webkit-animation: text-pisca .9s linear infinite;
-	-moz-animation: text-pisca .9s linear infinite;
-	-ms-animation: text-pisca .9s linear infinite;
-	-o-animation: text-pisca .9s linear infinite;
-	animation: text-pisca.9s linear infinite;
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
 }
+
 
 #texto-inicial{
 	width: 100%;

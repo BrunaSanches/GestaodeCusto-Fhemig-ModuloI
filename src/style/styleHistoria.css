@@ -26,6 +26,26 @@
     align-items: center;
     background-image: linear-gradient(-120deg,#0096bb,#51d1f1);
 }
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color: rgb(16, 22, 34);
+	-webkit-text-stroke:1px  rgb(6, 67, 136);
+	padding: 0.6em 0.8em;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
+}
+
 input{
 	display: none;
 }
@@ -79,7 +99,8 @@ input{
 	background-color: #0096Bb;
 	border-radius: 5px;
 	padding: 5px;
-	font-size: 10px;
+	font-size: 15px;
+	font-weight: bold;
 }
 .back-btn{
 	position: absolute;
@@ -90,7 +111,8 @@ input{
 	background-color: #0096Bb;
 	border-radius: 5px;
 	padding: 5px;
-	font-size: 10px;
+	font-size: 15px;
+	font-weight: bold;
 }
 
 
@@ -180,11 +202,11 @@ p{
 	display: inline-block;
 	text-decoration: none;
 	
-	-webkit-animation: img-pisca .9s linear infinite;
-	-moz-animation: img-pisca .9s linear infinite;
-	-ms-animation: img-pisca .9s linear infinite;
-	-o-animation: img-pisca .9s linear infinite;
-	animation: img-pisca.9s linear infinite;
+	-webkit-animation: img-pisca .7s linear infinite;
+	-moz-animation: img-pisca .7s linear infinite;
+	-ms-animation: img-pisca .7s linear infinite;
+	-o-animation: img-pisca .7s linear infinite;
+	animation: img-pisca.7s linear infinite;
 }
 
 

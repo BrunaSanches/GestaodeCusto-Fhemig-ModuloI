@@ -128,7 +128,8 @@ a{
 	background-color: #0096Bb;
 	border-radius: 5px;
 	padding: 5px;
-	font-size: 10px;
+	font-size: 15px;
+	font-weight: bold;
 }
 .back-btn{
 	position: absolute;
@@ -139,7 +140,8 @@ a{
 	background-color: #0096Bb;
 	border-radius: 5px;
 	padding: 5px;
-	font-size: 10px;
+	font-size: 15px;
+	font-weight: bold;
 }
 #p1{
 	z-index: 7;

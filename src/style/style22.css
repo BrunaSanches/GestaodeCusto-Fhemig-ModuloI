@@ -63,6 +63,25 @@ body {
     border-radius: 15px;
     margin: 10px;
 }
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color: rgb(16, 22, 34);
+	-webkit-text-stroke:1px  rgb(6, 67, 136);
+	padding: 0.6em 0.8em;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
+}
 
 p{
   font-size: 20px;
@@ -160,12 +179,15 @@ label i{
 	p{
 		font-size: 15px;
 		  }
-		h1{
+	h1{
 			font-size: 20px;
-		}
-		.info-texto p{
+	}
+	.info-texto p{
 		  font-size: 15px;
-		}
+	}
+	.text-pisca {
+		font-size: 18px;
+	}
 }
 
 
@@ -189,9 +211,12 @@ label i{
     font-size: 10px;
   	}
 	h1{
-		font-size: 15px;
+		font-size: 18px;
 	}
 	.info-texto p{
 	  font-size: 10px;
+	}
+	.text-pisca {
+		font-size: 15px;
 	}
 }
