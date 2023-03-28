@@ -12,30 +12,36 @@
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="fc_setStatus('completed');unloadPage();">
     <div class="container">
 		<div class="esquerda">
-			<table>
+			<table id="table1">
 
                 <tr>
                     <td>
-                        <label for="checkbox">Mostrar texto</label>
+                        <label for="checkbox">Centro de Custos Produtivos
+                        </label>
                         <input type="checkbox" id="checkbox1"></td>
                     <td>
-                        <label for="checkbox">Mostrar texto</label>
+                        <label for="checkbox">Centro de Custos Meio
+                        </label>
                         <input type="checkbox" id="checkbox2"></td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="checkbox">Mostrar texto</label>
+                        <label for="checkbox">Centros de Custos Intermediários ou Auxiliares
+                        </label>
                         <input type="checkbox" id="checkbox3"></td>
                     <td>
-                        <label for="checkbox">Mostrar texto</label>
+                        <label for="checkbox">Centros de Custos Administrativos
+                        </label>
                         <input type="checkbox" id="checkbox4"></td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="checkbox">Mostrar texto</label>
+                        <label for="checkbox">Centros de Custos Não Operacionais
+                        </label>
                         <input type="checkbox" id="checkbox5"></td>
                     <td>
-                        <label for="checkbox">Mostrar texto</label>
+                        <label for="checkbox">Centros de Custos Externos
+                        </label>
                         <input type="checkbox" id="checkbox6"></td>
                 </tr>
             </table>
@@ -43,22 +49,77 @@
 		</div>
 		<div class="direita">
 			
-			<div id="texto1">
+			<div id="texto1" class="texto-resposta">
+				<p>Os centros de custos finais, finalísticos ou produtivos são, usualmente,
+                     aqueles que atendem diretamente ao paciente (usuário/cidadão), isto é,
+                      são produtores de serviços finais. Por serem finalísticos, os centros
+                       de custos produtivos absorvem os custos dos centros de custos administrativos
+                        e/ou auxiliares (ou outro tipo que se crie) e não têm seus custos repassados
+                         para outros centros de custos e sim para o procedimento (serviço prestado)
+                          ou paciente.
+                    </p>
+                    <p>É importante que se considere a particularidade de cada organização de saúde, 
+                        para que a subdivisão represente a organização, de forma a ter validade na 
+                        gestão e no uso das informações para a instituição.
+                         Portanto, esta subdivisão poderá ser devidamente adequada às particularidades encontradas.</p>
+                <table id="table2">
+                    <tr>
+                         <td><b>Grupos - Centros de Custos Produtivos</b></td>
+                         <td><b>Descrição</b></td>
+                     </tr> 
+                     <tr>
+                         <td>Ambulatório</td>
+                         <td>Prestam serviços ambulatoriais gerais e de especialidades.</td>
+                     </tr> 
+                     <tr>
+                         <td>Assistência Domiciliar</td>
+                         <td>Prestam serviços de assitência domiciliar.</td>
+                     </tr> 
+                     <tr>
+                        <td>Centro Cirúrgico</td>
+                        <td>Desenvolvem atividades no centro cirúrgico (anestesia,
+                            centro cirúrgico, recuperação, pós-anestésica), exceto
+                        atividades pertinentes ao Centro Obstétrico quando
+                    houver grupo específico.</td>
+                    </tr> 
+                    <tr>
+                        <td>Centro Obstétrico</td>
+                        <td>Desenvolvem atividades no centro obstétrico referentes ás 
+                            atividades cirúrgicas da obstetrícia.
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>Internação</td>
+                        <td>Representam todas as unidades de internação (cirúrgica,
+                            ginecológica, médica,, obstétrica, pediátrica, ortopédica,
+                            psiquiátrica), exceto berçario e UTI.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Assistência Médica - Unidade de Terapia Intensia (UTI)</td>
+                        <td>Reúnem todos os centros de custos que 
+                            desenvolvem atividades de internação intensiva (adulto, pediátrica, neonatal).</td>
+                    </tr>
+                 </table>
+			</div>
+            <div id="texto2" class="texto-resposta">
+				<p>Os centros de custos que dão sustentação à produção podem ser classificados como centros de custos-meio ou intermediários ou de apoio (ou “outros” ainda). O importante é que se tenha conhecimento do objetivo do tipo de serviço prestado por eles, isto é, ter conhecimento que são centros de custos que trabalham para os centros de custos produtivos. Esses centros de custos podem ser subdivididos, de forma a melhor representar os serviços prestados por eles.
+                </p>
+                <p>São produtores de insumos utilizados por outros centros de custos, isto é, prestam serviços a outros. Esses centros de custos terão seus custos repassados aos demais por meio de critérios de atribuição ou rateio.
+                </p>
+                <p>Os centros de custos-meio podem ser subdivididos em intermediários ou auxiliares, que executam atividades complementares àquelas desenvolvidas nos centros de custos finais; e administrativos, que compreendem os centros de custos relacionados com as atividades de natureza administrativa.
+                </p>
+			</div>
+            <div id="texto3" class="texto-resposta">
 				<p>Este é o texto que será mostrado quando o checkbox estiver selecionado.</p>
 			</div>
-            <div id="texto2">
+            <div id="texto4" class="texto-resposta">
 				<p>Este é o texto que será mostrado quando o checkbox estiver selecionado.</p>
 			</div>
-            <div id="texto3">
+            <div id="texto5" class="texto-resposta">
 				<p>Este é o texto que será mostrado quando o checkbox estiver selecionado.</p>
 			</div>
-            <div id="texto4">
-				<p>Este é o texto que será mostrado quando o checkbox estiver selecionado.</p>
-			</div>
-            <div id="texto5">
-				<p>Este é o texto que será mostrado quando o checkbox estiver selecionado.</p>
-			</div>
-            <div id="texto6">
+            <div id="texto6" class="texto-resposta">
 				<p>Este é o texto que será mostrado quando o checkbox estiver selecionado.</p>
 			</div>
 		</div>

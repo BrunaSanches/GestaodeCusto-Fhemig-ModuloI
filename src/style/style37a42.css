@@ -33,9 +33,7 @@
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
 }
-    #checkbox{
-    display: none;
-    }
+    
      #texto1 {
         display: none;
         color:black;
@@ -77,4 +75,56 @@
     }
     #checkbox6:checked + #texto6 {
         display: block;
+    }
+
+    #table1 th {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        border: 1px solid;
+        border-color: #1684a0;
+        padding: 2px;
+      }
+    #table1  td {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        border: 1px solid;
+        border-color: #1684a0;
+        padding: 2px;
+      }
+    #table1 {
+        width: 90%;
+        height: 65vh;
+        border-collapse: collapse;
+    } 
+    #table2{
+        width: 90%;
+        height: 65vh;
+        border-collapse: collapse;
+    }
+    #table2 th  {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        border: 1px solid;
+        border-color: #1684a0;
+        padding: 2px;
+        color: black;
+      }
+      #table2 td  {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        border: 1px solid;
+        border-color: black;
+        padding: 2px;
+        color: black;
+      }
+    .texto-resposta{
+    
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: justify;
+        font-size: 15px;
+        color: white;
+        padding-left: 2em;
+        padding-right: 2em;
+        
     }
