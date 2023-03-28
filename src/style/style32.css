@@ -112,7 +112,8 @@
         text-align: center;
         color: white;
         font-weight: bold;
-        padding:0.5em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
     h2{
  
@@ -122,7 +123,7 @@
         text-align: center;
         color:  #1684a0;
         font-weight: bold;
-        padding:0.5em;
+
     }
     
     .texto-resposta{
@@ -137,9 +138,9 @@
         background-color: #1684a0;
         border: 2px solid white;
         border-radius: 10px;
-        width: 95%;
+        width: 100%;
         height:auto;
-        padding: 5px;
+       
         
         
     }
