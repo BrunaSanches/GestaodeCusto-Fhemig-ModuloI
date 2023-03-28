@@ -138,8 +138,16 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_27</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_29" identifierref="RES_29" isvisible="true">
-					<title>Fim</title>
+					<title>Sobre os Métodos de Custeio</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_28</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_30" identifierref="RES_30" isvisible="true">
+					<title>Categorização - Centro de Custos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_29</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_31" identifierref="RES_31" isvisible="true">
+					<title>Fim</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_30</adlcp:prerequisites>
 				</item>
 				
 
@@ -301,7 +309,17 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_29" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
+		<resource identifier="RES_29" type="webcontent" adlcp:scormtype="sco" href="src/pagina35.html">
+		   <file href="src/pagina35.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_30" type="webcontent" adlcp:scormtype="sco" href="src/pagina36.html">
+		   <file href="src/pagina36.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_31" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
 		   <file href="src/paginaFim.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>

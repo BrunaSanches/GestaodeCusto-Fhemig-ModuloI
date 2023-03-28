@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#cdf2fc;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    
+}
+.direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(360deg,#0096Bb,#1684a0);
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+    #checkbox{
+    display: none;
+    }
+     #texto1 {
+        display: none;
+        color:black;
+    }
+    #texto2 {
+        display: none;
+        color:black;
+    }
+    #texto3{
+        display: none;
+        color:black;
+    }
+    #texto4 {
+        display: none;
+        color:black;
+    }
+    #texto5 {
+        display: none;
+        color:black;
+    }  
+    #texto6 {
+        display: none;
+        color:black;
+    }
+    #checkbox1:checked + #texto1 {
+        display: block;
+    }
+    #checkbox2:checked + #texto2 {
+        display: block;
+    }
+    #checkbox3:checked + #texto3 {
+        display: block;
+    }
+    #checkbox4:checked + #texto4{
+        display: block;
+    }
+    #checkbox5:checked + #texto5 {
+        display: block;
+    }
+    #checkbox6:checked + #texto6 {
+        display: block;
+    }
