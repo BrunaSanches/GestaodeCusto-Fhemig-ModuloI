@@ -69,7 +69,7 @@ h2{
      }
  }
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width: 1024px){
+@media screen and (min-width: 600px) and (max-width: 996px){
     #home{
         flex-direction: column;
     }
