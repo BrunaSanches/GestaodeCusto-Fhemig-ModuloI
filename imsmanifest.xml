@@ -81,97 +81,110 @@
 				</item>	
 
 				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
-					<title>Gabarito</title>
+					<title>Planilha de Conceitos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
 				</item>	
 				<item identifier="MOD_1_SCO_16" identifierref="RES_16" isvisible="true">
-					<title>Planilha de Conceitos</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
-				</item>	
-				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
 					<title>Custos como Informação</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
+					<title>Diagrama</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_18" identifierref="RES_18" isvisible="true">
-					<title>Diagrama</title>
+					<title>Definições de Contabilidade</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_17</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_19" identifierref="RES_19" isvisible="true">
-					<title>Definições de Contabilidade</title>
+					<title>Custeio por Absorção</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_18</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_20" identifierref="RES_20" isvisible="true">
-					<title>Custeio por Absorção</title>
+					<title>Objetivos e utilização, departamentalização, definição e 
+                classificação de Centros de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_19</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_21" identifierref="RES_21" isvisible="true">
-					<title>Objetivos e utilização, departamentalização, definição e 
-                classificação de Centros de Custos</title>
+					<title>Centro de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_20</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_22" identifierref="RES_22" isvisible="true">
-					<title>Centro de Custos</title>
+					<title>Processos Centro de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_21</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_23" identifierref="RES_23" isvisible="true">
-					<title>Processos Centro de Custos</title>
+					<title>Centro de Custos x Departamento</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_22</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_24" identifierref="RES_24" isvisible="true">
-					<title>Centro de Custos x Departamento</title>
+					<title>Autores</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_23</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_25" identifierref="RES_25" isvisible="true">
-					<title>Autores</title>
+					<title>O que são centros de custos ou centros de responsabilidade?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_24</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_26" identifierref="RES_26" isvisible="true">
-					<title>O que são centros de custos ou centros de responsabilidade?</title>
+					<title>Vamos ver se você entendeu!</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_25</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_27" identifierref="RES_27" isvisible="true">
-					<title>Vamos ver se você entendeu!</title>
+					<title>Classificação dos Centros de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_26</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_28" identifierref="RES_28" isvisible="true">
-					<title>Classificação dos Centros de Custos</title>
+					<title>Sobre os Métodos de Custeio</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_27</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_29" identifierref="RES_29" isvisible="true">
-					<title>Sobre os Métodos de Custeio</title>
+					<title>Categorização - Centro de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_28</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_30" identifierref="RES_30" isvisible="true">
-					<title>Categorização - Centro de Custos</title>
+					<title>Tipos de Centros de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_29</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_31" identifierref="RES_31" isvisible="true">
-					<title>Tipos de Centros de Custos</title>
+					<title>Definição e Classificação de Itens de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_30</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_32" identifierref="RES_32" isvisible="true">
-					<title>Definição e Classificação de Itens de Custos</title>
+					<title>Definição de Itens de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_31</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_33" identifierref="RES_33" isvisible="true">
-					<title>Definição de Itens de Custos</title>
+					<title>Classificação de Itens de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_32</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_34" identifierref="RES_34" isvisible="true">
-					<title>Classificação de Itens de Custos</title>
+					<title>Classificação dos itens de Custos em Grupos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_33</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_35" identifierref="RES_35" isvisible="true">
-					<title>Classificação dos itens de Custos em Grupos</title>
+					<title>Unidades de Produção</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_34</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_36" identifierref="RES_36" isvisible="true">
-					<title>Unidades de Produção</title>
+					<title>Classificação dos itens de Custos em Grupos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_35</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_37" identifierref="RES_37" isvisible="true">
-					<title>Fim</title>
+					<title>Critérios de Rateios</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_36</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_38" identifierref="RES_38" isvisible="true">
+					<title>Tipos de Critérios de Rateios</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_37</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_39" identifierref="RES_39" isvisible="true">
+					<title>Análise das Informações</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_38</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_40" identifierref="RES_40" isvisible="true">
+					<title>Fim</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_39</adlcp:prerequisites>
 				</item>
 				
 
@@ -258,122 +271,137 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_14" type="webcontent" adlcp:scormtype="sco" href="src/pagina17.html">
-		   <file href="src/pagina17.html"/>
+		<resource identifier="RES_14" type="webcontent" adlcp:scormtype="sco" href="src/pagina17e18.html">
+		   <file href="src/pagina17e18.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina18.html">
-		   <file href="src/pagina18.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-		
-		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
+		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
 		   <file href="src/pagina19.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
-
-		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
+		
+		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
 		   <file href="src/pagina20.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_18" type="webcontent" adlcp:scormtype="sco" href="src/pagina21.html">
+		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina21.html">
 		   <file href="src/pagina21.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_19" type="webcontent" adlcp:scormtype="sco" href="src/pagina22.html">
+		<resource identifier="RES_18" type="webcontent" adlcp:scormtype="sco" href="src/pagina22.html">
 		   <file href="src/pagina22.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_20" type="webcontent" adlcp:scormtype="sco" href="src/pagina23.html">
+		<resource identifier="RES_19" type="webcontent" adlcp:scormtype="sco" href="src/pagina23.html">
 		   <file href="src/pagina23.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_21" type="webcontent" adlcp:scormtype="sco" href="src/pagina24.html">
+		<resource identifier="RES_20" type="webcontent" adlcp:scormtype="sco" href="src/pagina24.html">
 		   <file href="src/pagina24.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_22" type="webcontent" adlcp:scormtype="sco" href="src/paginaHistoria.html">
+		<resource identifier="RES_21" type="webcontent" adlcp:scormtype="sco" href="src/paginaHistoria.html">
 		   <file href="src/paginaHistoria.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_23" type="webcontent" adlcp:scormtype="sco" href="src/pagina29.html">
+		<resource identifier="RES_22" type="webcontent" adlcp:scormtype="sco" href="src/pagina29.html">
 		   <file href="src/pagina29.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_24" type="webcontent" adlcp:scormtype="sco" href="src/pagina30.html">
+		<resource identifier="RES_23" type="webcontent" adlcp:scormtype="sco" href="src/pagina30.html">
 		   <file href="src/pagina30.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_25" type="webcontent" adlcp:scormtype="sco" href="src/pagina31.html">
+		<resource identifier="RES_24" type="webcontent" adlcp:scormtype="sco" href="src/pagina31.html">
 		   <file href="src/pagina31.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_26" type="webcontent" adlcp:scormtype="sco" href="src/pagina32.html">
+		<resource identifier="RES_25" type="webcontent" adlcp:scormtype="sco" href="src/pagina32.html">
 		   <file href="src/pagina32.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_27" type="webcontent" adlcp:scormtype="sco" href="src/pagina33.html">
+		<resource identifier="RES_26" type="webcontent" adlcp:scormtype="sco" href="src/pagina33.html">
 		   <file href="src/pagina33.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_28" type="webcontent" adlcp:scormtype="sco" href="src/pagina34.html">
+		<resource identifier="RES_27" type="webcontent" adlcp:scormtype="sco" href="src/pagina34.html">
 		   <file href="src/pagina34.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_29" type="webcontent" adlcp:scormtype="sco" href="src/pagina35.html">
+		<resource identifier="RES_28" type="webcontent" adlcp:scormtype="sco" href="src/pagina35.html">
 		   <file href="src/pagina35.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_30" type="webcontent" adlcp:scormtype="sco" href="src/pagina36.html">
+		<resource identifier="RES_29" type="webcontent" adlcp:scormtype="sco" href="src/pagina36.html">
 		   <file href="src/pagina36.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_31" type="webcontent" adlcp:scormtype="sco" href="src/pagina37a42.html">
+		<resource identifier="RES_30" type="webcontent" adlcp:scormtype="sco" href="src/pagina37a42.html">
 		   <file href="src/pagina37a42.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_32" type="webcontent" adlcp:scormtype="sco" href="src/pagina43.html">
+		<resource identifier="RES_31" type="webcontent" adlcp:scormtype="sco" href="src/pagina43.html">
 		   <file href="src/pagina43.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_33" type="webcontent" adlcp:scormtype="sco" href="src/pagina44.html">
+		<resource identifier="RES_32" type="webcontent" adlcp:scormtype="sco" href="src/pagina44.html">
 		   <file href="src/pagina44.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_34" type="webcontent" adlcp:scormtype="sco" href="src/pagina45.html">
+		<resource identifier="RES_33" type="webcontent" adlcp:scormtype="sco" href="src/pagina45.html">
 		   <file href="src/pagina45.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_35" type="webcontent" adlcp:scormtype="sco" href="src/pagina46.html">
+		<resource identifier="RES_34" type="webcontent" adlcp:scormtype="sco" href="src/pagina46.html">
 		   <file href="src/pagina46.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_36" type="webcontent" adlcp:scormtype="sco" href="src/pagina47.html">
+		<resource identifier="RES_35" type="webcontent" adlcp:scormtype="sco" href="src/pagina47.html">
 		   <file href="src/pagina47.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_37" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
+		<resource identifier="RES_36" type="webcontent" adlcp:scormtype="sco" href="src/pagina48.html">
+		   <file href="src/pagina48.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_37" type="webcontent" adlcp:scormtype="sco" href="src/pagina49.html">
+		   <file href="src/pagina49.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_38" type="webcontent" adlcp:scormtype="sco" href="src/pagina50.html">
+		   <file href="src/pagina50.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_39" type="webcontent" adlcp:scormtype="sco" href="src/pagina51.html">
+		   <file href="src/pagina51.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+		
+		<resource identifier="RES_40" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
 		   <file href="src/paginaFim.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
