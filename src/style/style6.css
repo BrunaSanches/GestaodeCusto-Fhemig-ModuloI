@@ -60,7 +60,7 @@ p{
 }
 .text-pisca {
 	color: rgb(16, 22, 34);
-	-webkit-text-stroke:1px  rgb(6, 67, 136);
+	-webkit-text-stroke:1px  #0096Bb;
 	padding: 0.6em 0.8em;
 	display: inline-block;
 	text-decoration: none;
