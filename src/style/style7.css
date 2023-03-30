@@ -34,7 +34,7 @@
     animation-fill-mode: backwards;
 }
 
-table, th, td {
+table, tr, td {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     border: 1px solid;
