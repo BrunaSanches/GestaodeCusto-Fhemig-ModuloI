@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#0096bb;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#cdf2fc;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+ 
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+#direita img{
+    width: 100%;
+    height: 100vh;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    
+    #esquerda{
+        width:50%;
+        height: 100vh;
+        
+    }
+    #direita{
+        width:50%;
+        height: 100vh;
+    }
+    p{
+        font-size: 15px;
+     }
+     
+     h2{
+        font-size: 30px;
+     }
+     #direita img{
+    
+        width: 100%;
+        height: 100vh;
+    }
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+     p{
+        font-size: 12px;
+     }
+     
+     h2{
+        font-size: 20px;
+     }
+     #direita img{
+    
+        width: 60%;
+        height: 40vh;
+    }
+}
