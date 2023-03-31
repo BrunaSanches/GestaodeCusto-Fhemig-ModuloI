@@ -77,7 +77,7 @@ p{
     font-size: 18px;
     color: black;
     font-weight: bold;
-    padding-top: 1em;
+  
     
   
 }
@@ -89,8 +89,6 @@ p{
     text-align: justify;
     font-size: 15px;
     color: black;
-   
- 
     border: 1px solid #0096Bb;
     border-radius: 10px;
     width: 100%;
@@ -170,13 +168,17 @@ label img{
     
     }
     .texto-resposta{
-        font-size:15px;
+        font-size:10px;
     }
     label{
-        font-size:16px;
+        font-size:13px;
     }
     #clica-1{
         width: 100%;
+        height: auto;
+    }
+    label img{
+        width: 4%;
         height: auto;
     }
 }
