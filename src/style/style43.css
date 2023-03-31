@@ -70,17 +70,15 @@ h2{
  }
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 600px) and (max-width: 996px){
-    #home{
-        flex-direction: column;
-    }
+   
     #esquerda{
-        width: 100%;
-        height: 50vh;
+        width: 50%;
+        height: 100vh;
         
     }
     #direita{
-        width: 100%;
-        height: 50vh;
+        width: 50%;
+        height: 100vh;
     }
   
      h1{
@@ -92,7 +90,7 @@ h2{
      #direita img{
     
         width: 100%;
-        height: 50vh;
+        height: 100vh;
     }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
