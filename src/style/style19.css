@@ -50,28 +50,184 @@ td{
     color: white;
     padding: 3px;
 }
-.opçoes{
+.opcoes{
     width: 100%;
     height: 60vh;
     display: flex;
+    justify-content: center;
+    align-items: end;
 }
 #opcoes-direita{
     width: 50%;
-    height:auto;
+    height:50vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
+
 }
 #opcoes-esquerda{
     width: 50%;
-    height: auto;
+    height: 50vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
+
+
 }
 button{
-    width: 50%;
-    height: auto;
+    width: 60%;
+    height: 35%;
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(5, 0, 0);
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+.opcoes button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    background-color: #0096Bb;
+    border: 1px solid white;
+    border-radius: 5px;
+ 
+}
+button:hover{
+    background-color: #51d1f1;
+}
+#corrigir{
+    width: 40%;
+    height: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    background-color: #0096Bb;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+#corrigir:hover{
+    background-color: #51d1f1;
+}
+
+
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    table{
+        width: 90%;
+        height: 20vh;
+    }
+    p{
+        font-size: 10px;
+    }
+    td{
+        font-size: 10px;
+    }
+    .opcoes button{
+        font-size: 10px;
+    }
+    button{
+    width: 98%;
+    height:auto;
+    }
+    .opcoes{
+        width: 100%;
+        height: 25vh;
+   
+    }
+    #opcoes-direita{
+        width: 50%;
+        height:20vh;
+      
+    
+    }
+    #opcoes-esquerda{
+        width: 50%;
+        height: 20vh;
+   
+    }
+    #corrigir{
+        width: 30%;
+        height: 6%;
+        font-size: 10px;
+    }
+    
+}
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 996px){
+    #home{
+        flex-direction: column;
+    
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    table{
+        width: 90%;
+        height: 20vh;
+    }
+    p{
+        font-size: 15px;
+    }
+    td{
+        font-size: 10px;
+    }
+    
+    .opcoes button{
+        font-size: 10px;
+    }
+    button{
+    width: 60%;
+    height:auto;
+    }
+    .opcoes{
+        width: 100%;
+        height: 25vh;
+   
+    }
+    #opcoes-direita{
+        width: 50%;
+        height:25vh;
+      
+    
+    }
+    #opcoes-esquerda{
+        width: 50%;
+        height: 25vh;
+   
+    }
+    #corrigir{
+        width: 30%;
+        height: 6%;
+    }
 }

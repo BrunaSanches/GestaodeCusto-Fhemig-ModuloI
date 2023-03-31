@@ -12,32 +12,23 @@
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="fc_setStatus('completed');unloadPage();">
     <div id="home">
         <div id="esquerda">
-            <p>Complete a planilha ao lado clicando em cada opção abaixo na ordem correta!</p>
+            <p>De acordo com a planilha ao lado, <b>complete-a clicando em cada opção abaixo na ordem correta!</b></p>
             <p>Após selecionar todos, clique no botão <b>CORRIGIR</b>!</p>
 
             <div class="opcoes">
-                <div id="opcoes-esquerda">
-                    <button id="1">É a forma como os custos são acumulados e apropriados
-                        aos produtos e serviços (BRUNI e FAMA, 2002)
-                   </button>
-                   <button id="2">Como e quais custos (e despesas) devem ser alocados aos produtos.
-                   </button>
-                   <button id="3">Opções de mensuração dos elementos obtidos pelo sistema de acumulação.
-                   </button>
+                <div id="opcoes-esquerda">   
+                    <button id="botao6">- Custo estimado<br>- Custo real<br>- Custo padrão</button>
+                    <button id="botao1">É a forma como os custos são acumulados e apropriados aos produtos e serviços (BRUNI e FAMA, 2002)</button>
+                    <button id="botao2">Como e quais custos (e despesas) devem ser alocados aos produtos.</button>
                 </div>
                 <div id="opcoes-direita">
-                    <button id="4">- Custeio por processos <br>
-                        - Custeio por ordem
-                        </button>
-                    <button id="5">Custeio por Absorção <br>- Custeio Pleno<br>- Custeio Direto<br>- Custeio ABC</button>
-                    <button id="6">
-                        - Custo estimado<br>- Custo real<br>- Custo padrão
-                        </button>
+                    <button id="botao5">Custeio por Absorção <br>- Custeio Pleno<br>- Custeio Direto<br>- Custeio ABC</button>
+                    <button id="botao3">Opções de mensuração dos elementos obtidos pelo sistema de acumulação.</button>
+                    <button id="botao4">- Custeio por processos <br>- Custeio por ordem</button>
                 </div>
             </div>
-            <button>Corrigir</button>
+            <button id="corrigir">Corrigir</button>
         </div>
-
 
         <div id="direita">
             <table>
@@ -48,24 +39,25 @@
                 </tr>
                 <tr>
                     <td>Sistemas de acumulação de custos</td>
-                    <td id="1">1</td>
-                    <td id="4">4</td>
+                    <td id="texto1">1</td>
+                    <td id="texto4">4</td>
                 </tr>
                 <tr>
                     <td>Métodos de Custeio</td>
-                    <td id="2">2</td>
-                    <td id="5">5</td>
+                    <td id="texto2">2</td>
+                    <td id="texto5">5</td>
                 </tr>
                 <tr>
                     <td>Tipos de Custos</td>
-                    <td id="3">3</td>
-                    <td id="6">6</td>
+                    <td id="texto3">3</td>
+                    <td id="texto6">6</td>
                 </tr>
             </table>
         </div>
     </div>
-    <script type="text/javascript" src="includes/conteudo.js"></script>
+  <!--   <script type="text/javascript" src="includes/conteudo.js"></script>
     <script type="text/javascript" src="includes/apiwrapper.js"></script>
-    <script type="text/javascript" src="includes/scofunctions.js"></script> 
+    <script type="text/javascript" src="includes/scofunctions.js"></script>  -->
+    <script type="text/javascript" src="includes/script19.js"></script> 
 </body>
 </html>
