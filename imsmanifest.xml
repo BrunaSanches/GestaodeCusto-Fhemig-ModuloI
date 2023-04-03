@@ -511,36 +511,32 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_40" type="webcontent" adlcp:scormtype="sco" href="src/pagina68.html">
+		<resource identifier="RES_50" type="webcontent" adlcp:scormtype="sco" href="src/pagina68.html">
 		   <file href="src/pagina68.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_50" type="webcontent" adlcp:scormtype="sco" href="src/pagina69.html">
+		<resource identifier="RES_51" type="webcontent" adlcp:scormtype="sco" href="src/pagina69.html">
 		   <file href="src/pagina69.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_51" type="webcontent" adlcp:scormtype="sco" href="src/pagina70.html">
+		<resource identifier="RES_52" type="webcontent" adlcp:scormtype="sco" href="src/pagina70.html">
 		   <file href="src/pagina70.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_52" type="webcontent" adlcp:scormtype="sco" href="src/pagina71.html">
+		<resource identifier="RES_53" type="webcontent" adlcp:scormtype="sco" href="src/pagina71.html">
 		   <file href="src/pagina71.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_53" type="webcontent" adlcp:scormtype="sco" href="src/pagina72.html">
+		<resource identifier="RES_54" type="webcontent" adlcp:scormtype="sco" href="src/pagina72.html">
 		   <file href="src/pagina72.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_54" type="webcontent" adlcp:scormtype="sco" href="src/pagina73.html">
-		   <file href="src/pagina73.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
+		
 		
 		<resource identifier="RES_55" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
 		   <file href="src/paginaFim.html"/>
