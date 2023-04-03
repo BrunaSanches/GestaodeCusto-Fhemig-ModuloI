@@ -103,16 +103,16 @@ h1{
         height: 50vh;
     }
   
-     h2{
-        font-size: 20px;
+     h1{
+        font-size: 15px;
      }
      p{
-        font-size: 15px;
+        font-size: 12px;
     }
      
      #direita img{
     
-        width: 80%;
+        width: 60%;
         height: 30vh;
     }
     #imgs{
@@ -120,8 +120,8 @@ h1{
         height:25vh;
     }
     #img-esquerda{
-        width:30%;
-        height:80%;
+        width:20%;
+        height:40%;
     }
     #seta{
         width: 10%;
