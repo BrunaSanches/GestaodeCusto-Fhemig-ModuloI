@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#51d1f1;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+#direita img{
+    width: 50%;
+    height: 35vh;
+    border-radius: 10px;
+    border: 3px solid #0096Bb;
+}
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color: rgb(16, 22, 34);
+	-webkit-text-stroke:1px  rgb(6, 67, 136);
+	padding: 0.6em 0.8em;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
+}
+/* CLIQUE */
+#texto{
+    display: flex;
+    }
+    .hidden{
+        display: none;
+    
+    }
+    .check{
+        display: none;
+    }
+    #ckb:checked ~ #texto-1{
+        display: block;
+    }
+    #ckb2:checked ~ #texto-2{
+        display: block;
+    }
+    #ckb3:checked ~ #texto-3{
+        display: block;
+    }
+    #ckb4:checked ~ #texto-4{
+        display: block;
+    }
+    #ckb5:checked ~ #texto-5{
+        display: block;
+       
+    }
+    
+    
+    label{
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        width: 40%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(168, 35, 35);
+        text-transform: uppercase;
+    }
+    #texto-5{
+        font-weight: bold;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 18px;
+        text-align: justify;
+        color: black;
+    }
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 22px;
+        text-align: center;
+        color: black;
+    }
+ 
+    .texto-resposta{
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: justify;
+        font-size: 14px;
+        color: rgb(5, 0, 0);
+        padding-left: 1em;
+        padding-right: 1em;
+        
+    }
+     
+    label img{
+        width: 30px;
+        height: auto;
+    }
+    #clica-1{
+        width: 100%;
+        height:15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+       
+    }
+
+    #alerta{
+        width: 50%;
+        height: 12vh;
+        rotate: 360deg;
+     
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0.2;
+        }
+        100% {
+            opacity: 1;
+         }
+     }
+    /* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width:996px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+   
+    }
+     #direita img{
+    
+        width: 30%;
+        height: 25vh;
+    }
+    p{
+        font-size: 15px;
+    }
+    .texto-resposta{
+        font-size: 15px;
+    }
+    .texto-clique{
+        font-size: 18px;
+    }
+    .text-pisca {
+        font-size: 15px;
+    }
+    #alerta{
+        width: 40%;
+        height: 8vh;
+
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+   
+     #direita img{
+    
+        width: 50%;
+        height: 20vh;
+    }
+    p{
+        font-size: 9px;
+    }
+    .texto-resposta{
+        font-size: 9px;
+    }
+    .text-pisca {
+        font-size: 10px;
+    }
+    #alerta{
+        width:60%;
+        height: 6vh;
+
+    }
+    label{
+        font-size: 8px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    label img{
+        width: 20px;
+        height: auto;
+    }
+}
