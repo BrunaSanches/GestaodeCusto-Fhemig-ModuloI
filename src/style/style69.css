@@ -35,20 +35,42 @@
    
 }
 #direita img{
-    width: 80%;
-    height:70vh;
+    width: 90%;
+    height:50vh;
   
 }
+#img-esquerda{
+    width:35%;
+    height:35vh;
+  
+}
+#seta{
+    width:20%;
+    height:10vh;
+  
+}
+#imgs p{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+#imgs{
+    width:70%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 p{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: black;
-    padding-left:1em;
-    padding-right:1em ;
+    padding-left:0.5em;
+    padding-right:0.5em ;
 }
-h2{
-    font-size: 25px;
+h1{
+    font-size: 22px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: black;
@@ -67,7 +89,7 @@ h2{
      }
  }
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width: 1024px){
+@media screen and (min-width: 600px) and (max-width: 996px){
    #home{
     flex-direction: column;
    }
@@ -90,8 +112,23 @@ h2{
      
      #direita img{
     
-        width: 50%;
-        height: 45vh;
+        width: 80%;
+        height: 30vh;
+    }
+    #imgs{
+        width:100%;
+        height:25vh;
+    }
+    #img-esquerda{
+        width:30%;
+        height:80%;
+    }
+    #seta{
+        width: 10%;
+        height: 5vh;
+    }
+    #imgs p{
+        font-size: 12px;
     }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
@@ -108,16 +145,31 @@ h2{
         width: 100%;
         height: 50vh;
     }
-    h2{
-        font-size: 15px;
+    h1{
+        font-size:9px;
      }
      p{
-        font-size: 10px;
+        font-size: 8px;
     }
      
      #direita img{
     
-        width: 60%;
+        width: 70%;
         height: 35vh;
     }
-}
+    #imgs{
+        width:100%;
+        height:25vh;
+    }
+    #img-esquerda{
+        width:60%;
+        height:100%;
+    }
+    #seta{
+        width: 15%;
+        height: 5vh;
+    }
+    #imgs p{
+        font-size: 8px;
+    }
+    }
