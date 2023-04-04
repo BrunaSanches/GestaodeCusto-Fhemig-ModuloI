@@ -34,9 +34,9 @@
     animation-fill-mode: backwards;
    
 }
-#direita img{
-    width: 80%;
-    height:70vh;
+img{
+    width: 70%;
+    height:60vh;
   
 }
 p{
@@ -87,11 +87,10 @@ h2{
      p{
         font-size: 15px;
     }
-     
-     #direita img{
+     img{
     
-        width: 40%;
-        height: 35vh;
+        width: 30%;
+        height: 40vh;
     }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
@@ -115,7 +114,7 @@ h2{
         font-size: 10px;
     }
      
-     #direita img{
+     img{
     
         width: 60%;
         height: 35vh;
