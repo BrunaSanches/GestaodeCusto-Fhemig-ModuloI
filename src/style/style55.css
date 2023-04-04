@@ -35,7 +35,7 @@
 
    
 }
-#img{
+img{
     width: 50%;
     height: 30vh;
     border: 1px solid #0096Bb;
@@ -99,8 +99,8 @@ li{
     background-color: rgb(230, 173, 17);
 }
 img{
-    width: 60%;
-    height: 45vh;
+    width: 55%;
+    height: 40vh;
 }
 @keyframes fadeInAnimation {
     0% {
@@ -129,14 +129,14 @@ img{
     }
   
     p{
-        font-size:15px;
+        font-size:12px;
     }
-    #img{
-        width: 40%;
-        height: 20vh;
+    img{
+        width: 35%;
+        height: 30vh;
     }
     li{
-        font-size:15px;
+        font-size:12px;
     }
   
 }
