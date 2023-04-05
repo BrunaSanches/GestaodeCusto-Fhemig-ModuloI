@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #51d1f1;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+}
+
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color: rgb(16, 22, 34);
+	-webkit-text-stroke:1px  #026c86;
+	padding: 0.6em 0.5em;
+	display: inline-block;
+	text-decoration: none;
+
+	-webkit-animation: text-pisca .9s linear infinite;
+	-moz-animation: text-pisca .9s linear infinite;
+	-ms-animation: text-pisca .9s linear infinite;
+	-o-animation: text-pisca .9s linear infinite;
+	animation: text-pisca .9s linear infinite;
+}
+h1{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 5px;
+}
+p{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* clique */
+
+    #texto{
+    display: flex;
+
+    }
+    .hidden{
+        display: none;
+        
+    }
+   .check{
+        display: none;
+    } 
+    #ckb:checked ~ #posts-2{
+        display: block;
+        
+    }
+    #ckb2:checked + #post-resposta2 {
+        display: block;
+    }
+    #ckb3:checked + #post-resposta3 {
+        display: block;
+    }
+    .post-its{
+        width: 100%;
+        height:50vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    label{
+        width: 100%;
+        height:auto;
+        border: 1px solid #026c86;
+        background-color:white;
+        color:#026c86;
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px;
+    }
+    label:hover{
+        background-color:#026c86;
+        color:white;
+    }
+    #posts-2{
+        width: 30%;
+        height:auto;
+        
+    }
+    #posts-2 #texto{
+        padding-bottom: 20px;
+     
+     
+    }
+    .texto-resposta{
+        width:100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #026c86;
+        flex-direction: column;
+        border-radius: 5px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        font-size: 15px;
+     
+    
+    }
+    #post-resposta2{
+        width:100%;
+        height: auto;
+        padding: 0.5em;
+      
+    }
+    #post-resposta3{
+        width:100%;
+        height: auto;
+        padding: 0.5em;
+    }
+  
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width:100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width:100%;
+        height: 50vh;
+    }
+    p{
+        font-size: 13px;
+     }
+    
+     h1{
+        font-size: 16px;
+     }
+     .texto-resposta{
+        font-size: 15px;
+     }
+     label{
+        font-size: 15px;
+     }
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 767px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+     p{
+        font-size: 12px;
+
+     }
+     h1{
+        font-size: 15px;
+     }
+     .texto-resposta{
+        font-size: 10px;
+     }
+     label{
+        font-size: 12px;
+     }
+
+}

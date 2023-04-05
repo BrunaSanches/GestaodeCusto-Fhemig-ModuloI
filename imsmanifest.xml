@@ -214,7 +214,7 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_46</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_48" identifierref="RES_48" isvisible="true">
-					<title>65</title>
+					<title>O Sistema de Gerenciamento dos Custos Hospitalares na rede FHEMIG – SIGH CUSTOS</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_47</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_49" identifierref="RES_49" isvisible="true">
