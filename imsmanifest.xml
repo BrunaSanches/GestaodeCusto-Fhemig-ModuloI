@@ -140,55 +140,55 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_27</adlcp:prerequisites>
 				</item>
 
-				<item identifier="MOD_1_SCO_28" identifierref="RES_28" isvisible="true">
-					<title>Classificação dos Centros de Custos</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_27</adlcp:prerequisites>
-				</item>
 				<item identifier="MOD_1_SCO_29" identifierref="RES_29" isvisible="true">
-					<title>Sobre os Métodos de Custeio</title>
+					<title>Classificação dos Centros de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_28</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_30" identifierref="RES_30" isvisible="true">
-					<title>Categorização - Centro de Custos</title>
+					<title>Sobre os Métodos de Custeio</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_29</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_31" identifierref="RES_31" isvisible="true">
-					<title>Tipos de Centros de Custos</title>
+					<title>Categorização - Centro de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_30</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_32" identifierref="RES_32" isvisible="true">
-					<title>Definição e Classificação de Itens de Custos</title>
+					<title>Tipos de Centros de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_31</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_33" identifierref="RES_33" isvisible="true">
-					<title>Definição de Itens de Custos</title>
+					<title>Definição e Classificação de Itens de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_32</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_34" identifierref="RES_34" isvisible="true">
-					<title>Classificação de Itens de Custos</title>
+					<title>Definição de Itens de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_33</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_35" identifierref="RES_35" isvisible="true">
-					<title>Classificação dos itens de Custos em Grupos</title>
+					<title>Classificação de Itens de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_34</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_36" identifierref="RES_36" isvisible="true">
-					<title>Unidades de Produção</title>
+					<title>Classificação dos itens de Custos em Grupos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_35</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_37" identifierref="RES_37" isvisible="true">
-					<title>Classificação dos itens de Custos em Grupos</title>
+					<title>Unidades de Produção</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_36</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_38" identifierref="RES_38" isvisible="true">
-					<title>Critérios de Rateios</title>
+					<title>Classificação dos itens de Custos em Grupos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_37</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_39" identifierref="RES_39" isvisible="true">
-					<title>Tipos de Critérios de Rateios</title>
+					<title>Critérios de Rateios</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_38</adlcp:prerequisites>
 				</item>
-				<item identifier="MOD_1_SCO_40" identifierref="RES_41" isvisible="true">
+				<item identifier="MOD_1_SCO_40" identifierref="RES_40" isvisible="true">
+					<title>Tipos de Critérios de Rateios</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_39</adlcp:prerequisites>
+				</item>
+				<item identifier="MOD_1_SCO_41" identifierref="RES_41" isvisible="true">
 					<title>1.2 - Análise das Informações</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_40</adlcp:prerequisites>
 				</item>
