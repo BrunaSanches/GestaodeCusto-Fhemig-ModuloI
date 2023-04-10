@@ -69,7 +69,10 @@ td{
     width: 80%;
     height: 60vh;
 }
-
+em{
+    background-color:  rgb(230, 173, 17);
+    color: rgb(138, 15, 128);
+}
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.2;
