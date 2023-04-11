@@ -170,15 +170,15 @@ label{
         height: 50vh;
     }
     #esquerda img{
-        width: 45%;
+        width: 35%;
         height: 35vh;
     }
     .textos{
-        width: 40%;
+        width: 48%;
         height: 20vh;
     }
     .textos-2{
-        width: 40%;
+        width: 48%;
         height: 20vh;
     }
     .textos-2 p{
@@ -188,11 +188,11 @@ label{
         font-size: 10px;
     }
     .textos img{
-        width: 20%;
+        width: 15%;
         height: auto;
     }
     .textos-2 img{
-        width:20%;
+        width:15%;
         height: auto;
     }
     h1{
@@ -215,7 +215,7 @@ label{
         height: 50vh;
     }
     #esquerda img{
-        width: 80%;
+        width: 50%;
         height: 30vh;
     }
     .textos{
