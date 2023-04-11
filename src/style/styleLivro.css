@@ -218,7 +218,7 @@ h3{
     border: 1px solid  white;
 	background-color: #0096Bb;
     border-radius: 20px;
-	font-size: 13px;
+	font-size: 10px;
     color:  white;
     font-weight: bold;
    
@@ -292,11 +292,11 @@ h3{
      }
 	 #cover{
 		width: 200px;
-		height: 325px;
+		height: 300px;
 	}
 	.flip-book{
 		width: 200px;
-		height: 325px;
+		height: 300px;
    
 	}
 	.book p{
@@ -306,7 +306,7 @@ h3{
 		font-size: 12px;
 	}
 	#link p{
-        font-size:15px;
+        font-size:10px;
     }
 }
 
@@ -353,6 +353,6 @@ h3{
 		height: 50vh;
 	}
 	#link p{
-        font-size:10px;
+        font-size:9px;
     }
 }
