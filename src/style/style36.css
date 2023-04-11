@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(360deg,#0096Bb,#1684a0);
+    background-image: linear-gradient(360deg,#1684a0,#1684a0);
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
@@ -41,23 +41,30 @@ p{
     padding-left: 2em;
     padding-right: 2em;
 }
-li{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    text-align: justify;
-    color: white;
-    padding: 0.3em;
-   
-}
-ol{
-    padding-left: 3em;
-    padding-right: 3em;
- 
-}
-img{
+
+#esquerda img{
     width: 75%;
     height: 75vh;
     border: 3px solid #0096Bb;
+}
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color: rgb(16, 22, 34);
+	-webkit-text-stroke:1px  white;
+	padding: 0.6em 0.8em;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
 }
 @keyframes fadeInAnimation {
     0% {
@@ -67,6 +74,71 @@ img{
         opacity: 1;
      }
  }
+ label{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  
+    
+  
+}
+ 
+ .texto-resposta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    border: 1px solid white;
+    background-color:#0096Bb ;
+    border-radius: 10px;
+    width: 90%;
+    height:auto;
+    
+    
+}
+
+ 
+label img{
+    width: 40px;
+    height: auto;
+}
+#clica-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+ /* CLIQUE */
+
+    
+    .hidden{
+        display: none;
+    
+    }
+    .check{
+        display: none;
+    }
+    
+    #ckb1:checked ~ #texto-1{
+        display: block;
+    }
+    #ckb2:checked ~ #texto-2{
+        display: block;
+    }
+    #ckb3:checked ~ #texto-3{
+        display: block;
+    }
 
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 600px) and (max-width: 1024px){
