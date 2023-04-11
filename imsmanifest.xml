@@ -229,7 +229,7 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_49</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_51" identifierref="RES_51" isvisible="true">
-					<title>66e67</title>
+					<title>Operacionalização do Módulo de Custos no SIGH</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_50</adlcp:prerequisites>
 				</item>
 				<item identifier="MOD_1_SCO_52" identifierref="RES_52" isvisible="true">

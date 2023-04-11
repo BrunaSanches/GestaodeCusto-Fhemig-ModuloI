@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#direita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    background-color: #1684a0;
+    flex-direction: column;
+}
+
+#esquerda{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    background-image: linear-gradient(180deg,#0096bb, #51d1f1);
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.conceito{
+    width: 90%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conceitos{
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(138, 15, 128);
+    border: 2px solid white;
+    color: white;
+    font-size: 17px;
+}
+.seta{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seta img{
+    width:70%;
+    height: 15vh;
+}
+.conceito img{
+    width: 10%;
+    height: auto;
+}
+
+p{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding-right:1em;
+    padding-left: 1em;
+}
+
+table{
+    width: 95%;
+    height:50vh;
+    background-color: #0096bb;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding: 5px;
+}
+th{
+    color: white; 
+}
+
+/* CLIQUE */
+
+    .hidden{
+        display: none;
+    
+    }
+    .check{
+        display: none;
+    }
+    
+    #ckb:checked ~ #texto-1{
+        display: block;
+    }
+    .texto-resposta{
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        font-size: 12px;
+        color: white;
+        padding: 3px;
+        background-color:#1684a0;
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 100%;
+        height:auto;    
+        
+    }
+     
+    label img{
+       
+        width: 15%;
+        height: auto;
+    }
+    #clica-1{
+        padding: 10px;
+        width: 90%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+       
+    }
+
+     
+/* TELAS PEQUENAS */
+@media screen and (max-width: 1024px) {
+    .texto-resposta{
+        font-size: 10px;
+        width: 95%;
+    }
+	p{
+		font-size: 14px;
+		  }
+	
+    #clica-1{
+            width: 95%;
+        }
+   #conceitos{
+    font-size: 15px;
+   }
+   td{
+    font-size: 12px;
+   }
+   th{
+    font-size: 12px;
+   }
+   .seta img{
+    width: 70%;
+    height: 10vh;
+   }
+}
+
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (max-width: 767px) {
+	#home{
+        flex-direction: column;
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+    }
+    .texto-resposta{
+        font-size: 8px;
+        width: 95%;
+    }
+	p{
+		font-size: 10px;
+		  }
+	
+    #clica-1{
+        width: 96%;
+        }
+   #conceitos{
+    font-size: 10px;
+   }
+   td{
+    font-size: 9px;
+   }
+   th{
+    font-size: 9px;
+   }
+   .seta img{
+    width: 70%;
+    height: 10vh;
+   }
+   table{
+    width: 95%;
+    height: 40vh;
+   }
+   
+}

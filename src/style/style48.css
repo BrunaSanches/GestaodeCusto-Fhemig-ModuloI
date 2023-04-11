@@ -30,7 +30,7 @@
     align-items: center;
     flex-direction: column;
     background-color:#cdf2fc;
-    animation: fadeInAnimation ease 2s;
+    animation:fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
    
