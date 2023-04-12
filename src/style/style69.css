@@ -60,6 +60,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+#imgs p{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    color: black;
+    padding-left:0.5em;
+    padding-right:0.5em ;
 }
 p{
     font-size: 17px;
