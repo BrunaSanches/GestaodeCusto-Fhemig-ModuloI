@@ -69,6 +69,9 @@ td{
     color: black;
     padding: 3px;
 }
+#centro{
+    text-align: center;
+}
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.2;

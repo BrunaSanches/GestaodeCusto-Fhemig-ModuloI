@@ -68,7 +68,9 @@ td{
         opacity: 1;
      }
  }
- 
+ #centro{
+    text-align: center;
+}
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 600px) and (max-width: 1024px){
     #home{

@@ -8,6 +8,9 @@
     height: 100vh;
     display: flex;
 }
+#centro{
+    text-align: center;
+}
 #esquerda{
     width: 50%;
     height: 100vh;
