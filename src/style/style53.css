@@ -27,7 +27,7 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
     flex-direction: column;
     animation: fadeInAnimation ease 2s;
@@ -58,6 +58,15 @@ h1{
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: white;
+    padding-right:1em;
+    padding-left: 1em;
+ 
+}
+h2{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: #0096bb;
     padding-right:1em;
     padding-left: 1em;
  
@@ -194,6 +203,9 @@ button:hover{
     h1{
         font-size: 18px;
        }
+       h2{
+        font-size: 18px;
+       }
     }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 590px) {
@@ -243,6 +255,9 @@ button:hover{
 
     }
    h1{
+    font-size: 15px;
+   }
+   h2{
     font-size: 15px;
    }
 }
