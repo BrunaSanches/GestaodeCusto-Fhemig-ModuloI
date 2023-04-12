@@ -86,39 +86,39 @@ p{
   
 }
  
- .texto-resposta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.texto-resposta{
+    
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: 13px;
+    position: relative;
+    text-align: justify;
+    font-size: 15px;
     color: white;
-    border: 1px solid white;
-    background-color:#0096Bb ;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #0096Bb;
+    border: 2px solid white;
     border-radius: 10px;
-    width: 90%;
+    width: 100%;
     height:auto;
+   
     
     
 }
-
  
 label img{
     width: 40px;
     height: auto;
 }
 #clica-1{
-    width: 100%;
+    width: 95%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
    
 }
-
  /* CLIQUE */
 
     
