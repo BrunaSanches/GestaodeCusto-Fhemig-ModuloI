@@ -26,40 +26,9 @@
     width: 50%;
     height: 100vh;
     background-image: linear-gradient(180deg,#0096bb, #51d1f1);
-    justify-content:center;
+    justify-content:space-around;
     flex-direction: column;
     align-items: center;
-}
-.conceito{
-    width: 90%;
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#conceitos{
-    text-align: center;
-    padding: 4px;
-    border-radius: 5px;
-    background-color: rgb(138, 15, 128);
-    border: 2px solid white;
-    color: white;
-    font-size: 17px;
-}
-.seta{
-    width: 90%;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.seta img{
-    width:70%;
-    height: 15vh;
-}
-.conceito img{
-    width: 10%;
-    height: auto;
 }
 
 p{
@@ -90,119 +59,212 @@ th{
     color: white; 
 }
 
-/* CLIQUE */
+/* clique */
 
-    .hidden{
+#texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+ .hidden{
         display: none;
-    
-    }
-    .check{
-        display: none;
-    }
-    
-    #ckb:checked ~ #texto-1{
-        display: block;
-    }
-    .texto-resposta{
-        font-family: 'Open Sans', sans-serif;
-        text-align: justify;
-        font-size: 12px;
-        color: white;
-        padding: 3px;
-        background-color:#1684a0;
-        border: 2px solid white;
-        border-radius: 10px;
-        width: 100%;
-        height:auto;    
         
     }
-     
-    label img{
-       
-        width: 15%;
-        height: auto;
-    }
-    #clica-1{
-        padding: 10px;
-        width: 90%;
-        height: 20vh;
+.check{
+        display: none;
+    }  
+ #ckb1:checked ~ #resposta1{
+        display: block;
+        
+ }
+ #ckb2:checked + #resposta2 {
+        display: block;
+ }
+#ckb3:checked + #resposta3{
+    display: block;
+ }
+ #ckb4:checked + #texto-1{
+    display: block;
+ }
+.post-its{
+        width: 100%;
+        height:45vh;
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+}
+.post-its label{
+        width: 90%;
+        height:15vh;
+        display: flex;
         justify-content: center;
-        align-items: start;
-       
-    }
-
-     
-/* TELAS PEQUENAS */
-@media screen and (max-width: 1024px) {
-    .texto-resposta{
-        font-size: 10px;
-        width: 95%;
-    }
-	p{
-		font-size: 14px;
-		  }
-	
-    #clica-1{
-            width: 95%;
-        }
-   #conceitos{
-    font-size: 15px;
-   }
-   td{
-    font-size: 12px;
-   }
-   th{
-    font-size: 12px;
-   }
-   .seta img{
-    width: 70%;
-    height: 10vh;
-   }
+        align-items: center;
+        text-align: center;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(138, 15, 128);
+        border: 2px solid white;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+}
+.seta{
+        width:40%;
+        height: 10vh;
+}
+.post-its label:hover{
+        background-color:#E6AD11;
+        color:white;
+}
+#resposta1{
+   
+        justify-content: space-around;
+        align-items: center;
+        
+}
+#resposta2{
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#resposta3{
+    width: 100%;
+    height: 15vh;
+    
+}
+#resposta3 img{
+    width: 80%;
+    height: 15vh;
 }
 
+.texto-resposta{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    border: 1px solid #026c86;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    padding:0.5em;    
+  
+    }
 
-/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (max-width: 767px) {
-	#home{
+    #clica-1 p{
+        background-color: #026c86;
+        font-size: 12px;
+    }
+    #clica-1{
+       
+        width: 90%;
+        height: 30vh;
+        display: flex;
         flex-direction: column;
+        justify-content:end;
+        align-items: center;
+       
+    }
+  
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width:768px) and (max-width: 1024px){
+   
+    p{
+        font-size: 13px;
+     }
+    
+     h1{
+        font-size: 16px;
+     }
+     .texto-resposta{
+        font-size: 15px;
+     }
+    
+     .post-its{
+        width: 100%;
+        height: 10vh;
+     }
+     .post-its label{
+        width: 80%;
+        height: 10vh;
+        font-size: 12px;
+     }
+     #clica-1{
+        width: 90%;
+        height: 20vh;
+       
+     }
+     #clica-1 p{
+        font-size: 12px;
+       }
+       .seta{
+          width: 40%;
+          height: 5vh;
+     
+       }
+       #resposta3 img{
+          width: 80%;
+          height: 8vh;
+      }
+      
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width:767px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
     }
     #direita{
         width: 100%;
         height: 50vh;
     }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-    }
-    .texto-resposta{
-        font-size: 8px;
-        width: 95%;
-    }
-	p{
-		font-size: 10px;
-		  }
-	
-    #clica-1{
-        width: 96%;
-        }
-   #conceitos{
-    font-size: 10px;
-   }
-   td{
-    font-size: 9px;
-   }
-   th{
-    font-size: 9px;
-   }
-   .seta img{
-    width: 70%;
-    height: 10vh;
-   }
-   table{
-    width: 95%;
-    height: 40vh;
-   }
+     p{
+        font-size: 9px;
+
+     }
+     .post-its{
+        width: 80%;
+        height: 15vh;
+     }
+     .post-its label{
+        width: 65%;
+        height: 10vh;
+        font-size: 7px;
+     }
+     #clica-1{
+        width: 98%;
+        height: 10vh;
+     }
+     #clica-1 p{
+      font-size: 8px;
+     }
+     .seta{
+        width: 30%;
+        height: 4vh;
    
+     }
+     #resposta3 img{
+        width: 80%;
+        height: 8vh;
+    }
+    table{
+        width: 95%;
+        height: 25vh;
+       
+    }
+    td{
+        font-size: 10px;
+    }
+    th{
+        font-size: 10px;
+    }
 }
