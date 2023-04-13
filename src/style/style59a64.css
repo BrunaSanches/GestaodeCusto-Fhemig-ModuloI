@@ -89,7 +89,7 @@
     border:1px solid #51d1f1;
     background-color:#1684a0;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 11px;
     padding: 5px;
     color: white;
     font-weight: bold;
@@ -218,3 +218,118 @@ label i{
 	-o-animation: text-pisca .7s linear infinite;
 	animation: text-pisca .7s linear infinite;
 }
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 900px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #container{
+        width: 100%;
+        height: 50vh;
+    }
+  
+     .respostas{
+        width: 80%;
+        height: 20vh;
+        font-size: 14px;
+     }
+     p{
+        font-size: 15px;
+    }
+    .placas{
+        width: 100%;
+        height: 25vh;
+        font-size: 8px;
+    }
+    #esquerda img{
+        width: 100%;
+        height:50vh;
+    }
+    #direita img{
+        width: 40%;
+        height:25vh;
+    }
+    #resposta5{
+        width: 100%;
+        height:20vh;
+    
+    }
+    #caixalabel{
+        width:100%;
+        height: 5vh;
+    }
+    #caixa p{
+        font-size: 10px;
+    } 
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 767px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #container{
+        width: 100%;
+        height: 50vh;
+    }
+  
+     .respostas{
+        width: 80%;
+        height: 20vh;
+   
+     }
+     .respostas p{
+        font-size: 9px;
+    }
+    p{
+        font-size: 9px;
+    
+    }
+    .placas{
+        width: 100%;
+        height: 25vh;
+       
+    }
+    .placas label{
+        font-size: 8px;
+    }
+    #esquerda img{
+        width: 100%;
+        height:50vh;
+    }
+    #direita img{
+        width: 50%;
+        height:25vh;
+    }
+    #resposta5{
+        width: 100%;
+        height:20vh;
+    
+    }
+    #caixalabel{
+        width:100%;
+        height: 5vh;
+    }
+    #caixa p{
+        font-size: 6px;
+    } 
+   
+    }
