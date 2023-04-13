@@ -97,26 +97,35 @@ p{
     }
     .post-its{
         width: 100%;
-        height:30vh;
+        height:40vh;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         
     }
     label{
         width: 100%;
-        height:auto;
-        border: 1px solid #026c86;
-        background-color:white;
-        color:#026c86;
-        border-radius: 5px;
-        padding: 5px;
-        font-weight: bold;
+        height:15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        font-size: 18px;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(138, 15, 128);
+        border: 2px solid white;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
     }
+   
+    .seta{
+        width:40%;
+        height: 10vh;
+    }
+ 
     label:hover{
-        background-color:#026c86;
+        background-color:#E6AD11;
         color:white;
     }
     #posts-2{
@@ -129,6 +138,7 @@ p{
      
      
     }
+
     .texto-resposta{
         width:100%;
         height: auto;
@@ -145,6 +155,7 @@ p{
       
     
     }
+    
     #post-resposta2{
         width:100%;
         height: auto;
@@ -155,6 +166,7 @@ p{
         width:100%;
         height: auto;
         padding: 0.5em;
+        
     }
   
 /* RESPONSIVIDADE TELAS PEQUENAS */
