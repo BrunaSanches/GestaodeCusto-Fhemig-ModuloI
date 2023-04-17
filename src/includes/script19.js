@@ -16,6 +16,7 @@ function verificarOrdem() {
   if (botaoClicado.length !== ordemCorreta.length) {
     return false;
   }
+
   
   // Verifica se cada elemento do array de botões clicados corresponde ao elemento do mesmo índice no array de ordem correta
   for (let i = 0; i < ordemCorreta.length; i++) {
@@ -25,27 +26,42 @@ function verificarOrdem() {
   }
   
   return true;
+
+  
 }
 
-// Função que é chamada quando um botão é clicado
+// Função quando um botão é clicado
 function botaoClicadoHandler(botaoId) {
   botaoClicado.push(botaoId);
+  document.getElementById(botaoId).disabled = true;
+  const botao = document.getElementById(botaoId);
+  botao.style.backgroundColor = ' #51d1f1';
+  botao.style.fontSize='15px';
+  botao.style.fontWeight='bold';
+  botao.style.color='#10687e';
+  botao.innerHTML = botaoClicado.length;
+
 }
+
 
 // Exemplo de como chamar a função botaoClicadoHandler quando um botão é clicado
 document.getElementById('botao1').addEventListener('click', function() {
   botaoClicadoHandler('botao1');
+ 
 });
 
 document.getElementById('botao2').addEventListener('click', function() {
   botaoClicadoHandler('botao2');
+
 });
 
 document.getElementById('botao3').addEventListener('click', function() {
   botaoClicadoHandler('botao3');
+ 
 });
 document.getElementById('botao4').addEventListener('click', function() {
   botaoClicadoHandler('botao4');
+
 });
 
 document.getElementById('botao5').addEventListener('click', function() {
