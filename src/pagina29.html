@@ -7,58 +7,50 @@
     <meta http-equiv="x-ua-compatible" content="IE=10">
     <meta name="keywords" content="moodle, " />
     <link rel="stylesheet" href="style/style29.css">
-    <title>Processos Centro de Custos</title>
-</head>	<script src="https://kit.fontawesome.com/b6c04a2c24.js" crossorigin="anonymous"></script>
-
+    <title>Processo do Centro de Custo</title>
+</head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="fc_setStatus('completed');unloadPage();">
-    <div id="home">
-       <img id="img-centro" src="imagens/pag29.png" alt="">
-        <div class="setas">
-            <div class="left">
-                <div class="img-box">
-                    <input class="ckeck" id="fechar1" type="checkbox">
-                    <label for="fechar1"><img  src="imagens/seta-pag29.png" alt="Imagem 1"></label>
-                    <div class="info-texto" id="info1">
-                        <label for="fechar1"><i class="fa-solid fa-xmark"></i></label>
-                        <p>Em seguida, cada produto, de acordo com seu nível de utilização dos recursos destes centros de custos produtivos absorvem os custos.
-                        </p>
-                    </div>
-                </div>
-          
-            </div>
-            <div class="top-bottom">
-                <div class="img-box">
-                    <input class="ckeck" id="fechar2" type="checkbox">
-                    <label for="fechar2"><img id="top" src="imagens/seta-pag29.png" alt="Imagem 1"></label>
-                    <div class="info-texto" id="info2">
-                        <label for="fechar2"><i class="fa-solid fa-xmark"></i></label>
-                        <p>Chegamos ao ponto em que podemos retornar ao início:
-                        </p>
-                    </div>
-                </div>
-                <div class="img-box">
-                    <input class="ckeck" id="fechar3" type="checkbox">
-                    <label for="fechar3"><img id="bottom" src="imagens/seta-pag29.png" alt="Imagem 1"></label>
-                    <div class="info-texto" id="info3">
-                        <label for="fechar3"><i class="fa-solid fa-xmark"></i></label>
-                        <p>Cada departamento produtivo é um centro de custo produtivo e os custos têm de ser identificados (medidos) para cada um deles (pois eles dispõem de diferentes recursos, que são consumidos de forma distinta pelos diferentes produtos).
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="right">
-                <div class="img-box">
-                    <input class="ckeck" id="fechar4" type="checkbox">
-                    <label for="fechar4"><img id="right-img" src="imagens/seta-pag29.png" alt="Imagem 1"></label>
-                    <div class="info-texto" id="info4">
-                        <label for="fechar4"><i class="fa-solid fa-xmark"></i></label>
-                        <p>Centros de custos são necessários se e/ou quando diferentes produtos usam, de forma distinta, os diferentes recursos disponibilizados pela organização. 
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <div id="container">
+        <div id="esquerda">
+         
+            <h1 class="text-pisca">Clique nas setas ao lado e descubra mais sobre o processo dos centros de custos!
+            </h1>
+            <img src="imagens/pag29.png" alt="">
+        </div>
+
+        <div id="direita">
+            <input type="checkbox" name="" id="check1">
+            <input type="checkbox" name="" id="check2">
+            <input type="checkbox" name="" id="check3">
+            <input type="checkbox" name="" id="check4">
+
+            <div class="textos" id="item-1">
                
-           
+                <p>Em seguida, cada produto, de acordo com seu nível de utilização dos recursos destes centros de custos produtivos absorvem os custos.
+
+
+                </p>
+                <label for="check1"><img src="imagens/seta21.png" alt="" srcset=""></label>
+            </div>
+            <div class="textos-2" id="item-2">
+              
+                <p>Chegamos ao ponto em que podemos retornar ao início:
+
+                </p>
+                <label for="check2"><img src="imagens/seta21.png" alt="" id="vertical1"></label>
+            </div>
+            <div class="textos-2" id="item-3">
+                <label for="check3"><img src="imagens/seta21.png" alt="" srcset="" id="vertical2"></label>
+                <p>Centros de custos são necessários se e/ou quando diferentes produtos usam, de forma distinta, os diferentes recursos disponibilizados pela organização. 
+
+                </p>
+            </div>
+            <div class="textos" id="item-4">
+                <label for="check4" ><img src="imagens/seta21.png" alt="" id="horizontal1"></label>
+                <p>Cada departamento produtivo é um centro de custo produtivo e os custos têm de ser identificados (medidos) para cada um deles (pois eles dispõem de diferentes recursos, que são consumidos de forma distinta pelos diferentes produtos).
+
+                </p>
+            </div>
         </div>
     </div>
     <script type="text/javascript" src="includes/conteudo.js"></script>

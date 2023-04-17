@@ -1,150 +1,255 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
-#home{
+
+#container{
     width: 100%;
     height: 100vh;
     display: flex;
-     background: linear-gradient(to right, #0096bb 50%, white 50%); 
+}
+#direita{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    background-color:#1684a0;
+}
+
+#esquerda{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos{
+   
+    display: flex;
+    width: 40%;
+    height: 40vh;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    flex-wrap: wrap;
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: backwards;
+    flex-direction: column;
 }
-#img-centro{
-    width: 40%;
-    height: auto;
-}
-
-.setas{
-    width: 100%;
-    height: 100vh;
-    position: absolute;
+.textos-2{
+   
     display: flex;
+    width: 40%;
+    height: 40vh;
+    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
    
 }
-.left{
-    height: 100vh;
+
+.textos p{
+    width: 90%;
+    height: 50%;
+    padding: 5px;
+    text-align: justify;
+    color:white;   
+    font-size: 13px;
+   background-color:#0096bb;
+   border:3px solid #51d1f1;
+   font-family: 'Open Sans', sans-serif;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+}
+.textos-2 p{
+    width: 90%;
+    height: 50%;
+    padding: 5px;
+    text-align: justify;
+    color: white;
+    font-size: 13px;
+    border: 1px solid white;
+    background-color: #0096bb;
+    border:3px solid #51d1f1;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+   align-items: center;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
 
 }
-.img-box{
-	width: 40%;
-    height: auto; 
-	position: relative;
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
 }
-.img-box img{
-    width: 100%;
-    height: 100%; 
-    object-fit: cover;
-	
- 
+.text-pisca {
+	color:#1684a0;
+	-webkit-text-stroke:1px #51d1f1;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 25px;
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
 }
-.top-bottom{
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-   justify-content: space-between;
-  
+#esquerda img{
+    width: 80%;
+    height: 50vh;
+   
 }
-.top-bottom img{
-    width: 100%;
-    height: 100%; 
-    object-fit: cover;
-	
-  
+input{
+    display: none;
 }
-.right{
-    
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
- 
+/* #item-1{
+    visibility: hidden;
 }
-.right img{
-    width: 100%;
-    height: 100%; 
-    object-fit: cover;
-	 
-  
+ */
+#item-2{
+    visibility: hidden;
 }
-#top{
-    rotate: 90deg;
+#item-3{
+    visibility: hidden;
 }
-#bottom{
-    rotate: -90deg;
-}
-
-#right-img{
-    rotate: -180deg;
-}
-
-.info-texto{
-	width: 80%;
-	height: 20%;
-	background-color: black;
-	opacity: .8;
-	color: white;
-	position: inherit;
-	text-align: justify;
-  
-
-}
-
-.info-texto p{
-	padding: 0.5em;
-  font-size: 13px;
+#item-4{
+    visibility: hidden;
 }
 
 
+#check1:checked ~ #item-2{
+    visibility: visible;
+}
+#check2:checked ~ #item-4{
+    visibility: visible;
+}
+#check4:checked ~ #item-3{
+    visibility: visible;
+}
 label{
-	
-	color: white;
-	display: flex;
-	justify-content: flex-end;
 
-}
-label i{
-	padding: 10px;
-	cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
-.ckeck{
-	display: none;
+.textos img{
+    width: 30%;
+    height: auto;
+}
+.textos-2 img{
+    width:30%;
+    height: auto;
+}
+#vertical1{
+    rotate:90deg;
+}
+#horizontal1{
+    rotate:180deg;
+}
+#vertical2{
+    rotate:270deg;
 }
 
-.info-texto{
-	display: none;
-}
 
-#fechar1:checked ~ #info1{
-	display: block;
-}
-#fechar2:checked ~ #info2{
-	display: block;
-}
-#fechar3:checked ~ #info3{
-	display: block;
-}
-#fechar4:checked ~ #info4{
-	display: block;
-}
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0.2;
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width:1024px){
+   
+    #container{
+        flex-direction: column;
     }
-    100% {
-        opacity: 1;
-     }
- }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #esquerda img{
+        width: 80%;
+        height: 35vh;
+    }
+    .textos{
+        width: 48%;
+        height: 20vh;
+    }
+    .textos-2{
+        width: 48%;
+        height: 20vh;
+    }
+    .textos-2 p{
+        font-size: 10px;
+    }
+    .textos p{
+        font-size: 10px;
+    }
+    .textos img{
+        width: 15%;
+        height: auto;
+    }
+    .textos-2 img{
+        width:15%;
+        height: auto;
+    }
+    .text-pisca{
+        font-size: 17px;
+    }
+ 
+    }
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 767px) {
+    #container{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #esquerda img{
+        width: 80%;
+        height: 30vh;
+    }
+    .textos{
+        width: 45%;
+        height: 20vh;
+    }
+    .textos-2{
+        width: 45%;
+        height: 20vh;
+    }
+    .textos-2 p{
+        font-size: 8px;
+    }
+    .textos p{
+        font-size:8px;
+    }
+    .textos img{
+        width: 20%;
+        height: auto;
+    }
+    .textos-2 img{
+        width:20%;
+        height: auto;
+    }
+   
+    .text-pisca{
+        font-size: 13px;
+    }   
+ 
+}
