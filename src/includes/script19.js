@@ -7,27 +7,23 @@ const paragrafos = [
   document.getElementById('texto5'),
   document.getElementById('texto6')
 ];
-let botaoClicado = [];
+
 const botao = document.getElementById('corrigir'); 
-
-
+/* const botaoReiniciar = document.getElementById('reiniciar');
+ */
 
 function verificarOrdem() {
   if (botaoClicado.length !== ordemCorreta.length) {
     return false;
   }
 
-  
   // Verifica se cada elemento do array de botões clicados corresponde ao elemento do mesmo índice no array de ordem correta
   for (let i = 0; i < ordemCorreta.length; i++) {
     if (botaoClicado[i] !== ordemCorreta[i]) {
       return false;
     }
   }
-  
   return true;
-
-  
 }
 
 // Função quando um botão é clicado
@@ -40,28 +36,23 @@ function botaoClicadoHandler(botaoId) {
   botao.style.fontWeight='bold';
   botao.style.color='#10687e';
   botao.innerHTML = botaoClicado.length;
-
 }
-
 
 // Exemplo de como chamar a função botaoClicadoHandler quando um botão é clicado
 document.getElementById('botao1').addEventListener('click', function() {
   botaoClicadoHandler('botao1');
- 
 });
 
 document.getElementById('botao2').addEventListener('click', function() {
   botaoClicadoHandler('botao2');
-
 });
 
 document.getElementById('botao3').addEventListener('click', function() {
   botaoClicadoHandler('botao3');
- 
 });
+
 document.getElementById('botao4').addEventListener('click', function() {
   botaoClicadoHandler('botao4');
-
 });
 
 document.getElementById('botao5').addEventListener('click', function() {
@@ -71,6 +62,10 @@ document.getElementById('botao5').addEventListener('click', function() {
 document.getElementById('botao6').addEventListener('click', function() {
   botaoClicadoHandler('botao6');
 });
+
+// Adicionar evento ao botão de reiniciar jogo
+/* botaoReiniciar.addEventListener('click', reiniciarJogo); */
+
 
 // Função que é chamada quando o botão "corrigir" é clicado
 botao.addEventListener('click', function() {
@@ -105,8 +100,5 @@ botao.addEventListener('click', function() {
     
   }
   
-  // Reinicia o array de botões clicados
-  botaoClicado = [];
 
 });
-

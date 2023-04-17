@@ -122,6 +122,24 @@ button:hover{
 #corrigir:hover{
     background-color: #51d1f1;
 }
+#reiniciar{
+    width: 40%;
+    height: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    background-color: #0096Bb;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+#reiniciar:hover{
+    background-color: #51d1f1;
+}
+
 
 
 
