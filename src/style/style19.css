@@ -33,7 +33,12 @@
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
 }
-
+.clicado{
+    background-Color: #51d1f1;
+    font-size: 15px;
+    font-weight: bold;
+    color: #10687e;
+}
 table{
   
     width: 95%;
@@ -107,7 +112,7 @@ button:hover{
 
 #corrigir{
     width: 40%;
-    height: 5%;
+    height: auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: white;
@@ -119,12 +124,13 @@ button:hover{
     border-radius: 5px;
     font-weight: bolder;
 }
+
 #corrigir:hover{
     background-color: #51d1f1;
 }
 #reiniciar{
     width: 40%;
-    height: 5%;
+    height:auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: white;
@@ -139,8 +145,6 @@ button:hover{
 #reiniciar:hover{
     background-color: #51d1f1;
 }
-
-
 
 
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
@@ -168,7 +172,7 @@ button:hover{
         font-size: 10px;
     }
     .opcoes button{
-        font-size: 10px;
+        font-size: 9px;
     }
     button{
     width: 98%;
@@ -190,10 +194,13 @@ button:hover{
         height: 20vh;
    
     }
+    #reiniciar{
+      
+        font-size: 9px;
+    }
     #corrigir{
-        width: 30%;
-        height: 6%;
-        font-size: 10px;
+      
+        font-size: 9px;
     }
     
 }
@@ -245,8 +252,12 @@ button:hover{
         height: 25vh;
    
     }
+    #reiniciar{
+      
+        font-size: 10px;
+    }
     #corrigir{
-        width: 30%;
-        height: 6%;
+      
+        font-size: 10px;
     }
 }

@@ -9,7 +9,7 @@ const paragrafos = [
 ];
 let botaoClicado = [];
 const botao = document.getElementById('corrigir'); 
-
+const reiniciar = document.getElementById('reiniciar'); 
 
 
 function verificarOrdem() {
@@ -35,10 +35,8 @@ function botaoClicadoHandler(botaoId) {
   botaoClicado.push(botaoId);
   document.getElementById(botaoId).disabled = true;
   const botao = document.getElementById(botaoId);
-  botao.style.backgroundColor = ' #51d1f1';
-  botao.style.fontSize='15px';
-  botao.style.fontWeight='bold';
-  botao.style.color='#10687e';
+
+
   botao.innerHTML = botaoClicado.length;
 
 }
@@ -101,12 +99,15 @@ botao.addEventListener('click', function() {
 
   } else {
     alert("Infelizmente você não clicou nos botões na ordem correta. Tente novamente!");
-
-    
+    botaoClicado = [];
+   
   }
   
   // Reinicia o array de botões clicados
   botaoClicado = [];
 
+});
+reiniciar.addEventListener('click', function() {
+  location.reload();
 });
 

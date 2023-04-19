@@ -12,24 +12,27 @@
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="fc_setStatus('completed');unloadPage();">
     <div id="home">
         <div id="esquerda">
-            <p>De acordo com o quadro ao lado, <b>complete com as informações abaixo de acordo com a ordem da numeração exposta no mesmo.</b></p>
+            <p>De acordo com o quadro, <b>complete com as informações abaixo de acordo com a ordem da numeração exposta no mesmo.</b></p>
             <p>Após selecionar todos, clique no botão <b>CORRIGIR</b>!</p>
 
             <div class="opcoes">
                 <div id="opcoes-esquerda">   
-                    <button id="botao6" type="button">- Custo estimado<br>- Custo real<br>- Custo padrão</button>
-                    <button id="botao1" type="button">É a forma como os custos são acumulados e apropriados aos produtos e serviços (BRUNI e FAMA, 2002)</button>
-                    <button id="botao2" type="button">Como e quais custos (e despesas) devem ser alocados aos produtos.</button>
+                    <button class="clicado" id="botao6" type="button">- Custo estimado<br>- Custo real<br>- Custo padrão</button>
+                    <button  class="clicado" id="botao1" type="button">É a forma como os custos são acumulados e apropriados aos produtos e serviços (BRUNI e FAMA, 2002)</button>
+                    <button  class="clicado" id="botao2" type="button">Como e quais custos (e despesas) devem ser alocados aos produtos.</button>
                 </div>
                 <div id="opcoes-direita">
-                    <button id="botao5" type="button">Custeio por Absorção <br>- Custeio Pleno<br>- Custeio Direto<br>- Custeio ABC</button>
-                    <button id="botao3" type="button">Opções de mensuração dos elementos obtidos pelo sistema de acumulação.</button>
-                    <button id="botao4" type="button">- Custeio por processos <br>- Custeio por ordem</button>
+                    <button  class="clicado" id="botao5" type="button">Custeio por Absorção <br>- Custeio Pleno<br>- Custeio Direto<br>- Custeio ABC</button>
+                    <button  class="clicado" id="botao3" type="button">Opções de mensuração dos elementos obtidos pelo sistema de acumulação.</button>
+                    <button  class="clicado" id="botao4" type="button">- Custeio por processos <br>- Custeio por ordem</button>
                 </div>
             </div>
-            <button id="corrigir" type="button">Corrigir</button>
-<!--             <button id="reiniciar" type="button">Reiniciar</button>
- -->        </div>
+        
+                <button id="corrigir" type="button">Corrigir</button>
+                <button id="reiniciar" type="button">Reiniciar</button>
+          
+         
+       </div>
 
         <div id="direita">
             <table>
