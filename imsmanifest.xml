@@ -306,9 +306,9 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_58</adlcp:prerequisites>
 				</item>
 
-				<item identifier="MOD_1_SCO_60" identifierref="RES_59" isvisible="true">
+				<item identifier="MOD_1_SCO_60" identifierref="RES_60" isvisible="true">
 					<title>Fim</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_58</adlcp:prerequisites>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_59</adlcp:prerequisites>
 				</item>
 				
 
