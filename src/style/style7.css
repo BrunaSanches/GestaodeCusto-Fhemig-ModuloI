@@ -51,12 +51,12 @@ table {
 .texto-clique{
     font-family: 'Open Sans', sans-serif;
     position: relative;
-    text-align: left;
+    text-align:center;
     font-size: 18px;
     color: black;
     font-weight: bold;
     padding-top: 2em;
-    
+   
   
 }
 .texto-resposta{

@@ -52,7 +52,8 @@
 	font-size: 20px;
     padding-left: 2em;
     padding-right: 2em;
-
+    text-align: center;
+    padding-top: 1em;
 	-webkit-animation: text-pisca .7s linear infinite;
 	-moz-animation: text-pisca .7s linear infinite;
 	-ms-animation: text-pisca .7s linear infinite;
@@ -177,7 +178,8 @@
         font-size: 18px;
     }
     .text-pisca {
-        font-size: 15px;
+
+        font-size: 18px;
     }
     
 }

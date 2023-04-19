@@ -28,7 +28,6 @@
     justify-content: left;
     align-items: left;
     flex-direction: column;
-    background-color:#cdf2fc;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
@@ -50,6 +49,7 @@
 	display: inline-block;
 	text-decoration: none;
 	font-size: 20px;
+    text-align: center;
 
 	-webkit-animation: text-pisca .7s linear infinite;
 	-moz-animation: text-pisca .7s linear infinite;
