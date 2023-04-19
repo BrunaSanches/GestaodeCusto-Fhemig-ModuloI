@@ -87,7 +87,7 @@ h1{
     }
 
     label img{
-        width: 17%;
+        width: 30%;
         height: auto;
     }
     #clica-1{
@@ -100,6 +100,8 @@ h1{
         
     }
     .texto-resposta{
+        border: 5px solid #51d1f1;
+        border-radius: 10px;
         width:100%;
         font-family: 'Open Sans', sans-serif;
         position: relative;
@@ -112,11 +114,12 @@ h1{
         
     }
     .texto-alerta{
+        
         width:90%;
         background-color: rgb(230, 173, 17);
         color: rgb(138, 15, 128);
         border-radius: 10px;
-        border: 2px solid #51d1f1 ;
+        border: 4px solid #51d1f1 ;
     }
     #alerta{
         width: 20%;
@@ -158,28 +161,28 @@ h1{
     }
   
     p{
-        font-size:10px;
+        font-size:15px;
     }
     #img{
         width: 40%;
         height: 20vh;
     }
     li{
-        font-size:10px;
+        font-size:13px;
     }
     h1{
-        font-size:12px;
+        font-size:16px;
     }
     #alerta{
-        width: 15%;
+        width: 14%;
         height: 7vh;
     }
     label{
         width:50%;
-        font-size:11px;
+        font-size:14px;
     }
     .texto-resposta{
-        font-size:10px;
+        font-size:15px;
     }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
@@ -197,7 +200,7 @@ h1{
         height: 50vh;
     }
     p{
-        font-size:8px;
+        font-size:10px;
     }
     img{
         width: 40%;
@@ -207,7 +210,7 @@ h1{
         font-size:8px;
     }
     h1{
-        font-size:12px;
+        font-size:13px;
     }
     #alerta{
         width: 20%;
@@ -218,7 +221,7 @@ h1{
         font-size: 10px;
     }
     .texto-resposta{
-        font-size:9px;
+        font-size:8px;
     }
     label img{
         width: 15%;

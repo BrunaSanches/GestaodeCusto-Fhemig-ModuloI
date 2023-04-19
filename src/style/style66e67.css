@@ -169,7 +169,24 @@ th{
         align-items: center;
        
     }
-  
+    @keyframes text-pisca {
+        0% { opacity: 0; }
+        50% { opacity: 0.5; }
+        100% { opacity: 1; }
+    }
+    .text-pisca {
+        color: rgb(16, 22, 34);
+        -webkit-text-stroke:1px  #026c86;
+        padding: 0.6em 0.5em;
+        display: inline-block;
+        text-decoration: none;
+    
+        -webkit-animation: text-pisca .9s linear infinite;
+        -moz-animation: text-pisca .9s linear infinite;
+        -ms-animation: text-pisca .9s linear infinite;
+        -o-animation: text-pisca .9s linear infinite;
+        animation: text-pisca .9s linear infinite;
+    }
 
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width:768px) and (max-width: 1024px){

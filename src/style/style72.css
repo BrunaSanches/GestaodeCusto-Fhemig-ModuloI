@@ -153,8 +153,8 @@ em{
 	100% { opacity: 1; }
 }
 .text-pisca {
-	color: rgb(16, 22, 34);
-	-webkit-text-stroke:1px  rgb(138, 15, 128);
+	color: rgb(138, 15, 128);
+	-webkit-text-stroke:1px rgb(138, 15, 128);
 	
 	display: inline-block;
 	text-decoration: none;
