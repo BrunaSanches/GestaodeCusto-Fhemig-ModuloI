@@ -11,7 +11,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     flex-direction: column;
     background-image: linear-gradient(180deg,#0096bb, #51d1f1);
 }
