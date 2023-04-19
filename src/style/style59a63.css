@@ -7,30 +7,11 @@
     width: 100%;
     height: 100vh;
     display: flex;
-}
-#esquerda{
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: backwards;
-
-}
-#direita{
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: backwards;
-    background-image: linear-gradient(360deg,#0096bb,#51d1f1);
+    background-color: #0096Bb;
 }
+
  p{
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
@@ -41,21 +22,16 @@
 
    
 }
+ img{
+    width: 95%;
+    height: 95vh;
 
-#esquerda img{
-    width: 100%;
-    height: 100vh;
-    opacity: 0.8;
 }
-#direita img{
-    width: 70%;
-    height: 40vh;
-    border-radius: 10px;
-}
+
 
 #container{
-    width:50%;
-    height: 100vh;
+    width:95%;
+    height: 95vh;
     display: flex;
     position: absolute;
     justify-content: flex-end;
@@ -74,7 +50,7 @@
     justify-content: center;
     align-items: center;
     height: 30vh;
-    width: 25%;
+    width: 30%;
 
 }
 
@@ -139,65 +115,7 @@
 #ckb4:checked ~ #resposta4{
     display: block;
 }
-#ckb5:checked ~ #resposta5{
-    display: block;
-}
-#ckb5:checked ~ #caixalabel{
-    display: none;
-}
 
-#caixa{
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-   
-}
-#caixalabel:hover{   
-    background-color:hsl(192, 85%, 63%);
-    border-color: #1684a0;
-}
-
-#caixalabel{
-    font-family: 'Open Sans', sans-serif;
-    width:100%;
-    height: 10vh;
-    display: flex;
-    font-size: 15px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    border:1px solid #51d1f1;
-    background-color:#1684a0;
-    border-radius: 10px;
-    padding:3px;
-    color: white;
-    font-weight: bold;
-}
-#caixa p{
-    font-size: 10px;
-}
-#resposta5 label{
-	
-	color: black;
-	display: flex;
-	justify-content: flex-end;
-
-}
-label i{
-	padding: 3px;
-	cursor: pointer;
-}
-#resposta5{
-    width: 100%;
-	height:38vh;
-	background-color:#51d1f1;
-	color: white;
-	position: inherit;
-	text-align: justify;
-}
 
 @keyframes text-pisca {
 	0% { opacity: 0; }
@@ -224,23 +142,10 @@ label i{
     #home{
         flex-direction: column;
     }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width: 100%;
-        height: 50vh;
-    }
-    #container{
-        width: 100%;
-        height: 50vh;
-    }
   
      .respostas{
         width: 80%;
-        height: 20vh;
+        height: 50vh;
         font-size: 14px;
      }
      p{
@@ -248,59 +153,40 @@ label i{
     }
     .placas{
         width: 100%;
-        height: 25vh;
+        height: 50vh;
      
     }
     .placas label{
         font-size: 10px;
     }
-    #esquerda img{
-        width: 100%;
-        height:50vh;
-    }
-    #direita img{
-        width: 30%;
-        height:30vh;
-    }
-    #resposta5{
-        width: 100%;
-        height:15vh;
-    
-    }
-    #caixalabel{
-        width:100%;
-        height: 5vh;
-    }
-    #caixa p{
-        font-size: 7px;
-    } 
+   img{
+    width: 90%;
+    height: 90vh;
+   }
+  
+   #container{
+    width: 90%;
+    height: 90vh;
+   }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 767px) {
     #home{
         flex-direction: column;
     }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width: 100%;
-        height: 50vh;
-    }
+   
     #container{
         width: 100%;
-        height: 50vh;
+        height: 100vh;
     }
   
      .respostas{
         width: 80%;
-        height: 20vh;
+        height: 50vh;
    
      }
      .respostas p{
-        font-size: 9px;
+        font-size: 10px;
     }
     p{
         font-size: 9px;
@@ -308,31 +194,18 @@ label i{
     }
     .placas{
         width: 100%;
-        height: 25vh;
+        height: 50vh;
        
     }
     .placas label{
         font-size: 8px;
     }
-    #esquerda img{
-        width: 100%;
-        height:50vh;
-    }
-    #direita img{
-        width: 30%;
-        height:25vh;
-    }
-    #resposta5{
-        width: 100%;
-        height:20vh;
-    
-    }
-    #caixalabel{
-        width:100%;
-        height: 5vh;
-    }
-    #caixa p{
-        font-size: 7px;
-    } 
-   
+    img{
+        width: 90%;
+        height: 90vh;
+       }
+   #container{
+    width: 90%;
+    height: 90vh;
+   }
     }

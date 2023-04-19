@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 #home{
     width: 100%;
@@ -47,20 +48,6 @@ table {
     
 } 
 
-
-.texto-clique{
-    width:90%;
-    height: 30%;
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-    text-align: left;
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
-    padding-top: 2em;
-    
-  
-}
 
 
 .texto-resposta{
@@ -118,16 +105,17 @@ display: flex;
 }
 
 label{
-    width: 30%;
+    width: 100%;
     height: 30%;
-    padding-right: 2em;
-    padding-right: 2em;
-   
+    padding-top:10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
 }
 
- 
 label img{
-    width: 100%;
+    
+    width: 10%;
     height: auto;
 }
 
@@ -139,7 +127,7 @@ label img{
     .texto-resposta p{
         font-size: 12px;
     }
-    .texto-clique{
+    label{
         font-size: 13px;
     }
     .texto-resposta td{
@@ -188,7 +176,7 @@ label img{
     .texto-resposta p{
         font-size: 10px;
     }
-    .texto-clique{
+    label{
         font-size: 13px;
     }
     .texto-resposta td{
