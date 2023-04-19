@@ -267,41 +267,46 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_52" identifierref="RES_52" isvisible="true">
-					<title>O Sistema de Gerenciamento dos Custos Hospitalares na rede FHEMIG – SIGH CUSTOS</title>
+					<title>Centros de Custos de uma UA</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_51</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_53" identifierref="RES_53" isvisible="true">
-					<title>Operacionalização do Módulo de Custos no SIGH</title>
+					<title>O Sistema de Gerenciamento dos Custos Hospitalares na rede FHEMIG – SIGH CUSTOS</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_52</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_54" identifierref="RES_54" isvisible="true">
-					<title>SIGH CUSTOS</title>
+					<title>Operacionalização do Módulo de Custos no SIGH</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_53</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_55" identifierref="RES_55" isvisible="true">
-					<title>Tipos de Relatórios</title>
+					<title>SIGH CUSTOS</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_54</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_56" identifierref="RES_56" isvisible="true">
-					<title>Apresentação dos Relatórios</title>
+					<title>Tipos de Relatórios</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_55</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_57" identifierref="RES_57" isvisible="true">
-					<title>Relatório de Custo por Centros de Custo</title>
+					<title>Apresentação dos Relatórios</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_56</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_58" identifierref="RES_58" isvisible="true">
-					<title>Os Porquês</title>
+					<title>Relatório de Custo por Centros de Custo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_57</adlcp:prerequisites>
 				</item>
-				
+
 				<item identifier="MOD_1_SCO_59" identifierref="RES_59" isvisible="true">
+					<title>Os Porquês</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_58</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_60" identifierref="RES_59" isvisible="true">
 					<title>Fim</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_58</adlcp:prerequisites>
 				</item>
@@ -580,46 +585,52 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_52" type="webcontent" adlcp:scormtype="sco" href="src/pagina65.html">
+		<resource identifier="RES_52" type="webcontent" adlcp:scormtype="sco" href="src/pagina64.html">
+		   <file href="src/pagina64.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+		
+		<resource identifier="RES_53" type="webcontent" adlcp:scormtype="sco" href="src/pagina65.html">
 		   <file href="src/pagina65.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_53" type="webcontent" adlcp:scormtype="sco" href="src/pagina66e67.html">
+		<resource identifier="RES_54" type="webcontent" adlcp:scormtype="sco" href="src/pagina66e67.html">
 		   <file href="src/pagina66e67.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_54" type="webcontent" adlcp:scormtype="sco" href="src/pagina68.html">
+		<resource identifier="RES_55" type="webcontent" adlcp:scormtype="sco" href="src/pagina68.html">
 		   <file href="src/pagina68.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_55" type="webcontent" adlcp:scormtype="sco" href="src/pagina69.html">
+		<resource identifier="RES_56" type="webcontent" adlcp:scormtype="sco" href="src/pagina69.html">
 		   <file href="src/pagina69.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_56" type="webcontent" adlcp:scormtype="sco" href="src/pagina70.html">
+		<resource identifier="RES_57" type="webcontent" adlcp:scormtype="sco" href="src/pagina70.html">
 		   <file href="src/pagina70.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_57" type="webcontent" adlcp:scormtype="sco" href="src/pagina71.html">
+		<resource identifier="RES_58" type="webcontent" adlcp:scormtype="sco" href="src/pagina71.html">
 		   <file href="src/pagina71.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
-		
-		<resource identifier="RES_58" type="webcontent" adlcp:scormtype="sco" href="src/pagina72.html">
+
+
+		<resource identifier="RES_59" type="webcontent" adlcp:scormtype="sco" href="src/pagina72.html">
 		   <file href="src/pagina72.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-
-		<resource identifier="RES_59" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
-		   <file href="src/paginaFim.html"/>
+		<resource identifier="RES_60" type="webcontent" adlcp:scormtype="sco" href="src/pagina72.html">
+		   <file href="src/pagina72.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
+
 
 
 
