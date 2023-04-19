@@ -58,7 +58,7 @@ h1{
 }
 #texto-acima{
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,15 +68,15 @@ h1{
     width: 90%;
     height: 75vh;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+
    
 }
 .column1{
     width: 40%;
     height:60vh;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     flex-direction: column;
     justify-content: space-between;
 
@@ -87,13 +87,14 @@ h1{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
     
 }
 .column3{
     width: 40%;
     height:60vh;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     flex-direction: column;
     justify-content: space-between;
  
@@ -107,7 +108,7 @@ button{
     color:white;
     font-weight: bold;
     font-size:18px;
-    padding: 8px;
+    padding: 3px;
     
 }
 button:hover{
@@ -165,6 +166,7 @@ em{
 	-o-animation: text-pisca .7s linear infinite;
 	animation: text-pisca .7s linear infinite;
 }
+
 
 /* CLIQUE */
 #texto{
@@ -252,7 +254,9 @@ em{
         height:30vh;
 
     }
-    
+    #instrucao{
+        font-size:12px;
+    }
     }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 767px) {
