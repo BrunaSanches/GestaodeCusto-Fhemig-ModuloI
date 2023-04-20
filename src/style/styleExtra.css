@@ -39,8 +39,8 @@ img{
 
 @keyframes img {
 	0% { rotate: 0; }
-	50% { rotate: 7deg; }
-	100% { rotate: -7deg; }
+	50% { rotate: 6deg; }
+	100% { rotate: -6deg; }
 }
 img{
 	display: inline-block;
