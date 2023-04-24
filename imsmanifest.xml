@@ -619,7 +619,7 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_48" type="webcontent" adlcp:scormtype="sco" href="src/videoextra.html">
+		<resource identifier="RES_48" type="webcontent" adlcp:scormtype="sco" href="src/videoextra7.html">
 		   <file href="src/videoextra7.html"/>
 		   <dependency identifierref="INC"/>
 		</resource> 
