@@ -104,17 +104,17 @@
 					<title>Diagrama</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_18</adlcp:prerequisites>
 				</item>
-<!-- 
+
 				<item identifier="MOD_1_SCO_20" identifierref="RES_20" isvisible="true">
 					<title>Sobre o próximo vídeo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_19</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_21" identifierref="RES_21" isvisible="true">
-					<title>Vídeo - Gestão de Custos na Saúde</title>
+					<title>Vídeo - Informação de Custos no Setor Público</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_20</adlcp:prerequisites>
 				</item>
- -->
+ 
 				<item identifier="MOD_1_SCO_22" identifierref="RES_22" isvisible="true">
 					<title>Definições de Contabilidade</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_21</adlcp:prerequisites>
@@ -124,17 +124,17 @@
 					<title>Custeio por Absorção</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_22</adlcp:prerequisites>
 				</item>
-<!-- 
+
 				<item identifier="MOD_1_SCO_24" identifierref="RES_24" isvisible="true">
 					<title>O Próximo vídeo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_23</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_25" identifierref="RES_25" isvisible="true">
-					<title>Vídeo - Gestão de Custos na Saúde</title>
+					<title>Vídeo - Cálculo do Custeio por Absorção</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_24</adlcp:prerequisites>
 				</item>
- -->
+
 
 				<item identifier="MOD_1_SCO_26" identifierref="RES_26" isvisible="true">
 					<title>Objetivos e utilização, departamentalização, definição e 
@@ -151,17 +151,17 @@
 					<title>Processos Centro de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_27</adlcp:prerequisites>
 				</item>
-<!-- 
+
 				<item identifier="MOD_1_SCO_29" identifierref="RES_29" isvisible="true">
-					<title>Sobre o próximo vídeo</title>
+					<title>Sobre o próximo vídeo...</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_28</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_30" identifierref="RES_30" isvisible="true">
-					<title>Vídeo - Gestão de Custos na Saúde</title>
+					<title>Vídeo - Calculo do Método dos Centros de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_29</adlcp:prerequisites>
 				</item>
- -->
+
 
 				<item identifier="MOD_1_SCO_31" identifierref="RES_31" isvisible="true">
 					<title>Centro de Custos x Departamento</title>
@@ -207,17 +207,17 @@
 					<title>Categorização - Centro de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_38</adlcp:prerequisites>
 				</item>
-<!-- 
+
 				<item identifier="MOD_1_SCO_40" identifierref="RES_40" isvisible="true">
-					<title>Sobre o próximo vídeo</title>
+					<title>Sobre o próximo vídeo...</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_39</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_41" identifierref="RES_41" isvisible="true">
-					<title>Vídeo - Gestão de Custos na Saúde</title>
+					<title>Vídeo - A diferença de Plano de Contas e Centro de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_40</adlcp:prerequisites>
 				</item>
- -->
+
 
 				<item identifier="MOD_1_SCO_42" identifierref="RES_42" isvisible="true">
 					<title>Tipos de Centros de Custos</title>
@@ -243,18 +243,17 @@
 					<title>Classificação dos itens de Custos em Grupos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_45</adlcp:prerequisites>
 				</item>
-
-<!-- 
+ 
 				<item identifier="MOD_1_SCO_47" identifierref="RES_47" isvisible="true">
 					<title>Sobre o próximo vídeo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_46</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_48" identifierref="RES_48" isvisible="true">
-					<title>Vídeo - Gestão de Custos na Saúde</title>
+					<title>Vídeo - Classificação de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_47</adlcp:prerequisites>
 				</item>
- -->
+
 
 				<item identifier="MOD_1_SCO_49" identifierref="RES_49" isvisible="true">
 					<title>Unidades de Produção</title>
