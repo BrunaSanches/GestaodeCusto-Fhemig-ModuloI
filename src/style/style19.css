@@ -148,7 +148,7 @@ button:hover{
 
 
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 590px) {
+@media screen and (max-width: 768px) {
     #home{
         flex-direction: column;
     
@@ -205,23 +205,8 @@ button:hover{
     
 }
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width: 996px){
-    #home{
-        flex-direction: column;
+@media screen and (min-width:768px) and (max-width: 996px){
     
-    }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-    }
-    #direita{
-        width: 100%;
-        height: 50vh;
-    }
-    table{
-        width: 90%;
-        height: 20vh;
-    }
     p{
         font-size: 15px;
     }
@@ -232,26 +217,7 @@ button:hover{
     .opcoes button{
         font-size: 10px;
     }
-    button{
-    width: 60%;
-    height:auto;
-    }
-    .opcoes{
-        width: 100%;
-        height: 25vh;
-   
-    }
-    #opcoes-direita{
-        width: 50%;
-        height:25vh;
-      
     
-    }
-    #opcoes-esquerda{
-        width: 50%;
-        height: 25vh;
-   
-    }
     #reiniciar{
       
         font-size: 10px;

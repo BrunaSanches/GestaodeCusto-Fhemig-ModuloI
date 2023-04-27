@@ -103,19 +103,8 @@ ol{
  }
 
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width: 1024px){
-    #home{
-        flex-direction: column;
-    }
-    #esquerda{
-        width:100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width:100%;
-        height: 50vh;
-    }
+@media screen and (min-width: 768px) and (max-width: 1024px){
+ 
     p{
         font-size: 15px;
     
@@ -124,14 +113,7 @@ ol{
         font-size: 15px;
 
      }
-     #esquerda img{
-        width: 30%;
-        height: 30vh;
-     }
-     #cor{
-        width:80%;
-        height: 40vh;
-     }
+ 
      h1{
         font-size: 30px;
      }
@@ -144,7 +126,7 @@ ol{
  
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 590px) {
+@media screen and (max-width: 768px) {
     #home{
         flex-direction: column;
     }
