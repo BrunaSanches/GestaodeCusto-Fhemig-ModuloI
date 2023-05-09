@@ -12,27 +12,52 @@
 				<title>Módulo I</title>
 
 				<item identifier="MOD_1_SCO_1" identifierref="RES_1" isvisible="true">
-					<title>Módulo I - Gestão de Custos Hospitalares</title>
+					<title>Vídeo - Inicio do Curso</title>
 				</item>
 
-			<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
-					<title>Apresentação</title>
+				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
+					<title>Vídeo - Vamos começar?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
-					<title>Objetivos de Aprendizagem na Contextualização</title>
+					<title>Módulo I - Gestão de Custos Hospitalares</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_2</adlcp:prerequisites>
 				</item>
 
-				<item identifier="MOD_1_SCO_4" identifierref="RES_4" isvisible="true">
-					<title>1.1 - Contextualização</title>
+			<item identifier="MOD_1_SCO_4" identifierref="RES_4" isvisible="true">
+					<title>Apresentação</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_3</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
-					<title>Abordagem de Custo</title>
+					<title>Vídeo - Apresentação</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
+					<title>Objetivos de Aprendizagem na Contextualização</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_5</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
+					<title>1.1 - Contextualização</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
+				</item>
+				
+				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
+					<title>Vídeo - Abordagem de Custo</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
+					<title>Vídeo - Resumo Abordagem de Custo</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
+					<title>Abordagem de Custo</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
@@ -80,6 +105,16 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_13</adlcp:prerequisites>
 				</item>	
 
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Sistemas de Acumulação de Custos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Sistemas de Acumulação de Custos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
 				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
 					<title>Sistemas de Acumulação de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
@@ -94,6 +129,16 @@
 					<title>Planilha de Conceitos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
 				</item>	
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Custos como Informação</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Custos como Informação</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
 
 				<item identifier="MOD_1_SCO_18" identifierref="RES_18" isvisible="true">
 					<title>Custos como Informação</title>
@@ -120,6 +165,16 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_21</adlcp:prerequisites>
 				</item>
 
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Custeio por Absorção</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Custeio por Absorção</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
 				<item identifier="MOD_1_SCO_23" identifierref="RES_23" isvisible="true">
 					<title>Custeio por Absorção</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_22</adlcp:prerequisites>
@@ -133,6 +188,18 @@
 				<item identifier="MOD_1_SCO_25" identifierref="RES_25" isvisible="true">
 					<title>Vídeo - Cálculo do Custeio por Absorção</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_24</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Objetivos e utilização, departamentalização, definição e 
+                classificação de Centros de Custos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Objetivos e utilização, departamentalização, definição e 
+                classificação de Centros de Custos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
 
@@ -224,6 +291,17 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_41</adlcp:prerequisites>
 				</item>
 
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Definição e Classificação de Itens de Custos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Definição e Classificação de Itens de Custos</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+
 				<item identifier="MOD_1_SCO_43" identifierref="RES_43" isvisible="true">
 					<title>Definição e Classificação de Itens de Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_42</adlcp:prerequisites>
@@ -254,6 +332,16 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_47</adlcp:prerequisites>
 				</item>
 
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Unidades de Produção</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Unidades de Produção</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
 
 				<item identifier="MOD_1_SCO_49" identifierref="RES_49" isvisible="true">
 					<title>Unidades de Produção</title>
@@ -263,6 +351,17 @@
 				<item identifier="MOD_1_SCO_50" identifierref="RES_50" isvisible="true">
 					<title>Classificação dos itens de Custos em Grupos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_49</adlcp:prerequisites>
+				</item>
+
+				
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Critérios de Rateios</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Critérios de Rateios</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_51" identifierref="RES_51" isvisible="true">
@@ -275,6 +374,16 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_51</adlcp:prerequisites>
 				</item>
 
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Análise das Informações</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Análise das Informações</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
 				<item identifier="MOD_1_SCO_53" identifierref="RES_53" isvisible="true">
 					<title>1.2 - Análise das Informações</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_52</adlcp:prerequisites>
@@ -285,10 +394,33 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_53</adlcp:prerequisites>
 				</item>
 
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Alinhamento das ações estratégicas/operacional</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Alinhamento das ações estratégicas/operacional</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+
 				<item identifier="MOD_1_SCO_55" identifierref="RES_55" isvisible="true">
-					<title>Alinhamento das ações estratégicas / operacional</title>
+					<title>Alinhamento das ações estratégicas/operacional</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_54</adlcp:prerequisites>
 				</item>
+
+				
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Análise das informações e dos Relatórios</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Análise das informações e dos Relatórios</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
 
 				<item identifier="MOD_1_SCO_56" identifierref="RES_56" isvisible="true">
 					<title>Análise das informações e dos Relatórios</title>
@@ -299,6 +431,18 @@
 					<title>Características dos Relatórios</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_56</adlcp:prerequisites>
 				</item>
+
+								
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Análise das Informações de custos na FHEMIG</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Vídeo - Resumo Análise das Informações de custos na FHEMIG</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
 
 				<item identifier="MOD_1_SCO_58" identifierref="RES_58" isvisible="true">
 					<title>1.3 - Análise das Informações de custos na FHEMIG</title>
