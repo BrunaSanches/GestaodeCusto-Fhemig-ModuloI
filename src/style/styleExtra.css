@@ -20,8 +20,8 @@ p{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
-    padding-right:1em;
-    padding-left: 1em;
+    padding-right:2em;
+    padding-left:2em;
 }
 h1{
     font-size: 45px;
@@ -33,14 +33,15 @@ h1{
     font-weight:bold;
 }
 img{
-    width: 40%;
-    height: 60vh;
+    width: 90%;
+    height: 40vh;
 }
+
 
 @keyframes img {
 	0% { rotate: 0; }
-	50% { rotate: 6deg; }
-	100% { rotate: -6deg; }
+	50% { rotate: 10deg; }
+	100% { rotate: -10deg; }
 }
 img{
 	display: inline-block;
@@ -51,15 +52,49 @@ img{
 	-o-animation: img  .9s linear infinite;
 	animation: img .9s linear infinite;
 }
+img:hover{
+   transform: translateX(4px) scale(1.1);
+}
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color:rgb(138, 15, 128);
+	-webkit-text-stroke:1px rgb(138, 15, 128);
+	padding: 0.6em 0.8em;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 25px;
+
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+
 @media screen and (max-width:768px) {
     h1{
         font-size: 30px;
     }
     p{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .text-pisca{
+        font-size: 18px; 
     }
     img{
-        width: 80%;
+        width: 90%;
         height: 40vh;
     }
 }
@@ -71,7 +106,10 @@ img{
         font-size: 25px;
     }
     img{
-        width: 60%;
-        height: 60vh;
+        width: 90%;
+        height: 30vh;
+    }
+    .text-pisca{
+        font-size: 15px; 
     }
 }
