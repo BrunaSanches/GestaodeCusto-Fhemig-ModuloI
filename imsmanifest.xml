@@ -483,8 +483,8 @@
 			<file href="src/style1.js"/>
 		</resource>
 		
-		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/videoInicio1.html">
-		   <file href="src/videoInicio1.html"/>
+		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/VideoInicio1.html">
+		   <file href="src/VideoInicio1.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
