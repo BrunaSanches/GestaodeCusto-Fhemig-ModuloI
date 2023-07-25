@@ -41,10 +41,16 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
-					<title>1.1 - Contextualização</title>
+					<title>1.1 - Fundamentos Legais,conceitos e contextualização</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
 				</item>
 				
+				
+				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
+					<title>Livro - Lei</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
+				</item>	
+
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
 					<title>Vídeo - Abordagem de Custo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
@@ -60,40 +66,6 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>
 
-				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
-					<title>Definições de Contabilidade</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
-				</item>
-
-				<item identifier="MOD_1_SCO_12" identifierref="RES_12" isvisible="true">
-					<title>Contabilidade Financeira e Gerencial</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
-				</item>	
-			
-				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
-					<title>Contabilidade Financeira</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
-				</item>
-
-				<item identifier="MOD_1_SCO_14" identifierref="RES_14" isvisible="true">
-					<title>Complementar - Orçamento e Custos na Saúde</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_13</adlcp:prerequisites>
-				</item>
-
-				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
-					<title>Custos - Setor Público</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
-				</item>	
-
-				<item identifier="MOD_1_SCO_16" identifierref="RES_16" isvisible="true">
-					<title>Fundamentos</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
-				</item>	
-
-				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
-					<title>Livro - Lei</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
-				</item>	
 	
 				<item identifier="MOD_1_SCO_18" identifierref="RES_18" isvisible="true">
 					<title>Lei da Responsabilidade Fiscal</title>

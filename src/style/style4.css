@@ -22,14 +22,15 @@
     
 }
 h1{
-    font-size: 30px;
+
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     color: white;
     font-weight: bold;
     padding-bottom: 0.5em;
- 
+    padding-left: 1em;
+    font-size: 22px;
 }
 #direita{
     width: 50%;
@@ -49,7 +50,7 @@ h1{
 }
 
 p{
-    font-size: 19px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: white;
@@ -73,13 +74,13 @@ p{
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
     p{
-        font-size: 15px;
-        line-height: 15pt;
+        font-size: 11px;
+   
     
      }
    
      h1{
-        font-size: 20px;
+        font-size: 14px;
      }
  
 }
@@ -106,7 +107,7 @@ p{
         height: 40vh;
      }
      h1{
-        font-size: 18px;
+        font-size: 12px;
      }
  
  
