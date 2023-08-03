@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 #home{
     width: 100%;
@@ -12,207 +13,178 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    background-color:#51d1f1;
+    background-color: #cdf2fc;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-    
 }
 #direita{
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    background-color:#cdf2fc;
+    background-image: linear-gradient(150deg,#0096bb,#1684a0);
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
 }
-#esquerda img{
-    width: 50%;
+
+table, th, td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    border: 1px solid;
+    border-color: #1684a0;
+    padding: 2px;
+  }
+table {
+    width: 95%;
     height: 50vh;
-    padding-top: 2em;
+    border-collapse: collapse;
+    
+} 
+
+
+
+.texto-resposta{
+
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-align: justify;
+    font-size: 15px;
+    color: rgb(5, 0, 0);
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
-@keyframes text-pisca {
-	0% { opacity: 0; }
-	50% { opacity: 0.5; }
-	100% { opacity: 1; }
+
+#cor{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#51d1f1;
 }
-.text-pisca {
-	color: rgb(16, 22, 34);
-	-webkit-text-stroke:1px  rgb(6, 67, 136);
-	padding: 0.6em 0.8em;
-	display: inline-block;
-	text-decoration: none;
-	font-size: 20px;
-    padding-left: 2em;
-    padding-right: 2em;
-    text-align: center;
-    padding-top: 1em;
-	-webkit-animation: text-pisca .7s linear infinite;
-	-moz-animation: text-pisca .7s linear infinite;
-	-ms-animation: text-pisca .7s linear infinite;
-	-o-animation: text-pisca .7s linear infinite;
-	animation: text-pisca .7s linear infinite;
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(5, 0, 0);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    justify-content: justify;
+    text-align: justify;
+    
 }
 /* CLIQUE */
 #texto{
-    display: flex;
-    }
+display: flex;
+
+}
+
+.hidden{
+    display: none;
+
+}
+
+.check{
+    display: none;
+}
+
+#ckb:checked ~ #texto-1{
+    display: block;
+}
+
+label{
+    width: 100%;
+    height: 30%;
+    padding-top:10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+label img{
     
-    
-    .hidden{
-        display: none;
-    
+    width: 10%;
+    height: auto;
+}
+
+/* TELAS PEQUENAS */
+@media screen and (max-width: 1024px) {
+    p{
+        font-size: 15px;
     }
-    
-    .check{
-        display: none;
+    .texto-resposta p{
+        font-size: 12px;
     }
-    
-    #ckb:checked ~ #texto-1{
-        display: block;
-    }
-    #ckb2:checked ~ #texto-2{
-        display: block;
-    }
-    #ckb3:checked ~ #texto-3{
-        display: block;
-    }
-    #ckb4:checked ~ #texto-4{
-        display: block;
-    }
-    
     label{
-        padding-top: 1em; 
-        padding-left: 1em;
-        padding-right: 1em;
-       
+        font-size: 13px;
     }
-
-    p{
-        font-family: 'Open Sans', sans-serif;
-        padding-left: 2em;
-        padding-right: 2em;
-        font-size: 18px;
-        text-align: justify;
-        color: black;
+    .texto-resposta td{
+        font-size: 12px;
     }
-
-    .texto-clique{
-        font-family: 'Open Sans', sans-serif;
-        position: relative;
-        text-align: left;
-        font-size: 18px;
-        color: black;
-        font-weight: bold;
-        padding-top: 2em;
-        
-      
-    }
-    .texto-resposta{
+   table{
+    width: 100%;
+    height: 40vh;
     
-        font-family: 'Open Sans', sans-serif;
-        position: relative;
-        text-align: justify;
-        font-size: 15px;
-        color: rgb(5, 0, 0);
-        padding-left: 2em;
-        padding-right: 2em;
-        
-    }
-     
-    label img{
-        width: 40px;
-        height: auto;
-    }
-    #clica-1{
-        width: 100%;
-        height: 30vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-       
-    }
-    @keyframes fadeInAnimation {
-        0% {
-            opacity: 0.2;
-        }
-        100% {
-            opacity: 1;
-         }
-     }
-    /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width: 1024px){
-    #home{
-        flex-direction: column;
-    }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width: 100%;
-        height: 50vh;
-   
-    }
-     #esquerda img{
-    
-        width: 25%;
-        height: 20vh;
-    }
-    p{
-        font-size: 15px;
-    }
-    .texto-resposta{
-        font-size: 15px;
-    }
-    .texto-clique{
-        font-size: 18px;
-    }
-    .text-pisca {
-
-        font-size: 18px;
-    }
+   }
     
 }
-/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 590px) {
-    #home{
-        flex-direction: column;
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
     }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
+    100% {
+        opacity: 1;
+     }
+ }
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (max-width: 768px) {
+	#home{
+        flex-direction: column;
+    
     }
     #direita{
         width: 100%;
         height: 50vh;
+       
     }
-   
-     #esquerda img{
-    
-        width: 40%;
-        height: 20vh;
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+    }
+    #cor{
+        width: 98%;
+        height: 50vh;
+        scale: 0.85;
+     
     }
     p{
         font-size: 10px;
     }
-    .texto-resposta{
+    .texto-resposta p{
         font-size: 10px;
     }
-    .texto-clique{
-        font-size: 12px;
+    label{
+        font-size: 13px;
     }
-    .text-pisca {
-        font-size: 12px;
+    .texto-resposta td{
+        font-size: 10px;
     }
+    table{
+        width: 100%;
+        height: 30vh;
+        
+       }
 }

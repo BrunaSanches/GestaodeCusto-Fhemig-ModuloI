@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(150deg,#0096bb,#51d1f1);
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+   
+}
+p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
+    padding-right:1em;
+    padding-left: 1em;
+    padding-bottom: 10px;
+
+}
+
+h1{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding-right:1em;
+    padding-left: 1em;
+ 
+}
+#texto-acima{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+
+   
+}
+.column1{
+    width: 40%;
+    height:60vh;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.column2{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.column3{
+    width: 40%;
+    height:60vh;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+button{
+    width: 80%;
+    height: 20%;
+    border: 3px solid  rgb(138, 15, 128);
+    background-color: rgb(230, 173, 17);
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    font-size:18px;
+    padding: 3px;
+    
+}
+button:hover{
+    background-color:rgb(138, 15, 128);
+    border: 3px solid  rgb(230, 173, 17);
+    color:white;
+}
+.minha-div{
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid rgb(230, 173, 17);
+    background-color: rgb(138, 15, 128);
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    font-size:14px;
+    padding: 8px;
+}
+#negrito{
+    background-color: rgb(230, 173, 17);
+    color: rgb(138, 15, 128);
+}
+em{
+    color: rgb(138, 15, 128);
+    text-decoration: underline;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color: rgb(138, 15, 128);
+	-webkit-text-stroke:1px rgb(138, 15, 128);
+	
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
+}
+
+
+/* CLIQUE */
+#texto{
+    display: flex;
+    }
+    .hidden{
+        display: none;
+    
+    }
+    .check{
+        display: none;
+    }
+    #ckb:checked ~ #texto-1{
+        display: block;
+    }
+    #ckb2:checked ~ #texto-2{
+        display: block;
+    }
+    label{
+        width: 40%;
+    
+    }
+    .texto-resposta{
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: justify;
+        font-size: 15px;
+        color: rgb(5, 0, 0);
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        
+    }
+     
+    label img{
+        width: 40px;
+        height: auto;
+    }
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width:1024px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    p{
+        font-size:13px;
+    }
+    button{
+        font-size:13px;
+    }
+    .text-pisca{
+        font-size:12px;
+    }
+    .texto-resposta{
+        font-size:11px;
+    }
+    .container{
+        width: 100%;
+        height: 40vh;
+    }
+    #texto-acima{
+        width: 100%;
+        height: 10vh;
+    }
+    .minha-div{
+        width: 95%;
+        height: auto;
+        font-size:8px;
+    }
+    .column1{
+        width: 40%;
+        height:30vh;
+        
+    }
+    .column3{
+        width: 40%;
+        height:30vh;
+
+    }
+    #instrucao{
+        font-size:12px;
+    }
+    }
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 767px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    p{
+        font-size:9px;
+    }
+    button{
+        font-size:9px;
+    }
+    .text-pisca{
+        font-size:9px;
+    }
+    .texto-resposta{
+        font-size:9px;
+    }
+    .container{
+        width: 100%;
+        height: 35vh;
+    }
+    #texto-acima{
+        width: 100%;
+        height: 10vh;
+    }
+    .minha-div{
+        width: 90%;
+        height: auto;
+        font-size:7px;
+    }
+    .column1{
+        width: 40%;
+        height:35vh;
+    }
+
+    .column3{
+        width: 40%;
+        height:35vh;
+
+    }
+    
+    label img{
+        width: 20px;
+        height: auto;
+    }
+}

@@ -19,6 +19,7 @@
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
+
     
 }
 #direita{
@@ -28,34 +29,28 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(360deg,#0096Bb,#1684a0);
+    background-color:#0096bb;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
+   
 }
-p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    text-align: justify;
-    color: white;
-    padding-left: 2em;
-    padding-right: 2em;
+#direita img{
+    width: 100%;
+    height: 100vh;
+   
 }
 h1{
-
-    font-size: 25px;
+    text-transform: uppercase;
+    font-size: 52px;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    color: white;
+    color: #0096bb;
     font-weight: bold;
-   
+    padding:1em;
 }
-img{
-    width: 75%;
-    height: 75vh;
-    border: 3px solid #0096Bb;
-}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.2;
@@ -64,36 +59,20 @@ img{
         opacity: 1;
      }
  }
-
-
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width: 1024px){
-    #home{
-        flex-direction: column;
-    }
-    #esquerda{
-        width:100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width:100%;
-        height: 50vh;
-    }
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
-    img{
-    
-        width: 40%;
-        height: 45vh;
-    }
-    p{
-        font-size: 15px;
-    }
+  
+     h1{
+        font-size: 40px;
+     }
+     h2{
+        font-size: 30px;
+     }
  
 }
-
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 590px) {
+@media screen and (max-width: 768px) {
     #home{
         flex-direction: column;
     }
@@ -106,14 +85,15 @@ img{
         width: 100%;
         height: 50vh;
     }
-   
-
-    img{
-        width:55%;
-        height: 45vh;
+    h1{
+        font-size: 30px;
+     }
+     h2{
+        font-size: 20px;
+     }
+     #direita img{
+    
+        width: 100%;
+        height: 50vh;
     }
-    p{
-        font-size: 10px;
-    }
-   
 }

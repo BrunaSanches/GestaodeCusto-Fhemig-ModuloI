@@ -36,9 +36,9 @@
    
 }
 #direita img{
-    width: 70%;
-    height: 50vh;
-    transform: rotate(-15deg);
+    width: 100%;
+    height: 100vh;
+   
 }
 h1{
     text-transform: uppercase;
@@ -50,16 +50,7 @@ h1{
     font-weight: bold;
     padding:1em;
 }
-h2{
-    font-size: 40px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: #0096bb;
-    font-weight: bold;
-    padding-left:2em;
-    padding-right: 2em;
-}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.2;
@@ -102,7 +93,7 @@ h2{
      }
      #direita img{
     
-        width: 60%;
-        height: 35vh;
+        width: 100%;
+        height: 50vh;
     }
 }
