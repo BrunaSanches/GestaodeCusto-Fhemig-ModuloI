@@ -25,12 +25,12 @@ h1{
 
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    text-align: left;
+    text-align: center;
     color: white;
     font-weight: bold;
-    padding-bottom: 0.5em;
+    padding-right:1em;
     padding-left: 1em;
-    font-size: 22px;
+    font-size: 40px;
 }
 #direita{
     width: 50%;
@@ -49,19 +49,7 @@ h1{
     height: 70vh;
 }
 
-p{
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    color: white;
-    padding-right:1.5em;
-    padding-left: 1.5em;
-    line-height: 20pt;
- 
-}
-#palavra{
-    color:rgb(175, 56, 56);
-}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.2;
@@ -80,7 +68,7 @@ p{
      }
    
      h1{
-        font-size: 14px;
+        font-size: 35px;
      }
  
 }
@@ -98,16 +86,13 @@ p{
         width: 100%;
         height: 50vh;
     }
-     p{
-        font-size: 10px;
-        line-height: 10pt;
-     }
+  
      #direita img{
         width: 80%;
         height: 40vh;
      }
      h1{
-        font-size: 12px;
+        font-size: 30px;
      }
  
  
