@@ -15,62 +15,64 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(-180deg,#0096Bb,#51d1f1);
+    background-color:#cdf2fc;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-
     
 }
 #direita{
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-color:#cdf2fc;
+    background-image: linear-gradient(360deg,#1684a0,#1684a0);
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-   
-}
-#cor{
-    width: 90%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color:#51d1f1;
 }
 p{
-  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    color: black;
-    padding-left: 1em;
-    padding-right: 1em;
-
-}
-table{
-  
-    width: 95%;
-    height:50vh;
-    border: 1px solid #1684a0;
-    border-collapse: collapse;
-}
-td{
-    border: 2px solid #1684a0;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    color: black;
-    padding: 3px;
-}
-#centro{
     text-align: center;
+    color: white;
+    
+}
+
+#esquerda img{
+    width: 75%;
+    height: 75vh;
+    border: 3px solid #0096Bb;
+}
+@keyframes text-pisca {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+.text-pisca {
+	color: rgb(16, 22, 34);
+	-webkit-text-stroke:1px  white;
+	padding: 0.6em 0.8em;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+    text-align: center;
+   
+	-webkit-animation: text-pisca .7s linear infinite;
+	-moz-animation: text-pisca .7s linear infinite;
+	-ms-animation: text-pisca .7s linear infinite;
+	-o-animation: text-pisca .7s linear infinite;
+	animation: text-pisca .7s linear infinite;
 }
 @keyframes fadeInAnimation {
     0% {
@@ -80,30 +82,94 @@ td{
         opacity: 1;
      }
  }
-/* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width: 1024px){
-    #home{
-        flex-direction: column;
-    }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width: 100%;
-        height: 50vh;
-    }
-    #cor{
-        width: 95%;
-        height: 45vh;
-    }
-    table{
+ label{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
   
-        width: 90%;
-        height:40vh;
+    
+  
+}
+ 
+
+.texto-resposta{
+    
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #0096Bb;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    height:auto;
+   
+    
+    
+}
+ 
+label img{
+    width: 40px;
+    height: auto;
+}
+#clica-1{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+ /* CLIQUE */
+
+    
+    .hidden{
+        display: none;
+    
+    }
+    .check{
+        display: none;
+    }
+    
+    #ckb1:checked ~ #texto-1{
+        display: block;
+    }
+    #ckb2:checked ~ #texto-2{
+        display: block;
+    }
+    #ckb3:checked ~ #texto-3{
+        display: block;
+    }
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 996px){
+    
+    .text-pisca{
+        font-size: 16px;
+       }
+    
+   
+    p{
+        font-size: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+    .texto-resposta{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 16px;
     }
 }
+
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 590px) {
     #home{
@@ -111,26 +177,33 @@ td{
     }
     #esquerda{
         width: 100%;
-        height: 50vh;
+        height: 40vh;
         
     }
     #direita{
         width: 100%;
-        height: 50vh;
+        height: 60vh;
     }
-    #cor{
-        width: 95%;
-        height: 45vh;
+   .text-pisca{
+    font-size: 11px;
+   }
+
+    #esquerda img{
+        width:70%;
+        height: 40vh;
     }
-    table{
-  
-        width: 90%;
-        height:40vh;
-    }
-    td{
-        font-size: 10px;
+    label img{
+        width: 25px;
+        height: auto;
     }
     p{
         font-size: 10px;
+    }
+
+    .texto-resposta{
+        font-size: 9px;
+    }
+    h2{
+        font-size: 14px;
     }
 }

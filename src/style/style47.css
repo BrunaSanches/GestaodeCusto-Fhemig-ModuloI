@@ -69,7 +69,7 @@ h2{
      }
  }
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width: 1024px){
+@media screen and (min-width: 600px) and (max-width: 996px){
    
     #esquerda{
         width: 50%;
@@ -77,14 +77,16 @@ h2{
         
     }
     #direita{
-        width:50%;
+        width: 50%;
         height: 100vh;
     }
   
      h1{
         font-size: 40px;
      }
-     
+     h2{
+        font-size: 30px;
+     }
      #direita img{
     
         width: 100%;
@@ -108,7 +110,9 @@ h2{
     h1{
         font-size: 30px;
      }
-    
+     h2{
+        font-size: 20px;
+     }
      #direita img{
     
         width: 100%;

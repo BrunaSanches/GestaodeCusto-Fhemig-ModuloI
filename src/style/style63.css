@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(150deg,#0096bb,#51d1f1);
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+   
+}
+p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
+    padding-right:1em;
+    padding-left: 1em;
+    padding-bottom: 10px;
+
+}
+img{
+    width: 60%;
+    height: 40vh;
+    border: 4px solid rgb(230, 173, 17);
+    border-radius: 5px;
+   
+}
+h1{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: white;
+    padding-right:1em;
+    padding-left: 1em;
+ 
+}
+h2{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: #0096bb;
+    padding-right:1em;
+    padding-left: 1em;
+ 
+}
+#texto-acima{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.column1{
+    width: 40%;
+    height:60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.column2{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.column3{
+    width: 40%;
+    height:60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+button{
+    width: 70%;
+    height: 20%;
+    border: 3px solid  rgb(138, 15, 128);
+    background-color: rgb(230, 173, 17);
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    font-size:18px;
+    padding: 10px;
+    
+}
+button:hover{
+    background-color:rgb(138, 15, 128);
+    border: 3px solid  rgb(230, 173, 17);
+    color:white;
+}
+.minha-div{
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid rgb(230, 173, 17);
+    background-color: rgb(138, 15, 128);
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    padding: 10px;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 996px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #direita img{
+        width: 50%;
+        height: 30vh;
+    }
+    p{
+        font-size:15px;
+    }
+    button{
+        font-size:15px;
+    }
+    .container{
+        width: 100%;
+        height: 40vh;
+    }
+    #texto-acima{
+        width: 100%;
+        height: 10vh;
+    }
+    .minha-div{
+        width: 70%;
+        height: auto;
+        font-size:11px;
+    }
+    .column1{
+        width: 40%;
+        height:35vh;
+        
+    }
+    .column3{
+        width: 40%;
+        height:35vh;
+
+    }
+    h1{
+        font-size: 18px;
+       }
+       h2{
+        font-size: 18px;
+       }
+    }
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #direita img{
+        width: 70%;
+        height: 20vh;
+    }
+    p{
+        font-size:10px;
+    }
+    button{
+        font-size:9px;
+    }
+    .container{
+        width: 100%;
+        height: 40vh;
+    }
+    #texto-acima{
+        width: 100%;
+        height: 10vh;
+    }
+    .minha-div{
+        width: 90%;
+        height: auto;
+        font-size:9px;
+    }
+    .column1{
+        width: 40%;
+        height:35vh;
+    }
+
+    .column3{
+        width: 40%;
+        height:35vh;
+
+    }
+   h1{
+    font-size: 15px;
+   }
+   h2{
+    font-size: 15px;
+   }
+}
