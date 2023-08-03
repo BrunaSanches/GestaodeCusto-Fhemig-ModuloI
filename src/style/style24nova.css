@@ -15,11 +15,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color:#0096bb;
+    background-color:#cdf2fc;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-    
+
     
 }
 #direita{
@@ -29,34 +29,36 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:#cdf2fc;
+    background-color:#0096bb;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-}
-li{
-    font-family: 'Open Sans', sans-serif;
-    
-    font-size: 18px;
-    text-align: justify;
-    color: white;
-}
-p{
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 2em;
-    
-    font-size: 18px;
-    text-align: justify;
-    color: white;
-}
-ul{
-    padding-left: 3em;
-    padding-right: 3em;
-    
+   
 }
 #direita img{
-    width: 100%;
-    height: 100vh;
+    width: 70%;
+    height: 50vh;
+    transform: rotate(-15deg);
+}
+h1{
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #0096bb;
+    font-weight: bold;
+    padding:1em;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #0096bb;
+    font-weight: bold;
+    padding-left:2em;
+    padding-right: 2em;
 }
 @keyframes fadeInAnimation {
     0% {
@@ -66,20 +68,20 @@ ul{
         opacity: 1;
      }
  }
-
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 600px) and (max-width: 1024px){
-    
- 
-    p,li{
-        font-size: 15px;
-     }
-     
-     
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
   
+     h1{
+        font-size: 40px;
+     }
+     h2{
+        font-size: 30px;
+     }
+ 
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 590px) {
+@media screen and (max-width: 768px) {
     #home{
         flex-direction: column;
     }
@@ -92,13 +94,15 @@ ul{
         width: 100%;
         height: 50vh;
     }
-     p,li{
-        font-size: 12px;
+    h1{
+        font-size: 30px;
      }
-    
+     h2{
+        font-size: 20px;
+     }
      #direita img{
     
-        width: 100%;
-        height: 50vh;
+        width: 60%;
+        height: 35vh;
     }
 }

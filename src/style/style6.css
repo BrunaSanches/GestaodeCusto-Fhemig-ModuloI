@@ -1,58 +1,248 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-body {
-	font-family: Arial, sans-serif;
-}
-
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	height: 90vh;
-}
-
-.esquerda {
-	width: 100%;
-	height: 70vh;
-	display: flex;
-	height: 100%;
-	overflow: hidden;
-	background-image: linear-gradient(180deg,#51d1f1,#0096bb);
+#home{
+    width: 100%;
+    height: 100vh;
     display: flex;
-	justify-content: space-around;
-	align-items: center;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+	background-color:#cdf2fc;
+	animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+   
+}
+
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	background: #0096Bb;
 	animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
 }
+input{
+	display: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.book{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+#cover{
+	width: 300px;
+	height: 450px;
+}
+.flip-book{
+	width: 300px;
+	height: 450px;
+	position: relative;
+	perspective: 1500px;
+	border: 1px #0000;
+}
+.flip{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	transform: rotateY(0deg);
+	transition: .5s;
 
-#seta{
-	width: 10% ;	
+}
+.book p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+.front{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 0 13px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	background: white;
+}
+h2{
+    font-size: 18px;
+}
+#clique{ 
+	width: 15%;
 	height: 30%;
 
 }
 
-.img-box{
-	width: 30%;
-	height: 50%;
-	position: relative;
-}
-.img-box img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+.next-btn{
 	position: absolute;
-	border: 3px solid white;
+	bottom: 13px;
+	right: 13px;
+	cursor: pointer;
+	cursor: pointer;
+	color: white;
+	background-color: #0096Bb;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.back-btn{
+	position: absolute;
+	bottom: 13px;
+	right: 13px;
+	cursor: pointer;
+	color: white;
+	background-color: #0096Bb;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#p1{
+	z-index: 7;
+}
+#p2{
+	z-index: 6;
+}
+#p3{
+	z-index: 5;
+}
+#p4{
+	z-index: 4;
+}
+#p5{
+	z-index: 3;
+}
+#p6{
+	z-index: 2;
+}
+#p7{
+	z-index: 1;
+}
+#c1:checked ~ .flip-book #p1{
+	transform: rotateY(-180deg);
+	z-index: 1;
+}
+#c2:checked ~ .flip-book #p2{
+	transform: rotateY(-180deg);
+	z-index: 2;
+}
+#c3:checked ~ .flip-book #p3{
+	transform: rotateY(-180deg);
+	z-index: 3;
+}
+#c4:checked ~ .flip-book #p4{
+	transform: rotateY(-180deg);
+	z-index: 4;
+}
+#c5:checked ~ .flip-book #p5{
+	transform: rotateY(-180deg);
+	z-index: 5;
+}
+#c6:checked ~ .flip-book #p6{
+	transform: rotateY(-180deg);
+	z-index: 6;
+}
+#c7:checked ~ .flip-book #p7{
+	transform: rotateY(-180deg);
+	z-index: 7;
+}
+
+
+#pagTitulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 
 }
-p{
-  font-size: 20px;
+#pagTitulo h2{
+	color: #0096Bb;
+	font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
 }
 
+#esquerda p{
+	font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
+    padding-right:1.5em;
+    padding-left: 1.5em;
+    line-height:25pt;
+}
+h3{
+	font-size: 17px;
+}
+
+#link p{
+    border: 1px solid  white;
+	background-color: #0096Bb;
+    border-radius: 20px;
+	font-size: 10px;
+    color:  white;
+    font-weight: bold;
+   
+}
+#texto{
+    width:100%;
+    height: 30vh;
+    display: flex;
+    align-items:left;
+    justify-content: center;
+    flex-direction: column;
+	
+}
+#link{
+    width:100%;
+	height: 15%;
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+	display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
 @keyframes text-pisca {
 	0% { opacity: 0; }
 	50% { opacity: 0.5; }
@@ -60,11 +250,12 @@ p{
 }
 .text-pisca {
 	color: rgb(16, 22, 34);
-	-webkit-text-stroke:1px  #0096Bb;
+	-webkit-text-stroke:1px  rgb(6, 67, 136);
 	padding: 0.6em 0.8em;
 	display: inline-block;
 	text-decoration: none;
 	font-size: 20px;
+	text-align: center;
 
 	-webkit-animation: text-pisca .7s linear infinite;
 	-moz-animation: text-pisca .7s linear infinite;
@@ -73,129 +264,6 @@ p{
 	animation: text-pisca .7s linear infinite;
 }
 
-
-#texto-inicial{
-	width: 100%;
-	height: 20vh;
-	text-align: center;
-	background-image: linear-gradient(180deg,#0096bb,#51d1f1);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  	color: white;
-	  animation: fadeInAnimation ease 2s;
-	  animation-iteration-count: 1;
-	  animation-fill-mode: backwards;
-}
-
-.info-texto{
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: .8;
-	color: white;
-	position: inherit;
-	text-align: justify;
-}
-
-.info-texto p{
-	padding: 0.5em;
-  font-size: 13px;
-}
-
-
-label{
-	
-	color: white;
-	display: flex;
-	justify-content: flex-end;
-}
-label i{
-	padding: 10px;
-	cursor: pointer;
-}
-
-.ckeck{
-	display: none;
-}
-
-.info-texto{
- 
-	display: none;
-}
-
-#fechar1:checked ~ #info1{
-	display: block;
-}
-#fechar2:checked ~ #info2{
-	display: block;
-}
-#fechar3:checked ~ #info3{
-	display: block;
-}
-
-/* TELAS PEQUENAS */
-@media screen and (max-width: 1024px) {
-	.container{
-		height: auto;
-	}
-	.esquerda{
-		width: 100%;
-		height: 90vh;
-		background-color:#51d1f1;
-		flex-direction: column;
-	}
-	.img-box{
-		width: 40%;
-		height: 45%;
-	}
-	.direita .img-box img{
-		object-fit: fill;
-	}	
-	#texto-inicial{
-		width: 100%;
-		height: 20vh;
-	}
-
-}
-
-
-/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (max-width: 768px) {
-	.container{
-		height: auto;
-	}
-	.esquerda{
-		width: 100%;
-		height: 80vh;
-		background-image: linear-gradient(-360deg,#51d1f1,#0096bb);
-	}
-	
-	.img-box{
-		width: 50%;
-		height: 35%;
-	
-	}
-	.esquerda.img-box{
-		width: 100%;
-		height: 50%;
-	
-	}	
-	#texto-inicial p{
-		padding: 10px;
-    font-size: 15px;
-	}
-  p{
-    font-size: 15px;
-  }
-  #texto-inicial{
-	width: 100%;
-	height: 20vh;
-}
-.text-pisca {
-	font-size: 15px;
-}
-}
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.2;
@@ -204,25 +272,88 @@ label i{
         opacity: 1;
      }
  }
-
-@media screen and (max-width: 480px) {
-
-	#texto-inicial{
-		height: 20vh;
-	}	
-	#texto-inicial p{
-		padding: 10px;
-    font-size: 10px;
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1150px){
+	#home{
+		flex-direction: column;
 	}
-	#texto-inicial{
-		width: 100%;
-		height: 20vh;
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #esquerda p{
+        font-size: 15px;
+        line-height:18pt;
+        
+     }
+	 #cover{
+		width: 200px;
+		height: 300px;
 	}
-	.esquerda{
-		background-image: linear-gradient(-360deg,#51d1f1,#0096bb);
+	.flip-book{
+		width: 200px;
+		height: 300px;
+   
 	}
-	.info-texto p{
+	.book p{
 		font-size: 10px;
 	}
-	
+	h2{
+		font-size: 12px;
+	}
+	#link p{
+        font-size:10px;
+    }
+}
+
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    
+	 #esquerda p{
+        font-size: 10px;
+		line-height:15pt;
+        
+     }
+	 #cover{
+		width: 45%;
+		height: 43vh;
+	}
+	.flip-book{
+		width: 45%;
+		height: 43vh;
+   
+	}
+	.book p{
+		font-size: 8px;
+		line-height:10pt;
+	}
+	h2{
+		font-size: 9px;
+	}
+   
+	.book{
+		width: 100%;
+		height: 50vh;
+	}
+	#link p{
+        font-size:9px;
+    }
 }

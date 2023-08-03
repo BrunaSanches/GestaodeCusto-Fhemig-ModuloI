@@ -1,66 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Definições de Contabilidade</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="IE=10">
     <meta name="keywords" content="moodle, " />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style/style6.css">
-	<script src="https://kit.fontawesome.com/b6c04a2c24.js" crossorigin="anonymous"></script>
-
-
+    <link rel="stylesheet" href="style/style6.css">
+    <title>Livro de Lei</title>
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="unloadPage();doLMSSetValue('cmi.core.lesson_status',value);">
-
-	<div class="container">
-		<div id="texto-inicial">
-			<p>De acordo com Martins (2003), dependendo do usuário final e do tipo de informação requerida, a Contabilidade pode ser classificada como: Contabilidade Financeira, Gerencial e Custos.
-				<br><b class="text-pisca">Clique nas imagens abaixo e veja 
-					a definição dos tipos de Contabilidade.</b></p>
-			
-		</div>
-
-		<div class="esquerda">
-			
-			<div class="img-box">
-				
-				<input class="ckeck" id="fechar1" type="checkbox">
-				<label for="fechar1"><img id="img1" src="imagens/Imagem6-1.jpg" alt="Imagem 1"></label>
-				
-				<div class="info-texto" id="info1">
-					<label for="fechar1"><i class="fa-solid fa-xmark"></i></label>
-					<p><b>Contabilidade de Custos:</b> cuida da análise dos gastos – sacrifícios financeiros realizados por uma organização no decorrer de suas operações. Esta análise será útil tanto para a Contabilidade Gerencial quanto para a Financeira.</p>
-				</div>
-			</div>
-	
-
-	
-			<div class="img-box">
-				<input class="ckeck" id="fechar2" type="checkbox">
-				<label for="fechar2"><img id="img2" src="imagens/Imagem6-2.jpg" alt="Imagem 1"></label>
-				<div class="info-texto" id="info2">
-					<label for="fechar2"><i class="fa-solid fa-xmark"></i></label>
-					<p>
-						<b>Contabilidade Financeira:</b> dirigida aos stakeholders externos da empresa e condicionada às imposições legais e fiscais. Preocupa-se com:
-						a - leis, normas, princípios e convenções contábeis e é obrigatória para as entidades legalmente estabelecidas;
-						b - registros relativos ao patrimônio do que já passou.</p>
-				</div>
-			</div>
-
-			<div class="img-box">
-				<input class="ckeck" id="fechar3" type="checkbox">
-				<label for="fechar3"><img id="img3" src="imagens/Imagem6-3.jpg" alt="Imagem 1"></label>
-				<div class="info-texto" id="info3">
-					<label for="fechar3"><i class="fa-solid fa-xmark"></i></label>
-					<p><b>Contabilidade Gerencial:</b> voltada aos stakeholders internos, principalmente à administração da empresa e não se condiciona às imposições legais. Tem por objetivo produzir informações úteis para a tomada de decisões. Exige a adaptação das informações oriundas da Contabilidade Financeira. Constitui-se de . 26 . MINISTÉRIO DA SAÚDE um enfoque especial conferido a várias técnicas e procedimentos contábeis empregados na Contabilidade Financeira e de Custos.</p>
-				</div>
-			</div>
-
-	
-	</div>
-	<script type="text/javascript" src="includes/conteudo.js"></script>
+    <div id="home">
+        <div id="esquerda">
+            <div id="texto">
+                <p>A fundamentação legal, porém, não significa que tenham merecido dedicação para a sua efetivação por parte dos órgãos públicos, já que não há obrigatoriedade em sua implantação.
+                    Um fator de relevância a ser considerado são os dispositivos legais em relação à previsão de apuração de custos como ferramenta da gestão administrativa, orçamentária, de controle interno e da estratégia.
+                  </p>
+               
+            </div>
+            
+             <div id="link">
+                <p> Acesse o Material Complementar em PDF no link a seguir e saiba mais sobre as Leis de Custo: https://treinaremcasa.com.br/pluginfile.php/41741/mod_resource/content/1/leis_custos.pdf
+                 </p>
+            </div>
+            <b class="text-pisca">Clique no botão PRÓXIMO e veja no livro algumas fundamentações legais que podemos destacar.</b>
+            <p></p>
+                    </div>
+        <div id="direita">
+            <div class="book">
+                <input type="checkbox" id="c1">
+                <input type="checkbox" id="c2">
+                <input type="checkbox" id="c3">
+                <input type="checkbox" id="c4">
+                <input type="checkbox" id="c5">
+                <input type="checkbox" id="c6">
+            
+                <div id="cover"><img src="imagens/justiça.jpg"></div>
+                <div class="flip-book">
+                    <div class="flip" id="p1">
+                        <div class="back">
+                            <img src="imagens/Imagem6-1.jpg">
+                            <label class="back-btn" for="c1">Voltar</label>
+                        </div>
+                        <div class="front" id="pagTitulo">
+                            <h2>Lei</h2>
+                            <label class="next-btn" for="c1">Próximo</label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p2">
+                        <div class="back">
+                            <img src="imagens/livro3.jpg">
+                            <label class="back-btn" for="c2">Voltar</label>
+                        </div>
+                        <div class="front">
+                            <h2>– Lei nº 4.320/1964:</h2>
+                            <p>Os artigos 85 e 99 da Lei nº 4.320, de 17 de março de 1964, determinam:</p>
+                            <p><b>Art. 85 –</b> Os serviços de contabilidade serão organizados de forma
+                                 a permitirem o acompanhamento da execução orçamentária, o conhecimento da composição
+                                  patrimonial, a determinação dos custos dos serviços dos custos 
+                                  dos serviços industriais, o levantamento dos balanços gerais, a 
+                                  análise e a interpretação dos resultados econômicos e financeiros. 
+                                </p>
+                            
+                            <label class="next-btn" for="c2">Próximo</label>
+                        </div>
+                    </div>
+    
+                    <div class="flip" id="p3">
+                        <div class="back">
+                            <img src="imagens/Imagem6-2.jpg">
+                            <label class="back-btn" for="c3">Voltar</label>
+                        </div>
+                        <div class="front">
+                            <p><b>Art. 99 –</b> Os serviços públicos industriais, 
+                                ainda que não organizados como empresa pública ou autárquica,
+                                 manterão contabilidade especial para determinação dos custos,
+                                  ingressos e resultados, sem prejuízo da escrituração patrimonial 
+                                  e financeira comum.
+                            </p>
+    
+                            <label class="next-btn" for="c3">Próximo</label>
+                        </div>
+                    </div>
+    
+                    <div class="flip" id="p4">
+                        <div class="back">
+                            <img src="imagens/livro4.jpg">
+                            <label class="back-btn" for="c4">Voltar</label>
+                        </div>
+                        <div class="front">
+                            <p><b>– Decreto-Lei nº 200/1967:</b>  
+                                O Decreto-Lei nº 200, de 25 de fevereiro de 1967, reforça em seu art. 70 que “a contabilidade deverá apurar os custos dos serviços de forma a evidenciar os resultados da gestão”
+                            </p>
+    
+                            <p><b>– Decreto nº 93.872/1986: </b>
+                                Os artigos 137 e 142 § 1º do Decreto n° 93.872, de 23 de dezembro de 1986, determinam:
+                            </p>
+                            <label class="next-btn" for="c4">Próximo</label>
+                        </div>
+                    </div>
+    
+                    <div class="flip" id="p5">
+                        <div class="back">
+                            <img src="imagens/imagem9.jpg">
+                            <label class="back-btn" for="c5">Voltar</label>
+                        </div>
+                        <div class="front">
+                            <p><b>Art.137 –</b> A apuração dos custos dos projetos e atividades terá por base
+                                 os elementos fornecidos pelos órgãos de orçamento, constantes dos
+                                  registros do Cadastro Orçamentário de Projeto/Atividade, a utilização
+                                   dos recursos financeiros e as informações detalhadas sobre a execução
+                                    física que as unidades administrativas gestoras deverão encaminhar
+                                    ao respectivo órgão da contabilidade, na periodicidade estabelecida
+                                     pela Secretaria do Tesouro Nacional</p>
+    
+    
+                            <label class="next-btn" for="c5">Próximo</label>
+                        </div>
+                    </div>
+    
+                    <div class="flip" id="p6">
+                        <div class="back">
+                            
+                            <label class="back-btn" for="c6">Voltar</label>
+                        </div>
+                        <div class="front">
+                            <p><b>Art. 142 § 1º –</b> O custo dos projetos e atividades a cargo dos órgãos
+                                 e entidades da administração federal será objeto de exames de auditoria,
+                                  verificando-se os objetivos alcançados em termos de realização de obras
+                                   e de prestação de serviços, em confronto com o programa de trabalho 
+                                   aprovado. 
+                            </p>
+                            <label class="next-btn" for="c6">Próximo</label>
+                        </div>
+                    </div>
+    
+    
+                    <div class="flip" id="p7">
+                        <div class="back">
+                            <label class="back-btn" for="c7">Voltar</label>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+<!--             <a href=""><img src="imagens/cliqueaqui.png" id="clique">Clique aqui e saiba mais!</a>
+ -->
+        </div>
+    </div>
+    <script type="text/javascript" src="includes/conteudo.js"></script>
     <script type="text/javascript" src="includes/apiwrapper.js"></script>
     <script type="text/javascript" src="includes/scofunctions.js"></script> 
 </body>
