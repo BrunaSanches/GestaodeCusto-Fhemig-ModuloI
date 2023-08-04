@@ -988,8 +988,7 @@ resource identifier="RES_63" type="webcontent" adlcp:scormtype="sco" href="src/p
 
 	<resource identifier="RES_77" type="webcontent" adlcp:scormtype="sco" href="src/video17.html">
 	<file href="src/video17.html"/>
-	<dependency identifierref="INC"/>
-	</resource>
+	<dependency identifierref="INC"/></resource>
 
 	<resource identifier="RES_78" type="webcontent" adlcp:scormtype="sco" href="src/pagina60.html">
 	<file href="src/pagina60.html"/>
