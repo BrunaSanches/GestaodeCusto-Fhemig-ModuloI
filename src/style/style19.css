@@ -12,47 +12,46 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     flex-direction: column;
     align-items: center;
-    background-color:#0096bb;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-    
-}
-h1{
+    background-image: linear-gradient(180deg,#0096bb, #2F5597);
 
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    padding-right:1em;
-    padding-left: 1em;
-    font-size: 40px;
 }
 #direita{
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     flex-direction: column;
+    background-image: linear-gradient(180deg,#0096bb, #2F5597);
+
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-   
-}
-#direita img{
-    width: 90%;
-    height: 70vh;
-}
-iframe{
-    width: 100%;
-    height: 100vh;
 }
 
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    justify-content: justify;
+    text-align: justify;
+    
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.2;
@@ -61,46 +60,49 @@ iframe{
         opacity: 1;
      }
  }
-/* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 768px) and (max-width: 1024px){
 
-    p{
-        font-size: 11px;
-   
-    
-     }
-   
-     h1{
-        font-size: 35px;
-     }
- 
-}
+ img{
+    width: 70%;
+    height: 55vh;
+ }
+
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (max-width:  768px) {
+@media screen and (min-width: 280px) and (max-width: 590px) {
     #home{
         flex-direction: column;
+    
     }
     #esquerda{
         width: 100%;
         height: 50vh;
-        
     }
     #direita{
         width: 100%;
         height: 50vh;
     }
-  
-     #direita img{
-        width: 80%;
-        height: 40vh;
-     }
-     h1{
-        font-size: 30px;
-     }
-     iframe{
-        width: 100%;
-        height: 50vh;
-    }
     
+    p{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 12px;
+    }
+   
+    
+ img{
+    width: 60%;
+    height: 30vh;
+ }
+}
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1024px){
  
+    p{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 14px;
+    }
+   
+
 }

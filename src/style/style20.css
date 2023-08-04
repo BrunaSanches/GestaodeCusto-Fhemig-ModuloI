@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    background-image: linear-gradient(180deg,#317c8f, #2F5597);
+
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2F5597;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+
+
+p,li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    justify-content: justify;
+    text-align: justify;
+    
+}
+ol{
+    padding-left:4em;
+ 
+}
+li{
+    padding-top:5px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+#citacao{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+   
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+
+ img{
+    width: 70%;
+    height: 55vh;
+ }
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    p,li{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 12px;
+    }
+   
+    #citacao{
+        width: 70%;
+        height: 30vh;
+        font-size: 10px;
+
+    }
+
+
+}
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+ 
+    p,li, #citacao{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    
+}
