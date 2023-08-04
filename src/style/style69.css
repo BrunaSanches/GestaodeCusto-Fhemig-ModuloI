@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+   
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    background-color:#51d1f1;
+}
+
+#esquerda img{
+    width: 80%;
+    height:50vh;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
+    padding-left:1em;
+    padding-right:1em ;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
+    padding-left:1em;
+    padding-right:1em;
+    font-weight: bold;
+}
+iframe{
+    width: 70%;
+    height:40vh;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+   #home{
+    flex-direction: column;
+   }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width:100%;
+        height: 50vh;
+    }
+  
+     h2{
+        font-size: 20px;
+     }
+     p{
+        font-size: 15px;
+    }
+     
+     #esquerda img{
+    
+        width: 70%;
+        height: 30vh;
+    }
+    iframe{
+        width: 70%;
+        height:25vh;
+    }
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 590px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    h2{
+        font-size: 15px;
+     }
+     p{
+        font-size: 10px;
+    }
+     
+    #esquerda img{
+    
+        width: 80%;
+        height: 30vh;
+    }
+    iframe{
+        width: 70%;
+        height:25vh;
+    }
+}
