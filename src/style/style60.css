@@ -49,15 +49,19 @@ h3, h1{
    
 
 }
-p{
+p,li{
   
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: black;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-right: 2em;
 
+}
+ul{
+    padding-left: 6em;
+    padding-right: 2em;
 }
 iframe{
     width: 90%;
