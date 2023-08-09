@@ -107,8 +107,11 @@ td{
     }
     table{
   
-        width: 90%;
-        height:40vh;
+        width: 95%;
+        height:35vh;
+    }
+    p{
+        font-size: 14px;
     }
   
 }

@@ -49,15 +49,19 @@ h3, h1{
    
 
 }
-p{
+p,li{
   
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: black;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 
+}
+ul{
+    padding-left: 6em;
+    padding-right: 2em;
 }
 iframe{
     width: 90%;
@@ -75,7 +79,7 @@ td{
     border: 2px solid white;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    text-align: justify;
+    text-align: center;
     color: white;
     padding: 3px;
 }
@@ -87,18 +91,62 @@ td{
         opacity: 1;
      }
  }
+
+ .img-container {
+    width:100%;
+    height:25vh;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-container img {
+    width:70%; /* Tamanho inicial da imagem */
+    height:30vh;
+    transition: width 0.3s ease;
+    border-radius: 5px;
+    
+  }
+  
+  /* Estilos para expandir a imagem */
+  .img-container.expanded img {
+    width: 65%; /* Tamanho máximo para ocupar a tela */
+    height:80vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9999;
+  }
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 600px) and (max-width: 1024px){
-    
-
+   
     h1, h3{
-        font-size: 15px;
-    }
-    td{
-        font-size: 11px;
+        font-size: 17px;
     }
     p{
-        font-size: 14px;
+        font-size: 15px;  
+    }
+    td{
+        font-size: 13px;
+    }
+
+    table{
+  
+        width: 90%;
+        height:40vh;
+    }
+    .img-container.expanded img {
+        width: 95%; /* Tamanho máximo para ocupar a tela */
+        height:70vh;
+    }
+    .img-container img {
+        width:70%; /* Tamanho inicial da imagem */
+        height:20vh;
     }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
@@ -108,12 +156,12 @@ td{
     }
     #esquerda{
         width: 100%;
-        height: 55vh;
+        height: 40vh;
         
     }
     #direita{
         width: 100%;
-        height: 45vh;
+        height: 60vh;
     }
     #cor{
         width: 95%;
@@ -122,16 +170,23 @@ td{
     table{
   
         width: 95%;
-        height:35vh;
+        height:10vh;
     }
     td{
-        font-size: 7px;
+        font-size: 9px;
     }
     p{
-        font-size: 9px;
+        font-size: 10px;
     }
     h1, h3{
-        font-size: 9px;
+        font-size: 13px;
     }
-   
+    .img-container.expanded img {
+        width: 95%; /* Tamanho máximo para ocupar a tela */
+        height:40vh;
+    }
+    .img-container img {
+        width:70%; /* Tamanho inicial da imagem */
+        height:20vh;
+    }
 }

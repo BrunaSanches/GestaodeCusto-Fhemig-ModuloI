@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    background-color:#51d1f1;
+}
+
+
+/* CLIQUE */
+#texto{
+    display: flex;
+    }
+    
+    
+    .hidden{
+        display: none;
+    
+    }
+    
+    .check{
+        display: none;
+    }
+    
+    #ckb:checked ~ #texto-1{
+        display: block;
+    }
+    #ckb2:checked ~ #texto-2{
+        display: block;
+    }
+    #ckb3:checked ~ #texto-3{
+        display: block;
+    }
+    #ckb4:checked ~ #texto-4{
+        display: block;
+    }
+   
+    
+    label{
+        padding-top: 1em; 
+        padding-left: 1em;
+        padding-right: 1em;
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: left;
+        font-size: 18px;
+        color:#0096bb;
+        font-weight: bold;
+    
+    }
+    h3{
+        font-family: 'Open Sans', sans-serif;
+        padding: 1.5em;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+    }
+
+    p{
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 15px;
+        text-align: justify;
+        color: black;
+    }
+
+    .texto-resposta{
+    
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        text-align: justify;
+        font-size: 15px;
+        color: rgb(5, 0, 0);
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        padding-top: 0.5em;
+    }
+     
+    label img{
+        width: 40px;
+        height: auto;
+    }
+    #clica-1{
+        width: 100%;
+        height:25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+       
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0.2;
+        }
+        100% {
+            opacity: 1;
+         }
+     }
+
+     .img-container {
+        width:100%;
+        height:30vh;
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .img-container img {
+        width:70%; /* Tamanho inicial da imagem */
+        height:30vh;
+        transition: width 0.3s ease;
+        border-radius: 5px;
+        
+      }
+      
+      /* Estilos para expandir a imagem */
+      .img-container.expanded img {
+        width: 65%; /* Tamanho máximo para ocupar a tela */
+        height:80vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 9999;
+      }
+    /* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    p{
+        font-size: 15px;
+    }
+    .texto-resposta{
+        font-size: 13px;
+    }
+    label, h3{
+        font-size: 16px;
+    }
+    .text-pisca {
+        font-size: 15px;
+    }
+    
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 768px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+   
+    p{
+        font-size: 9px;
+    }
+    .texto-resposta{
+        font-size: 9px;
+    }
+    label, h3{
+        font-size: 10px;
+    }
+    .img-container.expanded img {
+        width: 90%; /* Tamanho máximo para ocupar a tela */
+        height:65vh;
+    }
+    .img-container img {
+        width:70%; /* Tamanho inicial da imagem */
+        height:25vh;
+    }
+}

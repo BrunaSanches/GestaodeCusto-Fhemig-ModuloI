@@ -156,6 +156,7 @@
         align-items: center;
         flex-direction: column;
         font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
         text-align: justify;
         font-size: 15px;
         color: black;
@@ -242,8 +243,8 @@
         height: 8vh;
     }
     #importante{
-        width: 90%;
-        height: 13vh;}
+        width: 97%;
+        height: 11vh;}
 
         #importante p{
       font-size: 12px;

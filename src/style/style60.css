@@ -93,31 +93,22 @@ td{
  }
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 600px) and (max-width: 1024px){
-    #home{
-        flex-direction: column;
+   
+    h1, h3{
+        font-size: 17px;
     }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
+    p{
+        font-size: 15px;  
     }
-    #direita{
-        width: 100%;
-        height: 50vh;
+    td{
+        font-size: 13px;
     }
-    #cor{
-        width: 95%;
-        height: 45vh;
-    }
+
     table{
   
         width: 90%;
         height:40vh;
     }
-    h1, h3{
-        font-size: 17px;
-    }
-   
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 590px) {

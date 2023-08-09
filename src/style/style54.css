@@ -147,6 +147,9 @@ td b{
         width: 90%;
         height:40vh;
     }
+    td, p, td b, input, button{
+        font-size: 14px;
+    }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 590px) {

@@ -43,9 +43,9 @@
     flex-direction: column;
   
 }
-#esquerda img{
-    width: 50%;
-    height: 50vh;
+#direita img{
+    width: 90%;
+    height: 70vh;
 }
 h1{
     text-transform: uppercase;
@@ -146,9 +146,9 @@ ol{
      li{
         font-size: 10px;
      }
-     #esquerda img{
-        width: 35%;
-        height: 25vh;
+     #direita img{
+        width: 75%;
+        height: 45vh;
      }
      #cor{
         width:90%;

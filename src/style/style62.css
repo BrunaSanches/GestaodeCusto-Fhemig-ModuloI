@@ -107,13 +107,18 @@ td{
     }
     table{
   
-        width: 90%;
-        height:40vh;
+        width: 95%;
+        height:35vh;
     }
     h1, h3{
-        font-size: 17px;
+        font-size: 15px;
     }
-   
+    p{
+        font-size: 14px;
+    }
+    td{
+        font-size: 12px;
+    }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
 @media screen and (min-width: 280px) and (max-width: 590px) {
@@ -135,7 +140,7 @@ td{
     }
     table{
   
-        width: 90%;
+        width: 95%;
         height:35vh;
     }
     td{
