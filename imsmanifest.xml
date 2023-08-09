@@ -627,7 +627,7 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/pagina5.html">
+		<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/pagina7.html">
 		   <file href="src/pagina7.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
@@ -1022,7 +1022,7 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_88" type="webcontent" adlcp:scormtype="sco" href="src/pagina65.html">
+		<resource identifier="RES_88" type="webcontent" adlcp:scormtype="sco" href="src/pagina66.html">
 		   <file href="src/pagina66.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
