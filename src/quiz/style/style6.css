@@ -22,7 +22,7 @@
     height:90vh;
     display: flex;
     justify-content: space-evenly;
-    align-items:flex-start;
+    align-items:CE;
     position: absolute;   
     flex-direction: column;
 }
@@ -137,7 +137,6 @@ input[type="checkbox"] {
     background-color: #46021B;
     color: white;
 }
-
 button{
     width:30%;
     display: flex;

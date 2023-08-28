@@ -22,19 +22,16 @@ document.getElementById("reiniciar").addEventListener("click", function() {
         document.getElementById("incorreta1").style.color="red";
         div2.style.display = "block";
         div1.style.display = "none";
-
       
       }else if(checkboxes[1].checked){
         document.getElementById("correta1").style.color="green";
         div1.style.display = "block";
         div2.style.display = "none";
-      
       }
       else if(checkboxes[2].checked){
-       
-        document.getElementById("incorreta2").style.color="red";
         div2.style.display = "block";
         div1.style.display = "none";
+        document.getElementById("incorreta2").style.color="red";
       
       }
       else if(checkboxes[3].checked){
@@ -46,3 +43,14 @@ document.getElementById("reiniciar").addEventListener("click", function() {
      
     });
   }
+
+  checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+        // Desmarca todos os outros checkboxes
+        checkboxes.forEach(cb => {
+            if (cb !== this) {
+                cb.checked = false;
+            }
+        });
+    });
+});

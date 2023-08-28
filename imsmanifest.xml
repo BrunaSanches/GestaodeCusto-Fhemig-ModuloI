@@ -558,8 +558,13 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_109" identifierref="RES_109" isvisible="true">
-					<title>Fim</title>
+					<title>Quiz</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_108</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_110" identifierref="RES_110" isvisible="true">
+					<title>Fim</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_109</adlcp:prerequisites>
 				</item>
 
 				
@@ -1129,7 +1134,12 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_109" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
+			<resource identifier="RES_109" type="webcontent" adlcp:scormtype="sco" href="src/quiz/pagina1.html">
+		   <file href="src/quiz/pagina1.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_110" type="webcontent" adlcp:scormtype="sco" href="src/paginaFim.html">
 		   <file href="src/paginaFim.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>

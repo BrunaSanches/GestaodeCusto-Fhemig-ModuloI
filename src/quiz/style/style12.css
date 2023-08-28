@@ -71,7 +71,7 @@
  }
 
  .questao{
-    width: 80%;
+    width: 50%;
     height:10vh;
     display: flex;
     justify-content: space-between;
@@ -79,9 +79,9 @@
     flex-direction: column;
 }
 .questao label{
-    width:80%;
+    width:60%;
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     align-items: flex-start;
     color: #404040;
     font-weight: bold;
@@ -113,47 +113,18 @@ input[type="checkbox"] {
 }
 
 
-#minhaDiv1, #minhaDiv2{
-    width: 100%;
-    display: none;
-    padding: 10px;
-}
 #minhaDiv1{
     background-color: #0c5e23;
-
-  
-}
-#minhaDiv1 p{
-    background-color: #0c5e23;
     color: white;
-}
-
-#minhaDiv2{
-    background-color: #46021B;
-
-  
-}
-#minhaDiv2 p{
-    background-color: #46021B;
-    color: white;
-}
-
-button{
-    width:30%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color:#051a3f; 
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
     padding: 5px;
+  
 }
-button:hover{
-    background-color: #2F5597;
-    transform: translatey(4px) scale(0.9);
-    text-align: center;
+
+
+h1{
+    color: #404040;
+    font-weight: bold;
+    font-size: 25px;
 }
 @media screen and (max-width:996px) {
     p{

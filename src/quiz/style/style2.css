@@ -143,15 +143,15 @@ input[type="checkbox"] {
     display: flex;
     justify-content:center;
     align-items: center;
-    border: 1px solid #46021B; 
+    background-color:#051a3f; 
     border-radius: 10px;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 13px;
     padding: 5px;
 }
 button:hover{
-    border-color: #C00000;
+    background-color: #2F5597;
     transform: translatey(4px) scale(0.9);
     text-align: center;
 }
@@ -181,6 +181,6 @@ button:hover{
  }
  #botao a, button, .questao label{
  
-     font-size: 12px;
+     font-size: 10px;
  }
  }
