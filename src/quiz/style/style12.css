@@ -140,6 +140,9 @@ h1{
      font-size: 15px;
  }
  }
+ h1{
+    font-size: 20px;
+ }
 
  @media screen and (max-width:768px) {
     p{
@@ -153,5 +156,8 @@ h1{
  #botao a, button, .questao label{
  
      font-size: 10px;
+ }
+ h1{
+    font-size: 12px;
  }
  }
