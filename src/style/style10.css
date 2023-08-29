@@ -52,6 +52,10 @@ p{
     color: white;
 }
 iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
 }
@@ -65,29 +69,18 @@ iframe{
  }
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 600px) and (max-width: 996px){
-    #home{
-        flex-direction: column;
-    }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width: 100%;
-        height: 50vh;
-    }
+   
     p{
         font-size: 15px;
      }
      
      h2{
-        font-size: 25px;
+        font-size: 20px;
      }
      iframe{
     
         width: 100%;
-        height: 50vh;
+        height: 100vh;
     }
 }
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */

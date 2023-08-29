@@ -42,7 +42,7 @@
     border-radius: 10px;
 }
 p{
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: black;
@@ -60,7 +60,7 @@ h2{
 }
 iframe{
     width: 70%;
-    height:40vh;
+    height:50vh;
 }
 
 @keyframes fadeInAnimation {
