@@ -73,18 +73,7 @@ iframe{
  }
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 600px) and (max-width: 1024px){
-   #home{
-    flex-direction: column;
-   }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width:100%;
-        height: 50vh;
-    }
+   
   
      h2{
         font-size: 20px;
