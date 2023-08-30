@@ -103,10 +103,10 @@ iframe{
         height: 50vh;
     }
     h2{
-        font-size: 15px;
+        font-size: 12px;
      }
      p{
-        font-size: 10px;
+        font-size: 9px;
     }
      
      #direita img{
@@ -116,6 +116,6 @@ iframe{
     }
     iframe{
         width: 60%;
-        height:25vh;
+        height:30vh;
     }
 }
