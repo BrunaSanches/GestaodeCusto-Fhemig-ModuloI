@@ -52,7 +52,7 @@ h1{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 
@@ -85,7 +85,7 @@ iframe{
         font-size: 35px;
      }
      #grande{
-        font-size: 16px;
+        font-size: 20px;
      }
  
 }

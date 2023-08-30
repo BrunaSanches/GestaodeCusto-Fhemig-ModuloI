@@ -54,7 +54,7 @@ h2{
 
 }
 #grande p {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -101,7 +101,7 @@ iframe{
         height: 100vh;
     }
     #grande p{
-        font-size: 16px;
+        font-size: 20px;
      }
  
 }
